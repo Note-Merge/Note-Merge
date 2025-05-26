@@ -1,3 +1,5 @@
+import { Label } from "@/components/ui/label"
+import { SelectNative } from "@/components/ui/select-native"
 import React from 'react';
 import Uploader from './Uploader';
 
@@ -20,7 +22,6 @@ const FileUpload = () => {
           <option value="gpt-4">Transformer</option>
         </select>
       </div>
-
       {/* Uploader */}
       <Uploader />
     </div>
