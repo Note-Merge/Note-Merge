@@ -82,7 +82,7 @@ export default function Uploader() {
   })
 
   return (
-    <div className="justify-center items-center mx-auto pt-5 mt-5 flex-row w-2xl ">
+    <div className="justify-center items-center lg:-translate-x-1/6 pt-4 flex-row lg:min-w-xl max-w-2xl ">
     <div className="flex flex-col gap-2">
       {/* Drop area */}
       <div
@@ -163,7 +163,7 @@ export default function Uploader() {
               <Button
                 size="icon"
                 variant="ghost"
-                className="text-white/85 hover:text-foreground -me-2 size-8 hover:bg-transparent hover:scale-150"
+                className="text-white/85 hover:text-black/85 group-hover:text-black/85  -me-2 size-8 hover:bg-transparent hover:scale-150"
                 onClick={() => removeFile(file.id)}
                 aria-label="Remove file"
               >
