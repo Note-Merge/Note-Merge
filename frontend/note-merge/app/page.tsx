@@ -1,9 +1,16 @@
+"use client";
+
+
 import Navbar from "../components/Navbar";
+
 import FileUpload from "../components/FileUpload";
 import Particles from "@/components/Particles/Particles";
 import TextBox from "@/components/TextBox";
+import { useDarkModeStore } from "@/store/useDarkModeStore";
 
 export default function Home() {
+  const {isDarkMode, toggleDarkMode} = useDarkModeStore();
+  console.log("Dark mode is", isDarkMode);
   return (
     <>
       <div className="relative min-h-screen bg-neutral-900 overflow-hidden">
