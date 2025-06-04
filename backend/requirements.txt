@@ -2,3 +2,9 @@ fastapi
 uvicorn
 python-multipart 
 aiofiles
+keras
+numpy
+pandas
+scikit-learn
+nltk
+tensorflow
