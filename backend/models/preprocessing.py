@@ -28,6 +28,11 @@ stop_words = set(stopwords.words('english'))
 
 class TextPreprocessor:
     
+    def stopwords_removal(text):
+        #removing stopwords
+        text = ' '.join([word for word in text.split() if word not in stop_words])
+        return text
+    
     def preprocess_text(text):
         #lowercasing the text
         text = text.lower()
@@ -47,8 +52,8 @@ class TextPreprocessor:
         #word tokenization
         word_tokens = nltk.word_tokenize(text)
     
-        #removing stopwords and lemmatizing
-        text = ' '. join([lemmatizer.lemmatize(w) for w in word_tokens if w not in stop_words])
+        # lemmatizing
+        text = ' '.join([lemmatizer.lemmatize(word) for word in word_tokens])
         
         print("Preprocessed text:", text)
         return text 
