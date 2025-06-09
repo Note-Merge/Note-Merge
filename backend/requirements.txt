@@ -8,3 +8,5 @@ pandas
 scikit-learn
 nltk
 tensorflow
+sentence_transformers
+bertopic

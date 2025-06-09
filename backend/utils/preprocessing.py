@@ -54,8 +54,6 @@ class TextPreprocessor:
     
         # lemmatizing
         text = ' '.join([lemmatizer.lemmatize(word) for word in word_tokens])
-        
-        print("Preprocessed text:", text)
         return text 
 
     def tokenize_text(text):
@@ -65,16 +63,14 @@ class TextPreprocessor:
         sequences = tokenizer.texts_to_sequences([text])
         #padding the seq
         padded_seq = pad_sequences(sequences, maxlen=100, padding='post')
-        print("Tokenized and padded sequence:", padded_seq)
         return padded_seq
     
     def sentence_tokenize(texts):
         #split multiple texts into sentences
         sentences = nltk.sent_tokenize(texts)
-        print("Tokenized sentences:", sentences)
         return sentences
     
     
 
-TextPreprocessor.preprocess_text("This is a sample text with some <tags> @@@ !! $$$ and numbers 12345. Let's clean it up!")
-TextPreprocessor.sentence_tokenize("This is the first sentence. Here is another one! And yet another one. This is 2nd sentences lyammai aba")
+#TextPreprocessor.preprocess_text("This is a sample text with some <tags> @@@ !! $$$ and numbers 12345. Let's clean it up!")
+#TextPreprocessor.sentence_tokenize("This is the first sentence. Here is another one! And yet another one. This is 2nd sentences lyammai aba")
