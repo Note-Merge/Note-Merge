@@ -55,7 +55,6 @@ def extract_text_from_pdf(pdf_path):
                     if re.search(r"(^ENVE\s+\d+|^\-\s*\d+\s*\-|page\s+\d+)", line, re.IGNORECASE):
                         continue
                     
-                    
                      # Skip lines that are mostly symbols
                     if len(re.sub(r'[^\w\s]', '', line)) < len(line) * 0.5:
                         continue
@@ -114,7 +113,7 @@ for topic, sents in grouped.items():
         pdf.multi_cell(0, 8, f"- {sent}")
     pdf.ln(5)
 
-pdf.output("topics_sentences.pdf") 
+pdf.output("topic-modified.pdf") 
 # clustered_sentences = defaultdict(list)
 # for sentence, topic in zip(sentences, topics):
 #     clustered_sentences[topic].append(sentence)

@@ -35,13 +35,14 @@ class TextPreprocessor:
     
     def preprocess_text(text):
         #lowercasing the text
-        text = text.lower()
+        #text = text.lower()
     
         #removing tags
         text = re.sub(r'<.*?>','',text)
     
         #removing punctuations
-        text = text.translate(str.maketrans('', '', string.punctuation))
+        # text = text.translate(str.maketrans('', '', string.punctuation))
+        text = re.sub(r"[^\w\s()]", "", text)
 
         #removing numbers
         text = re.sub(r'\d+','',text)
@@ -53,7 +54,7 @@ class TextPreprocessor:
         word_tokens = nltk.word_tokenize(text)
     
         # lemmatizing
-        text = ' '.join([lemmatizer.lemmatize(word) for word in word_tokens])
+        #text = ' '.join([lemmatizer.lemmatize(word) for word in word_tokens])
         return text 
 
     def tokenize_text(text):
