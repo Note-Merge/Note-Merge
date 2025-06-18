@@ -100,7 +100,14 @@ def group_sentences(file_path, output_prefix="output"):
     # Remove exact duplicates or near-duplicates
     for topic, sents in grouped.items():
         grouped[topic] = list(dict.fromkeys(sents))  # Removes duplicates while keeping order
-            
+        
+    #remove empty topics 
+    grouped = {k: v for k, v in grouped.items() if v}  # Remove empty topics
+    
+    #remove topic with id -1 (noise)
+    if -1 in grouped:
+        del grouped[-1]
+        
     #create topic labels:
     topic_labels = {}
     for topic_id in grouped.keys():
