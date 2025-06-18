@@ -12,9 +12,9 @@ import nltk
 
 
 #downloading the stopwords
-nltk.download('stopwords')
-nltk.download('punkt')
-nltk.download('wordnet')
+# nltk.download('stopwords')
+# nltk.download('punkt')
+# nltk.download('wordnet')
 
 #initialize the lemmatizer
 lemmatizer = WordNetLemmatizer()

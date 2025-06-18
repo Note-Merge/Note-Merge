@@ -1,8 +1,6 @@
 import os
 os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 
-
-
 from bertopic import BERTopic
 import preprocessing
 import pdfplumber
@@ -37,8 +35,9 @@ def extract_text_from_pdf(pdf_path):
             
             if text:
                 lines = text.split("\n")
-                
+                # Clean and filter lines
                 clean_lines = []
+                
                 for line in lines:
                     line = line.strip()
                     
@@ -52,6 +51,15 @@ def extract_text_from_pdf(pdf_path):
                     if re.search(r"(table\s+\d+|exercise\s+\d+|figure\s+\d+|fill the blanks|^\(\w+\)$|^\-+\s*\d+\s*\-+)", line.lower()):
                         continue
                     
+                     # Skip headers/footers with specific patterns
+                    if re.search(r"(^ENVE\s+\d+|^\-\s*\d+\s*\-|page\s+\d+)", line, re.IGNORECASE):
+                        continue
+                    
+                    
+                     # Skip lines that are mostly symbols
+                    if len(re.sub(r'[^\w\s]', '', line)) < len(line) * 0.5:
+                        continue
+                    
                     if line.strip() in ['a.', 'b.', 'c.', 'd.', 'e.', 'f.']:
                         continue
                     
@@ -59,10 +67,11 @@ def extract_text_from_pdf(pdf_path):
                         continue
                     
                     clean_lines.append(line)
-                
-                page_text = " ".join(clean_lines)
-                sentences1 = preprocessing.TextPreprocessor.sentence_tokenize(page_text)
-                sentences_all.extend(sentences1)
+               
+                if clean_lines: 
+                    page_text = " ".join(clean_lines)
+                    sentences1 = preprocessing.TextPreprocessor.sentence_tokenize(page_text)
+                    sentences_all.extend(sentences1)
                 
     return sentences_all
 
