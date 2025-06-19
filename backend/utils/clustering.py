@@ -34,7 +34,7 @@ def extract_text_from_pdf(doc_path):
                     for line in lines:
                         line = line.strip()
                     
-                        if not line or len(line) < 10:
+                        if not line or len(line) < 5:
                             continue  # skip short lines
                         
                         # Remove known noise patterns
@@ -48,6 +48,9 @@ def extract_text_from_pdf(doc_path):
                         if re.search(r"(^ENVE\s+\d+|^\-\s*\d+\s*\-|page\s+\d+)", line, re.IGNORECASE):
                             continue
                         
+                        if re.fullmatch(r"[a-zA-Z]\.?", line.strip()):
+                            continue
+
                         # Skip lines that are mostly symbols
                         if len(re.sub(r'[^\w\s]', '', line)) < len(line) * 0.5:
                             continue
@@ -72,8 +75,8 @@ def extract_text_from_pdf(doc_path):
     
 def group_sentences(file_path, output_prefix="output"):
     embedding_model = SentenceTransformer('all-mpnet-base-v2')
-    custom_hdbscan = HDBSCAN(min_cluster_size=8, min_samples=3,metric='euclidean',cluster_selection_method='eom')
-    umap_model = UMAP(n_neighbors=15, n_components=5, min_dist=0.0, metric='cosine',random_state=42)
+    custom_hdbscan = HDBSCAN(min_cluster_size=4, min_samples=2,metric='euclidean',cluster_selection_method='eom')
+    umap_model = UMAP(n_neighbors=10, n_components=5, min_dist=0.0, metric='cosine',random_state=42)
     model = BERTopic(
         embedding_model=embedding_model,
         umap_model=umap_model,
@@ -88,6 +91,8 @@ def group_sentences(file_path, output_prefix="output"):
     sentences_raw = preprocessing.TextPreprocessor.sentence_tokenize(note_text)
     #sentences_raw = [preprocessing.TextPreprocessor.stopwords_removal(sent) for sent in sentences_raw]
     sentences = [preprocessing.TextPreprocessor.preprocess_text(sent) for sent in sentences_raw]
+#    sentences = [sent for sent in sentences if len(sent.split()) > 3]
+
 
     topics, prob = model.fit_transform(sentences)
 
@@ -103,6 +108,8 @@ def group_sentences(file_path, output_prefix="output"):
         
     #remove empty topics 
     grouped = {k: v for k, v in grouped.items() if v}  # Remove empty topics
+    grouped = {k: v for k, v in grouped.items() if len(v) >= 3 and all(len(sent.split()) > 3 for sent in v)}
+
     
     #remove topic with id -1 (noise)
     if -1 in grouped:
@@ -114,6 +121,7 @@ def group_sentences(file_path, output_prefix="output"):
         words = model.get_topic(topic_id)
         if words:
             filtered= [word for word, _ in words if word.lower() not in ENGLISH_STOP_WORDS]
+            filtered = [w for w in filtered if len(w) > 2 and w.isalpha()]
             label = ", ".join(filtered[:5]) if filtered else "No Label" # Top 5 keywords
             topic_labels[topic_id] = label
         else:
