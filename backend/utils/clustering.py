@@ -10,6 +10,9 @@ from collections import defaultdict
 import re
 import json
 from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
+import fitz
+import io
+from PIL import Image
 
 
 from fpdf import FPDF
