@@ -9,10 +9,8 @@ from collections import defaultdict
 #initialize model
 model = SentenceTransformer('all-mpnet-base-v2')
 
-    
-grouped1, topic_labels1 = group_sentences("docu.pdf", output_prefix="output1")
-grouped2, topic_labels2 = group_sentences("docu2.pdf", output_prefix="output2")
-
+grouped1, topic_labels1 = group_sentences("IOE_microprocessor_chapter_1.pdf",contains_header= True,contains_footer =True,output_prefix="output1")
+grouped2, topic_labels2 = group_sentences("KU_microprocessor_chapter_1.pdf",contains_header = False,contains_footer = False,output_prefix="output2")
 
 def get_topic_embeddings(grouped):
     topic_embeddings= {}

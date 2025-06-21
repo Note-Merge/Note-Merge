@@ -9,6 +9,7 @@ import pdfplumber
 from collections import defaultdict
 import re
 import json
+import fitz 
 from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
 
 
@@ -17,73 +18,116 @@ from hdbscan import HDBSCAN
 from bertopic import BERTopic
 from umap import UMAP
 from sentence_transformers import SentenceTransformer
+import globals
+
+
+def remove_header_footer_from_pdf(doc_path, header=True, footer=True):
+    doc = fitz.open(doc_path)
+    globals.count += 1
+
+    for page in doc:
+        rect = page.rect
+        height = rect.y1  # Page height in points
+
+        # Initialize crop values
+        top, bottom = 0, 0
+
+        # Match page height and decide crop margins
+        if height == 540:  # PPT
+            if header: top = 20
+            if footer: bottom = 20
+        elif height == 792:  # US Letter
+            if header: top = 60
+            if footer: bottom = 75
+        elif height == 842:  # A4
+            if header: top = 60
+            if footer: bottom = 80
+        else:
+            print(f"Unknown page height: {height}, skipping crop.")
+
+        # Apply crop (set new visible area)
+        header_area = fitz.Rect(rect.x0,rect.y0+top,rect.x1,rect.y1)
+        footer_area = fitz.Rect(rect.x0,rect.y0,rect.x1,rect.y1-bottom)
+
+        #page.add_redact_annot(footer_area, fill=(1, 1, 1))  # white fill
+        #page.add_redact_annot(header_area, fill=(1,1,1)) #white fill header
+        #page.apply_redactions()
+        page.set_cropbox(fitz.Rect(rect.x0, rect.y0 + top, rect.x1, rect.y1 - bottom))
+
+    # Save the cleaned file
+    out_path = f"no_header_footer_{globals.count}.pdf"
+    doc.save(out_path)
+    return out_path
 
     
-def extract_text_from_pdf(doc_path):
+def extract_text_from_pdf(doc_path,contains_header,contains_footer):
+        
+        new_path = remove_header_footer_from_pdf(doc_path,contains_header,contains_footer)
         sentences_all = []
+        print(new_path)
     
-        with pdfplumber.open(doc_path) as pdf:
-            for page in pdf.pages:
-                text = page.extract_text() 
+        pdf = fitz.open(new_path)
+        for page in pdf:
+            text = page.get_text() 
+            print(text)
+            if text:
+                lines = text.split("\n")
+                # Clean and filter lines
+                clean_lines = []
+            
+                for line in lines:
+                    line = line.strip()
                 
-                if text:
-                    lines = text.split("\n")
-                    # Clean and filter lines
-                    clean_lines = []
-                
-                    for line in lines:
-                        line = line.strip()
+                    if not line or len(line) < 5:
+                        continue  # skip short lines
                     
-                        if not line or len(line) < 5:
-                            continue  # skip short lines
-                        
-                        # Remove known noise patterns
-                        if re.match(r"^[-–—•●]?\s*\d+[.)]?$", line):  # items like '1.', 'b)', '2)'
-                            continue
-                        
-                        if re.search(r"(table\s+\d+|exercise\s+\d+|figure\s+\d+|fill the blanks|^\(\w+\)$|^\-+\s*\d+\s*\-+)", line.lower()):
-                            continue
-                        
-                        # Skip headers/footers with specific patterns
-                        if re.search(r"(^ENVE\s+\d+|^\-\s*\d+\s*\-|page\s+\d+)", line, re.IGNORECASE):
-                            continue
-                        
-                        if re.fullmatch(r"[a-zA-Z]\.?", line.strip()):
-                            continue
+                    # Remove known noise patterns
+                    if re.match(r"^[-–—•●]?\s*\d+[.)]?$", line):  # items like '1.', 'b)', '2)'
+                        continue
+                    
+                    if re.search(r"(table\s+\d+|exercise\s+\d+|figure\s+\d+|fill the blanks|^\(\w+\)$|^\-+\s*\d+\s*\-+)", line.lower()):
+                        continue
+                    
+                    # Skip headers/footers with specific patterns
+                    if re.search(r"(^ENVE\s+\d+|^\-\s*\d+\s*\-|page\s+\d+)", line, re.IGNORECASE):
+                        continue
+                    
+                    if re.fullmatch(r"[a-zA-Z]\.?", line.strip()):
+                        continue
 
-                        # Skip lines that are mostly symbols
-                        if len(re.sub(r'[^\w\s]', '', line)) < len(line) * 0.5:
-                            continue
-                        
-                        if line.strip() in ['a.', 'b.', 'c.', 'd.', 'e.', 'f.', 'g.', 'h.', 'i.', 'j.']:
-                            continue
-                        
-                        if line.strip() in ['1.', '2.', '3.', '4.', '5.', '6.', '7.', '8.', '9.']:
-                            continue
-                        
-                        if any(x in line.lower() for x in ["chapter", "table of contents", "page", "figure", "university", "author", "copyright"]):
-                            continue
-                        
-                        clean_lines.append(line)
-                
-                    if clean_lines: 
-                        page_text = " ".join(clean_lines)
-                        sentences1 = preprocessing.TextPreprocessor.sentence_tokenize(page_text)
-                        sentences_all.extend(sentences1)
+                    # Skip lines that are mostly symbols
+                    if len(re.sub(r'[^\w\s]', '', line)) < len(line) * 0.5:
+                        continue
+                    
+                    if line.strip() in ['a.', 'b.', 'c.', 'd.', 'e.', 'f.', 'g.', 'h.', 'i.', 'j.']:
+                        continue
+                    
+                    if line.strip() in ['1.', '2.', '3.', '4.', '5.', '6.', '7.', '8.', '9.']:
+                        continue
+                    
+                    if any(x in line.lower() for x in ["chapter", "table of contents", "page", "figure", "university", "author", "copyright"]):
+                        continue
+                    
+                    clean_lines.append(line)
+            
+                if clean_lines: 
+                    page_text = " ".join(clean_lines)
+                    sentences1 = preprocessing.TextPreprocessor.sentence_tokenize(page_text)
+                    sentences_all.extend(sentences1)
         return sentences_all
     
     
-def group_sentences(file_path, output_prefix="output"):
+def group_sentences(file_path,contains_header,contains_footer,output_prefix="output"):
     embedding_model = SentenceTransformer('all-mpnet-base-v2')
     custom_hdbscan = HDBSCAN(min_cluster_size=4, min_samples=2,metric='euclidean',cluster_selection_method='eom')
-    umap_model = UMAP(n_neighbors=10, n_components=5, min_dist=0.0, metric='cosine',random_state=42)
+    umap_model = UMAP(n_neighbors=6, n_components=5, min_dist=0.0, metric='cosine',random_state=42)
     model = BERTopic(
         embedding_model=embedding_model,
         umap_model=umap_model,
         hdbscan_model=custom_hdbscan
     )
 
-    note = extract_text_from_pdf(file_path)
+    note = extract_text_from_pdf(file_path,contains_header, contains_footer)
     #print(note)
 
     note_text = " ".join(note)
