@@ -10,3 +10,10 @@ nltk
 tensorflow
 sentence_transformers
 bertopic
+scikit-learn
+scipy
+fpdf
+regex
+pdfplumber
+transformers
+torch
