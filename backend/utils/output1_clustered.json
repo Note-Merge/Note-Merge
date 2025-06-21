@@ -1,620 +1,175 @@
 {
+    "5": [
+        ": INTRODUCTION 1.1 Engineering Engineering is a profession that applies mathematics and science to utilize the properties of matter and sources of energy to create useful structures, machines, products, systems and processes (Davis and Cornwell, 2010).",
+        "Definition: Engineering may be defined as the application, under constraints of scientific principles, to the planning, design, construction, and operation of structures, equipment, and systems for the benefit of society ( Sincero and Sincero, 1996).",
+        "Engineering is the profession in which a knowledge of the mathematical and natural sciences gained by study, experience, and practice is applied with judgment to develop ways to economically utilize the materials and forces of nature for the benefit of human society.",
+        "Definition: In other words, Engineering may be defined as the application, under constraints of scientific principles, to the planning, design, construction and operation of structures, equipment and systems for the benefit of the society.",
+        "If the tasks performed by environmental engineers were examined, it would be found that the engineers deal with the structures, equipment and systems that are designed to protect and enhance the quality of the environment and to protect and enhance public health and welfare.",
+        "1.2 Environmental Engineering Definition: Environmental Engineering is defined as the application of engineering principles, under constraint, to the protection and enhancement of the quality of the environment and to the enhancement and protection of public health and welfare (Sincero and Sincero, 1996).",
+        "Environmental Engineering is concerned with engineering problems in the field of environmental sanitation, water supplies, disposal of or recycle of wastewater and solid wastes along with public health and the elimination of industrial health hazards, , and the effect of technological advances on the environment (ASCE, 1977).",
+        "In general, Environmental engineering is focused on: ● Environmental engineers have the responsibility control of water, soil and atmospheric pollution and noise pollution ● To design, build and operate water and wastewater treatment plants.",
+        "1.3 Engineering Project Any engineering project, large or small, a product being designed, or a service to be provided encompasses within its implementation a series of decisions made by engineers."
+    ],
     "12": [
-        "Compiled by Sudip Lama Computer Software The software is what really gives the computer life",
-        "Compiled by Sudip Lama Compiler A compiler is a program that translates program (called source code) written in some high level language into object code",
-        "Compiled by Sudip Lama Object code Object code is the code produced by a compiler",
-        "Compiled by Sudip Lama Important Features of Algorithm",
-        "No object code is stored and there is no compilation",
-        "Compiled by Sudip Lama The compilation process The object of the compiler is to translate a program written in a high level programming language from source code to object code",
-        "The final step in producing and Compiled by Sudip Lama Basic Structure of C programming Documentation Section Link Section Definition Section Global Declaration Section main() Function Section Declaration part Executable part Subprogram section Function Funct ion (Userdefined functions) Function n The documentation section consists of a set of comment lines giving the name of the program provides instructions to the compiler to link function from the system library",
-        "Compiled by Sudip Lama Token Token is the smallest unit of a program ie",
-        "Compiled by Sudip Lama",
-        "They are Compiled by Sudip Lama",
-        "Compiled by Sudip Lama Practice Question",
-        "vvv Compiled By Sudip Lama"
+        "● To build and operate solid waste collection, transportation and disposal systems ● To carry out environmental assessment of projects and products ● To provide inputs in decision making regarding the environmental issues of development sector and welfare of public ● To predict the level of pollution and design control mechanisms and products",
+        "Exercise 1: A town with 4000 residents wants to establish a municipally owned and operated solid waste (garbage) collection program.",
+        "Similarly, Solid Waste Management Act, 2068: This act addresses the management, disposal, and treatment of solid waste to reduce environmental pollution and promote better waste management practices.",
+        "Water Resources Act, 2049 is an act made to provide for the management of water Example: resources.",
+        "Also different policies, standards, guidelines like guidelines and standards for air pollutants, vehicular emissions, water and wastewater quality, climate change policy are also formulated.",
+        "The act was amended twice in 2076 and 2079 B.S."
     ],
-    "38": [
-        "It is a set of instructions that tells the computer what to do when the computer operator does something",
-        "Solaris runs on Sun SPARC machines",
-        "There are other utility programs that check if the units inside your machine are functioning properly as they should",
-        "Examples are the disk scanner that checks if the surface of your disks are damaged antivirus that checks if your computer has been infected with some virus (a malicious program that may just annoy you or even delete all the content of your hard drive) and clean if found etc",
-        "It operates in close conjunction with operating system and enables us (the programmer) to exploit certain capabilities of operating system while creating the program",
-        "It requires a thorough knowledge (low level) of the hardware for which the program is being created",
-        "If not it will inform the programmer where rules have been violated",
-        "It facilitates topdown modular programming"
-    ],
-    "34": [
-        "Software can actually be placed into two separate categories system of applications",
-        "Application software Application software is the software that is developed for a particular use",
-        "Most of these process our data",
-        "There are thousands of application software",
-        "Problem solving using Computers Standard software packages available in the market are intended for generalpurpose applications",
-        "However the users often require customtailored software for performing specific data processing or computational tasks",
-        "Application software development is the process of creating such software which satisfies the end users requirements and needs",
-        "In simple language it can be said that problem solving using computers is the development of the application software",
-        "Following steps needs to be followed for developing the application software"
-    ],
-    "37": [
-        "System software System software (popularly called the operating system) is the foundation software for a computer",
-        "An operating system (OS) controls all parts of the computer",
-        "The major functions of the OS ate to handle all input devices (keyboard mouse disk) handle all output devices (screen printer disk) coordinate and manage use of other resources (memory disk CPU etc",
-        ") accept commands from users provide an environment over which other programs (software) can run",
-        "Examples of popular OS are DOS (Disk Operating System) Windows Unix Linux OS and Solaris etc",
-        "Some of these OSes are specific to a particular computer system eg",
-        "These software run over the environment provided by the system software",
-        "When this software is installed and you are connected to an ISP (Internet Service Provider) you have access to worldwide information"
-    ],
-    "70": [
-        "Word processing software allows you to process and manipulate test",
-        "Examples are Corel WordPerfect and Microsoft Word",
-        "Examples are Quattro Pro and Excel",
-        "Internet browsers give us access to the world",
-        "Common examples are Netscape and Explorer"
-    ],
-    "32": [
-        "Databases are most useful for organizing data",
-        "For example database software can keep track of your friends name address telephone numbers and you can add or remove whenever you want",
-        "You need to be sure that the source of the data is consistent so that the date will be available in the future when you need it",
-        "These are console oriented IO functions which always use the terminal (keyboard and screen) as the target place",
-        "This works fine as long as the data is small",
-        "However many real life problems involve large volumes of data and in such situations the console oriented IO operations pose two major problems",
-        "It becomes cumbersome and time consuming to handle large volumes of data through terminals",
-        "The entire data is lost when either the program is terminated or the computer is turned It is therefore necessary to have more flexible approach where data can be stored on the disk and read whenever necessary without destroying the data",
-        "This method employs the concept of files to store data"
-    ],
-    "50": [
-        "Programming languages are mainly categorized into two types low level and high languages",
-        "Compiled by Sudip Lama Lowlevel language A lowlevel language is a programming language much closer to the hardware",
-        "High Level Language A high level language is a programming language that enables a programmer to write programs more or less independent of a particular type of computer",
-        "Such languages are considered high level because they are closer to human languages and further from machine languages",
-        "The main advantage of highlevel languages over lowlevel languages is that they are easier to read write and maintain",
-        "The first highlevel programming languages were designed in the s",
-        "low level or high level languages)"
-    ],
-    "11": [
-        "These can be divided into two types machine language and assembly language",
-        "Machine Language Machine language is the lowest level programming language which is the only language understood by a computer",
-        "While easily understood by computers machine languages are almost impossible for humans to use because they consist entirely of numbers",
-        "Early computers were usually programmed using machine language",
-        "Assembly Language As the machine language involves only numbers specific to a machine developers thought that if they can represent those numbers by some symbols it would be easier to make programs",
-        "So they developed assembly languages in which those numbers are replaced by some symbols (called mnemonic)",
-        "As machine language is the only language understood by computers they also developed a program that could convert the programs written in symbols into machine language",
-        "Like the machine language assembly language programs are also dependent on the machine because numbers may vary form machine to machine",
-        "But the flexibility it offered was it could be made to run on other machines by slightly changing the code or changing the assembler",
-        "Moreover its easier to learn assembly language than the machine language",
-        "Like assembly language programs programs written in a highlevel language also need to be translated into machine language",
-        "To execute the program however the programmer must translate it into machine language",
-        "When we purchase programs we usually receive them in their machinelanguage format",
-        "For these languages to work on the computer it must be translated into machine language"
-    ],
-    "77": [
-        "Now there are dozens of different languages such as Ada Algol BASIC COBOL C C FORTRAN LISP Pascal and Prolog etc",
-        "The high level languages can be either called compiled languages or interpreted languages",
-        "Some of the most widely used compiled languages are COBOL C C FORTRAN etc",
-        "The most frequently used interpreted language is BASIC"
-    ],
-    "23": [
-        "Interpreter An interpreter translates highlevel instructions into an intermediate form which it then executes",
-        "Interpreter analyzes and executes each line of source code in succession without looking at the entire program the advantage of interpreters is that they can execute a program immediately",
-        "Compilers require some time before an executable program emerges",
-        "However programs produced by compilers run much faster than the same programs executed by an interpreter",
-        "Compiled programs generally run faster than interpreted programs",
-        "The advantage of an interpreter however is that it does not need to get through the compilation stage during which machine instructions are generated",
-        "The interpreter on the other hand can immediately execute highlevel programs",
-        "For this reason interpreters are sometimes used during the development of a program when a programmer wants to add small sections at a time and test them quickly",
-        "Source code must go through several steps before it becomes an executable program",
-        "There are two kinds of translators compilers and interpreters"
-    ],
-    "76": [
-        "Because compilers translate source code into object code which is unique for each type of computer many compilers are available for the same language",
-        "Unlike the compiled languages",
-        "Compiler languages are better than interpreted languages as they can be executed faster and more efficiently once the object code has been obtained",
-        "On the other hand interpreted languages do not need to create object code and so are usually easier to develop that is to code and test"
-    ],
-    "29": [
-        "This means that we can execute them directly but cannot read or modify them",
-        "Every C program must have one main() function section",
-        "This section contains two parts declaration part and executable part",
-        "There is at least one statement in the executable part",
-        "These two parts must appear between the opening and the closing braces",
-        "The program executing begins at the opening brace and ends at the closing brace",
-        "The closing brace of the main function section is the logical end of the program",
-        "All statements in the declaration and executable parts end with a semicolon The subprogram section contains all the userdefined functions that are called in the main function",
-        "All section except the main function section may be absent when they are not required",
-        "This is a nonexecutable statement"
-    ],
-    "18": [
-        "Algorithm Development and Flowcharting",
-        "Algorithm Development and Flowchart (Program design) You know you have a problem and have identified it in the program analysis stage",
-        "Algorithms Algorithms are a verbal or say written form of the program",
-        "It can be defined as ordered description of instructions to be carried out in order to solve the given task",
-        "Basic Guidelines for writing algorithms",
-        "Flowchart One of the most widely used devices for designing programs is the flowchart which graphically represents the logic needed to solve a programming problem",
-        "A programming flowchart represents the detailed sequence of steps needed to solve the problem",
-        "Program flowcharts are frequently used to visualize the logic and steps in processing",
-        "In other words its a diagrammatic representation of algorithm",
-        "Basic blocks used for drawing flowcharts Structure Purpose Start Stop Processing Decision making Input Outputs Connector Compiled by Sudip Lama For examples Read numbers form user and display the resulting sum",
-        "start Read a b cab Display Flowchart to find the largest among three entered numbers Start input A B C Is AB Is AC Is BC Y N N Y Print A Print C Print B Compiled by Sudip Lama Coding Writing the program is called coding",
-        "Write an algorithm and flowchart to generate the following"
-    ],
-    "36": [
-        "Specifying the input requirements",
-        "Specifying the processing requirements",
-        "Compiled by Sudip Lama Specifying the input requirements Now that you have determined the outputs you need to define the input and data",
-        "To do this you list the inputs required and the source of the data",
-        "For example in a payroll program inputs could be employee timesheets and the source of the in put could be either the employees themselves or their supervisors",
-        "Specifying the processing requirements Now you have to determine the processing requirements for converting the input data to output",
-        "This document should contain statements on the programs objectives output specifications input requirements processing requirements and feasibility",
-        "Quantities that have specified relation to inputs"
-    ],
-    "75": [
-        "(cid) Ensure that the algorithm has single entry and exit point",
-        "Inputs Any algorithm can have zero or more inputs",
-        "Inputs may be given initially or as the algorithm runs",
-        "Outputs Any algorithm may result in one or more outputs"
-    ],
-    "51": [
-        "Finiteness Every algorithm should lead to a session of task that terminates after a finite number of steps",
-        "Translation and execution occur immediately one after another one statement at a time",
-        "On exit the program continues with the statement immediately after the body of the loop",
-        "Execution resumes at the statement immediately following the body of the terminated statement",
-        "Instead of forcing termination it force the next iteration of the loop to take place statement",
-        "In a recursive function there must be a reachable condition for its termination otherwise the function will be invoked endlessly",
-        "If the condition is true the statement is executed and then goes to the next statement"
-    ],
-    "49": [
-        "For example Read numbers form user and display the resulting sum",
-        "Read numbers and solve in variables say A and B",
-        "include include void main() int abl printf(nEnter two numbers) labab printf(nThe largest number is d l) getch()",
-        "Write a program to find the HCF for any two numbe entered by user",
-        "include include int hcf(int fint s) if(fs) return s return (sfs) void main() int ab clrscr() printf(nEnter the number) printf(The Hcf is d hcf(ab)) getch() Compiled By Sudip Lama Storage classes The available storage classes are",
-        "Reverse a number using recursive function include include void fib(int) void main() int n rev(n) getch() void rev(int n) static int r int d if(n) dn rrd nn rev(n) printf(dr) Register variable We can tell the compiler that a variable should be kept in one of the machines registers instead of keeping in the memory (where normal variables are stored)",
-        "include include void main() int a int i clrscr() for(iii) getch() Note"
-    ],
-    "73": [
-        "Here are some of the qualities of a good program (cid) It should be easily readable and understandable by people other than the original programmer",
-        "(cid) It should be efficient increasing the programmers productivity",
-        "(cid) It should be reliable able to work under all reasonable conditions and always get the correct output",
-        "(cid) It should be able to detect unreasonable or error conditions and indicate them to the programmer or user without stopping all operations crashing the system",
-        "(cid) It should be easy to maintain and support after installation"
-    ],
-    "55": [
-        "This section also declares all the userdefined functions",
-        "The declaration part declares all the variables used in the executable part",
-        "Userdefined functions are generally placed immediately after the main function although they may appear in any order",
-        "define statements may appear anywhere in the program but before it is referenced in the program",
-        "Such declaration is available for all the function in the program",
-        "Function Definition A function must be defined before it is used anywhere in the program",
-        "A function may be used by many other program"
-    ],
-    "10": [
-        "Keyword All keyword have fixed meaning and these meaning cannot be changed",
-        "All keyword words must be written in lowercase",
-        "Both uppercase and lowercase letter are permitted although lowercase letters are commonly used",
-        "The underscore character is also permitted in identifiers",
-        "First character must be an alphabet (or underscore)",
-        "Cannot use a keyword",
-        "Note that case labels end with a colon() The",
-        "A label is any valid variable name and must be followed by a colon",
-        "Note only single quote() must be used and not the double quotes()",
-        "No special is allowed in a variable name",
-        "The format specifications s s must be enclosed within parenthesis",
-        "The specification s sr must be separated by commas",
-        "Compiled By Sudip Lama GO TO In the GO TO statement the number referenced cannot be a variable example GO TO I is not valid",
-        "The subscript must be given within parenthesis after the variable name"
-    ],
-    "31": [
-        "These are userdefined names and consist of a sequence of letters and digits with a letter as a first character",
-        "Char data type (for character) A single character can be defined as a character (char) type data",
-        "Characters are usually stored in bits (one byte) of internal storage",
-        "This statement displays the character contained in the variable_name at the terminal",
-        "for character and string",
-        "A string of character is called a character constant",
-        "Variable name can be form one to six character in length",
-        "The first character of the variable name must be an alphabet and the succeeding characters can be alphabets or numeric digits",
-        "A variable which acquires only character string is called a character variable"
-    ],
-    "45": [
-        "The rules of identifiers",
-        "Symbolic names have the same form as variable names",
-        "A blank space is required between define and symbolic name and between the symbolic name and the constant",
-        "After definition the symbolic name should not be assigned any other value within the program by using an assignment statement",
-        "Symbolic names are NOT declared for data types",
-        "Rules of naming variable",
-        "FORTRAN verbs which have special meaning in FORTRAN cannot be used as variable names"
-    ],
-    "26": [
-        "The precedence and associatively of and operators are the same as those of unary and unary",
-        "Example X(int ) ie is converted to integer by truncation Operator precedence and associativity Precedence is used to determine how an expression involving more than one operator is evaluated",
-        "There are distinct levels of precedence and an operator may belong to one of these levels",
-        "The operator at the higher level of precedence is evaluated first",
-        "Precedence is defined as the rules that decides the order in which different operator are applied",
-        "The operator of the same precedence are evaluated either from left to right or from right to left depending on the level",
-        "This is known as the associativity property of an operator",
-        "Associativity is also defined as the rule that decides the order in which multiple occurrences of the same level operator are applied",
-        "Compiled by Sudip Lama The following table provides a complete list of operators their precedence levels and their rules of association",
-        "The following is the rule of Hierarchy arithmetic operators in FORTRAN"
-    ],
-    "80": [
-        "The comma operator The comma operator can be used to link the related expression together",
-        "A comma linked list of expressions are evaluated left to right and the value of rightmost expression is the value of the combined expression",
-        "Conditional Expression RIGHT TO LEFT Assignment Operator RIGHT TO LEFT Comma Operator LEFT TO RIGHT Compiled by Sudip Lama Managing input and output operation Reading a character Reading a single character can be done by using the function getchar",
-        "The expression may be any simple variable or structure variable or an expression using simple variables"
-    ],
-    "58": [
-        "Type conversion in expression Implicit type conversion C automatically converts any intermediate value to the proper type so that the expression can be evaluated without losing any significance",
-        "This automatic conversion is known as implicit type conversion",
-        "During evaluation it adheres to very strict rules of type conversion",
-        "If the operands are of different type the lower type is automatically converted to the higher type before the operation proceeds",
-        "The result is of higher type",
-        "For example int ab float bc babc the resultant of abc expression is float Explicit Conversion It is the process in which we want to force a type conversion in a way that is different from the automatic conversion",
-        "The general form of cast is (typename) expression Where typename is one of the standard C data type"
-    ],
-    "79": [
-        "The getchar takes the following form variable_namegetchar () Variable_name is a valid C name that has been declared as char type",
-        "When this statement is encountered the computer waits until a key is pressed and then assigns this character as a value to getchar function",
-        "Since getchar is used on the right hand side of an assignment statement the character value of getchar is in turn assigned to the variable name on the left",
-        "This could create problem when we use getchar () in a loop interactively"
-    ],
-    "35": [
-        "For example char name namegetchar() The getchar () function accept any character keyed in",
-        "Writing a character Like a getchar there is a analogous function putchar for writing characters one at a time to the terminal",
-        "It takes the form as shown below putchar ( variable_name) where variable_name is a type char variable containing a character",
-        "For example answerY putchar(answer) this statement display the character Y include include void main() char name char ch int i printf(nEnter the name) while((chgetchar())n) nameich printf(nThe name is s name) getch() Compiled by Sudip Lama Formatted input Formatted input refers to an input data that has been arranged in particular format",
-        "Following are the specifications for reading character strings ws or wc Compiled by Sudip Lama Formatted output The printf statement provides certain features that can be effectively exploited to control the alignment and spacing of printout on the terminals",
-        "Characters that will be printed on the screen as they appear",
-        "For example char name printf(sname) Note we can use getchar and gets functions to take input to character array variable",
-        "For example to getchar look at unformatted input example"
-    ],
-    "60": [
-        "This mean when we enter single character input the newline character is waiting in the input queue after getchar () return",
-        "A dummy getchar() may be used to eat the unwanted newline character",
-        "We can also use the fflush function to flush out the unwanted character",
-        "Blanks tabs or newlines",
-        "Blanks tabs and newlines are ignored",
-        "Carriage control In any output the first character of the output is lost",
-        "So the first character of the output must be made a blank space so that the loss does not affect the output"
-    ],
-    "52": [
-        "It can be performed using scanf function",
-        "The general format of scanf is scanf (control stringargargarnn) The control string specifies the field format in which the data is to be entered and the arguments arglargargn specify the address of locations where the data is stored",
-        "When the scanf reads a particular value reading of the value will be terminated as soon as the number of character specified by the field width is reached (if specified) or until a character that is not valid for the value being read in encountered",
-        "For example scanf(d d dab) will assign the data as follows to a skipped (because of ) to b Inputting Real Numbers Unlike integer numbers the field width of real number is not to be specified and therefore scanf reads real numbers using the simple specification f for both the notation namely decimal point notation and exponential notation",
-        "For example scanf(f f f x y z) Inputting Character Strings Scanf can input strings containing more than one character",
-        "Reading line of text scanf with s or ws can read only string without whitespaces",
-        "that can be used to read a line containing a variety of characters including whitespace"
-    ],
-    "71": [
-        "Control string and arguments are separated by commas",
-        "Control string( also known as format string) contain field specification which direct the interpretation of input data",
-        "argn) Control string consists of three types of items",
-        "Escape sequence character such as nt and b The control string indicates how many arguments follow and what their types are",
-        "The arguments argargargn are the variables whose values are formatted and printed according to the specifications of the control string"
-    ],
-    "15": [
-        "It may include field ( or format) specifications consisting of the conversion character a data type character (or type specifier ) and an optional number specifying the field width",
-        "Inputting Integer Numbers The field specification for reading an integer number is w s d The percentage sign() indicates that a conversion specification follows",
-        "w is an integer number that specifies the field width of the number to read and d known as data type character indicates that the number to be read is in integer mode",
-        "Format specifications that define the output format for display of each item",
-        "Commonly used printf format codes Code Meaning c printing a single character d printing a decimal integer e printing a floating point value in exponent form f printing a floating point value without exponent g printing a floating point value either etype of ftype depending on i printing a signed decimal integer o printing an octal integer without leading zero s print an unsigned decimal integer x print a hexadecimal integer without leading Ox The following letters may be used as prefix for certain conversion characters",
-        "h for short integer l for long integer or double L for long double Commonly used output format flags Flag Meaning Output is leftjustified within the field",
-        "FORMAT specification When data are to be input or the result to be output we fully mention the type of the data (integer real or character) and also its size",
-        "The specification of the types of the data and its size is called FORMAT specification",
-        "FORMAT statement The general form of a FORMAT statement is n FORMAT(s s s ) r where n is the statement number s s s are the format specifications r Rules",
-        "I format The symbol I is used to denote the integer quantities",
-        "The general I format specification is Compiled By Sudip Lama Where w is the width of the integer data",
-        "Example This data can be describe by the format statement FORMAT(II) This can be also be written as FORMAT(I) F Format The symbol F is used to denote the real data expressed in decimal form",
-        "The general form of the F format is F wd Where w is the total width of the number d is the decimal width c Temperature conversion REAL FC WRITE() FORMAT(X Enter the temperatrueXTHE VALUE) READ()C FORMAT(F) FC WRITE()F FORMAT(XTemperaturef) Unformatted Input and output c Temperature conversion REAL FC PRINT Enter the temperatrue READC FC PRINT TemperatureF Control Statement Unconditional GOTO statement This statement is used to transfer the control to any other statement unconditionally"
-    ],
-    "19": [
-        "or will precede the signed numeric item",
-        "(with o or x) causing octal and hex item to be preceded by and x",
-        "The symbol or can occur only at the left most end of the number",
-        "For negative number symbol is used at the most position and for the positive number symbol is used",
-        "If no symbol occurs the number is assumed to be positive",
-        "A negative number must be written with the symbol",
-        "For a positive number the symbol is optional",
-        "If there is no sign the number is assumed to be positive",
-        "The exponent can have sign( or )",
-        "If there is no sign the exponent is assumed to be positive",
-        "The subscript value cannot be negative"
-    ],
-    "14": [
-        "respectively Decision making and Branching C language possesses such decisionmaking capabilities by supporting the following statements if statement switch statement conditional operator statement goto statements These statements are known as decisionmaking statements",
-        "Compiled by Sudip Lama if statement It takes the following form if (test expression) It allows the computer to evaluate the expression first and then depending on whether the value of the expression (relation or condition) is true (non zero) or false (zero) it transfers the control to a particular statement",
-        "This point of program has two paths to follow one for the true condition and the other for the false condition Entry False Test Expression The ifelse statement The general form is if (test expression) Trueblock statement(s) Falseblock statement(s) statementx if the test expression is true then the trueblock statement(s) immediately following the if statements are executed otherwise the falseblock statement(s) are executed",
-        "In either case true block or falseblock will be executed not both",
-        "Entry True False Expression Falseblock Trueblock statement statement Statement x Compiled by Sudip Lama Nesting of ifelse statement The general form is if (test condition) if(test condition) statement statement statement statementx The else if ladder A multipath decision is a chain of ifs in which the statement associated with each else is an if",
-        "It takes the following general form if (condition ) statement else if (condition ) statement else if (condition ) statement else if ( condition n) statementn defaultstatement statementx The switch statement The switch statement tests the value f a given variable (or expression) against a list of case values and when a match is found a block of statements associated with that case is executed",
-        "The general form of the switch statement is as shown below switch (expression) case value block break case value block break default defaultblock break statementx Compiled by Sudip Lama The expression is an integer expression or characters",
-        "Each these values should be unique within a switch statement",
-        "block blockare statement lists and may contain zero or more statements",
-        "k Arithmetic IF statement This statement is used to transfer the control depending upon the value of an expression whether negative zero or positive",
-        "The general form of the statement is IF(condn) Statement Where condn is a logical condition statement is an executable statement",
-        "The general form of the statement is IF( condn) THEN Compiled By Sudip Lama ENDIF Where condn is a logical condition SS are the statement to be executed when cond is true SS are the statement to be executed when cond is false",
-        "This is called Nested usage of IFTHENELSE"
-    ],
-    "67": [
-        "In both the cases the control is transferred subsequently to the statementx",
-        "The general form is GO TO n where n is the statement number to which the control must be transferred",
-        "The blank between GO and TO is optional",
-        "Computed GO TO statement The computed GO TO statement cause the transfer of control depending upon value of an integer variable",
-        "the destination (where to go) is decided by the value in the integer variable",
-        "If the value is negative the control goes to statement number n if it is zero it goes to n and if it is positive it goes to n"
-    ],
-    "78": [
-        "expression expression The conditional expression is evaluated first",
-        "If the result is nonzero expression is evaluated and is returned as the value of the conditional expression",
-        "Otherwise expression is evaluated and its value is returned",
-        "It return zero otherwise"
-    ],
-    "28": [
-        "Example include include void main() int abcl printf(nEnter two numbers) printf(nThe largest value is dl) getch() The goto statement It is the statement to branch unconditionally from one point to another in the program",
-        "The goto requires a label in order to identify the place where the branch is to be made",
-        "The label is placed immediately before the statement where the control is to be transferred",
-        "The general forms of goto and label statements are shown below goto label label label statement goto label Forward jump Backward jump Compiled by Sudip Lama Note that a goto breaks the normal sequential execution of the program",
-        "If the label is before the statement goto label a loop will be formed and some statements will be executed repeatedly",
-        "Such jump is known as a backward jump",
-        "On the other hand if the label is placed after the goto label some statements will be skipped and the jump is known as a forward jump",
-        "Another use of the goto statement is to transfer the control out of the loop (or nested loop) when certain peculiar conditions are encountered",
-        "Avoiding goto When a goto is used many compilers generate a less efficient code",
-        "Jump Statement The jump statement unconditionally transfers program control one point to another point in a program"
-    ],
-    "83": [
-        "The break Statement The break statement enables a program to skip over part of the codes",
-        "A break statement terminates the smallest enclosing while dowhile for or switch statement",
-        "The continue Statement The continue is another jump statement some what like the break statement as both the statement skip over a part of the code",
-        "But the continue statement is little different from break"
-    ],
-    "17": [
-        "Write an algorithm and a flowchart to read a five number and check whether the number is a palindrome or not",
-        "Algorithm Step Start Step Declare variable n r sum i Step i Step Repeat steps Step to until i is less than or equal to else goto step Step input to n Step sum Step tempn Step Repeat Steps to until n is greater than else goto step Step rn mod of Step sumsumr Step nn then goto Step Step if sum is equal to temp than goto Step else goto Step Step Display n as palindrome then goto step Step Display n is not palindrome Step ii then goto step Step Stop Flowchart Start Declare n r sum i ii False True Is i False r n mod of True Is False sumsumr tempsum nn Display Display Palindrome Palindrome Compiled by Sudip Lama Source code include while(n) include void main() rn sumsumr int nirsumtemp nn i clrscr() if(sumtemp) while(i) printf( Palindrome dtemp) else printf(nEnter the numbers) printf(Not Palindrome dtemp) sum tempn getch()",
-        "Write a program to evaluate the following series using recursive function",
-        "n include include float sum int sign void add(int nint i) int term if(in) signsign termiisign sumsumterm add(ni) printf(n The sum of series is fsum) Compiled By Sudip Lama void main() int n printf(nEnter the number of term) add(n) getch() Static variable A variable can be declared static using the keyword static like static int a Internal static variable are those which are declared inside a function",
-        "PRACTICE XXX C SERIES USING ARITHMETIC IF INTEGER P PRINT ENTER THE VALUE OF N AND X READ NX SUM IF(IN) SUMSUMXP PP II GOTO PRINT SUM IS SUM Compiled By Sudip Lama Logical IF statement The logical if condition checks any given logical condition and transfer the control accordingly",
-        "PRACTICE Write a program to display FIBNOACCI series until term value is less than in FORTRAN",
-        "C FIBONACCI SERIES INTEGER FST PRINT ENTER THE NUMBER OF TERMS WRITE () FS TFS IF(TGT) GOTO WRITE () T GOTO STOP IFTHENELSE statement The IFTHENELSE statement is more useful and easy to handle than the logical if statement",
-        "That is IF (condn) THEN ELSEIF PRACTICE Write a program to display Fibonacci series up to N term in FORTRAN",
-        "C FIBONACCI SERIES INTEGER FST PRINT ENTER THE NUMBER OF TERMS READ () N IF(NEQ) THEN WRITE () F WRITE () FS DO IN TFS WRITE () T CONTINUE ENDIF Write a program to find the HCF for any two number entered by user in FORTRAN C WRITE A PROGRAM TO FIND HCF (GREATEST COMMON FACTOR) READ II IRIIII Compiled By Sudip Lama IF(IREQ) THEN PRINT THE HCF ISI ENDIF II IIR GOTO Nested IFTHENELSE In certain cases we may have to use one IFTHENELSE structure within another IFTHEN",
-        "IF (condn) THEN IF( condn) THEN IF(condn) THEN ENDIF ENDIF IF (condn) THEN ENDIF ENDIF ELSEIFTHEN structure The general format is IF (condn) THEN ELSE IF (condn) THEN Compiled By Sudip Lama ELSE IF(condn) THEN ENDIF Write a program to check whether a given number is Armstrong or not in FORTRAN",
-        "C PROGRAM TO FIND ARMSTRONG NUMBER OR NOT PRINT ENTER THE NUMBER READ N TEMPN SUM IF(NGT) THEN IRNN SUMSUMIR NN GOTO ENDIF IF(SUMEQTEMP) THEN PRINT TEMPIS ARMSTORNG PRINT TEMPIS NOT ARMSTRONG ENDIF DO LOOPS The DO LOOP is used whenever a particular job is to be repeated number of times",
-        "If vv then stop otherwise go to step PRACTICE C PRIME NUMBER INTEGER COUNT READ NUM COUNT DO INUM IF(MOD(NUMI)EQ) THEN COUNTCOUNT ENDIF CONTINUE IF(COUNTEQ) THEN PRINT NUMIS PRIME PRINT NUMIS NOT PRIME ENDIF Rules for subscripted variables The following rules may be strictly followed while defining the subscripted variables"
+    "1": [
+        "Sometimes these decisions turn out to be poor and or not appropriate.",
+        "A far greater number of decisions, however, made hundreds of times a day by hundreds of thousands of engineers, are correct and improve a lot of the human civilization, protect the global environment, and enhance the integrity of the profession.",
+        "Because so few engineering decisions turn out poorly, engineering decision making is a little-known and rarely Question: discussed process.",
+        "Yet, when a decision turns out to be wrong, the results are often catastrophic.",
+        "1.4 Engineering decisions Engineering decisions could be based on: (1) Technical feasibility (2) Economic Viability (3) Socially Acceptable (4) Environmental friendly 1.4.1 Technical feasibility Question: Technical decisions are quantifiable and can be evaluated and checked by other competent professional engineers.",
+        "When carrying out technical analysis, we often do not have all the information we need to make decisions.",
+        "Therefore, we must make assumptions.",
+        "These assumptions, of course, must be made using the best available data with a (sometimes liberal) sprinkling of good judgment.",
+        "They can purchase one of three possible trucks that have the following capacity: Truck A: 8 m3 Truck B: 6 m3 Truck C: 4 m3 If the truck is to collect the refuse every day, and the truck will have to make only one trip Question: per day to the landfill, which truck or trucks will have sufficient capacity?",
+        "1.4.2 Cost-Effectiveness Analysis (Economic Viability) Question: Engineers, typically find themselves working for an employer or client who requires that Question: various alternatives for solving an engineering problem be analyzed on the basis of the cost.",
+        "Example: For example, if a municipal engineer is considering purchasing refuse collection vehicles and finds that the following alternatives to buy the Truck  Expensive trucks: Higher compaction, reduces volume, reduces no.",
+        "of trips per day  Inexpensive trucks: lower compaction, requires more trips per day Question: How does the engineer know which is less expensive for the community?",
+        "Choosing the lowest total cost alternative (given all cost data) would be the most rational decision.",
+        "The methods of decision making available to engineers stretch from the most objective (technical) to the most subjective (ethical).",
+        "The inherent method of decision making is the Question: same in all cases.",
+        "The problem is first analyzed – taken apart and viewed from many Question: perspectives.",
+        "1.13 Approximations in engineering calculations Engineers are often called on to provide information not in its exact form but as Example: approximations.",
+        "Obviously, the engineer cannot in a few minutes conduct a thorough cost estimate.",
+        "In the face of such problems the engineer has to draw on whatever information might be available.",
+        "There is time enough for more exact calculations later."
     ],
     "8": [
-        "Algorithm Step start Step input to n Number of lines Step Initialize c as Deviation on each line Step i Number of lines Step Repeat step to until i less than or equal to n else goto step Step j Number of column Step Repeat step to until j less than or equal to (n) else goto step Step Is j greater than or equal to (nc) and less than or equal to (nc) than goto Step else goto Step Step Display then goto step Step Display Step jj then goto step Step Display newline Step cc Step ii then goto step Step Stop Compiled by Sudip Lama Source code for(ii include for(jj(n c) False cc Display Display Compiled By Sudip Lama Array Array is a collection of variables of the same type that are referenced by a common base",
-        "Practice Write to program to arrange list of elements in ascending order include include include void main() int ntemp int ij printf(nEnter the list of elements) Compiled By Sudip Lama for(iii) for(jijj) tempni njtemp printf(n The elements in assending order) for(iii) printf(ndni) getch() Two Dimensional Array A twodimensional array is an array in which each element is itself an array",
-        "Practice Write a program that adds the individual rows of a two dimensional array of m by n and store the sums of rows into a single dimensional array using functions",
-        "Write a function that takes a two dimensional array and onedimensional array and process the result and store in onedimensional array",
-        "One dimensional array include include include float mean(float aint size) int i float sum for(iisizei) sumai return (sumsize) float star(float aint size) int i float xmstd xmmean(asize) for(iisizei) stdsqrt(stdsize) return std void main() float a i printf(nEnter element) for(iii) printf(n The standard deviation is fstar(a)) getch() Passing Two dimensional Array to the function The rules are Compiled By Sudip Lama",
-        "Matrix Multiplication include include void input(int aint rint c) int ij for(iiri) for(jjcj) void display(int aint rint c) int ij for(iiri) for(jjcj) printf(n) void multiply(int aint bint cint rint cint c) int ijk for(iiri) for(jjcj) for(kkck) void main() int abcrrcc clrscr() printf(nEnter the row and column for first matrix) scanf(ddrc) printf(nEnter the row and column for second matrix) scanf(ddrc) if(cr) Compiled By Sudip Lama printf(nMultipication is not possible) printf(nenter the value to first matrix) input(arc) printf(nenter the value to second matrix) input(brc) multiply(abcrcc) printf(n The resultant Matrix is ) display(crc) getch() Passing string to functions The string are treated as character array in C and therefore the rules of passing string to function are very similar to those for passing array to functions",
-        "CHARACTER statement Practice Write a program to find the range from the list of element using array in FORTRAN",
-        "C RANGE OF MATRIX INTEGER A()LS PRINT ENTER THE ELEMENT TO ARRAY Compiled By Sudip Lama DO I READ A(I) CONTINUE LA() SA() DO I IF(LLTA(I)) THEN LA(I) ENDIF IF(SGTA(I)) THEN SA(I) ENDIF CONTINUE PRINT LAGREST ELEMENTL PRINT SMALEST ELEMENTS PRINT RANGELS IMPLIED DO loop Suppose we want to read all the entries of a one dimensional array A with array length",
-        "INTEGER A() DO I READ A(I) CONTINUE FORTRAN also has the facility of reading or writing the entire array with one statement",
-        "WRITE () (A(I)I) PRACTICE Write a program to take input to one dimensional array and display",
-        "INTEGER IN() PRINT ENTER THE ELEMENTS TO ARRAY READ () (IN(I)I) PRINT THE ELEMENTS OF ARRAY IS WRITE () (IN(I)I) Write a program to arrange one dimensional array in ascending order in FORTRAN",
-        "C ASCENDING ORDER OF MATRIX Compiled By Sudip Lama INTEGER A()TEMP PRINT ENTER THE ELEMENT TO ARRAY DO I DO JI IF(A(I)GTA(J)) THEN TEMPA(I) A(J)TEMP ENDIF CONTINUE PRINT THE ELEMENT TO ARRAY WRITE () (A(I)I) Implied DO loop for multidimensional array The implied DO loop can also be used for multidimensional arrays",
-        "PRACTICE Write a program to take input and display two dimensional arrays",
-        "C input and display elements OF MATRIX INTEGER IN() PRINT ENTER THE ELEMENTS TO ARRAY PRINT THE ELEMENTS OF ARRAY IS Write a program to add two matrixes and display the resultant matrix in FORTRAN",
-        "Compiled By Sudip Lama C ADDING CORRESPONDING ELEMENT OF TWO MATRIX TO THIRD MATRIX INTEGER A()B()C()RRCC PRINT ENTER THE ROW AND COLUMN OF FIRST MATRIX READ RC PRINT ENTER THE ROW AND COLUMN OF SECOND MATRIX READ RC IF((REQR)AND",
-        "(CEQC)) THEN PRINT ENTER ELEMENT TO FIRST ARRAY DO IR DO JC READ A(IJ) CONTINUE PRINT ENTER ELEMENT TO SECOND ARRAY DO IR DO JC READ B(IJ) CONTINUE DO IR DO JC CONTINUE PRINT RESULTANT ARRAY IS DO IR DO JC PRINT C(IJ) CONTINUE PRINT ADDITION IS NOT POSSIBLE ENDIF Write a program perform matrix multiplication using nested DO loop C MATRIX MULTIPICATION INTEGER A()B()C()RRCC PRINT ENTER THE ROW AND COLUMN OF FIRST MATRIX READ RC PRINT ENTER THE ROW AND COLUMN OF SECOND MATRIX READ RC IF(REQC) THEN PRINT ENTER ELEMENT TO FIRST ARRAY DO IR DO JC READ A(IJ) Compiled By Sudip Lama CONTINUE PRINT ENTER ELEMENT TO SECOND ARRAY DO IR DO JC READ B(IJ) CONTINUE DO IR DO JC C(IJ) DO KR CONTINUE PRINT RESULTANT ARRAY IS DO IR DO JC PRINT C(IJ) CONTINUE PRINT MULTIPICATION IS NOT POSSIBLE ENDIF Write a program to perform matrix multiplication using implied DO loop C MATRIX MULTIPICATION INTEGER A()B()C()RRCC PRINT ENTER THE ROW AND COLUMN OF FIRST MATRIX READ RC PRINT ENTER THE ROW AND COLUMN OF SECOND MATRIX READ RC IF(REQC) THEN PRINT ENTER ELEMENT TO FIRST ARRAY PRINT ENTER ELEMENT TO SECOND ARRAY DO IR DO JC C(IJ) DO KC CONTINUE PRINT RESULTANT ARRAY IS PRINT MULTIPICATION IS NOT POSSIBLE Compiled By Sudip Lama ENDIF Write a program to sum the following series up to n term PRINT ENTET THE VALUE OF N AND X READ NX SIGN FACT SUM DO IN SIGNSIGN DEN DO JFACT DENDENJ CONTINUE NUMSIGNXP SUMSUMNUMDEN FACTFACT PP CONTINUE PRINT THE SUM ISSUM Additional Topic Look for Preprocessor and Dynamic Memory Allocation"
+        "Question: If a project is planned, an estimate of the benefits derived is compared in ratio form to the cost incurred.",
+        "Should this ratio be more than 1.0, the project is clearly worthwhile, and the projects with the highest benefit/cost ratios should be constructed first because these will provide the greatest returns on the investment.",
+        "Internal Rate of Return (IRR) is an indicator to reflect the profit of the projects.",
+        "The IRR is the \"annualized effective compounded return rate\" or \"rate of return\" that makes the net present value of all cash flows (both positive and negative) from a particular investment equal to zero.",
+        "In more specific terms, the IRR of an investment is the discount rate at which the net present value of costs (negative cash flows) of the investment equals the net present value of the benefits (positive cash flows) of the investment.",
+        "Question: Internal rates of return are commonly used to evaluate the desirability of investments or projects.",
+        "The higher a project's internal rate of return, the more desirable it is to undertake the project.",
+        "Assuming all projects require the same amount of up-front investment, the Example: project with the highest IRR would be considered the best and undertaken first."
     ],
-    "54": [
-        "The array is given a name and its elements are referred by their subscripts or indices",
-        "An array definition specifies a variable type and a name along with one more feature size to specify how many data items the array will contain",
-        "The general form of an array declaration is as shown below type arraynamesize Where type declares the data type of the array which is the type of each element in the array",
-        "The arrayname specifies the name with which the array will be referenced and size defined how many elements the array will hold",
-        "For example defines the arrays string as a five elements array",
-        "All we have to do is to declare an array variable and use it",
-        "array_nameimember_name Example classroll Practice Define a structure to hold the roll no"
+    "16": [
+        "IRR values of some of the projects in Nepal are shown in Table 1.1.",
+        "Project Name Capacity Project Cost (Arab) IRR (%) Melamchi Water Supply Project 170 MLD 32.48 13.50 Kaligandaki A Hydroelectric Project 144 MW 31.70 15.00 Raxual- Kathmandu Railway (Estimated) 135 km Upper Trishuli-3’B’ Hydroelectric Project 37 MW 23.60 Butwal to Mahendranagar Transmission-II 132 kV 14.71 1.3.3 Environmental friendly and socially acceptable decisions Engineering decisions are also based on the environmental impacts caused by the project activities which could be in planning, implementation or operation phase.",
+        "f. Solar power plant upto 5 MW/ Hydropower upto 50 MW.",
+        "The plant was established to directly serve a population of 2 X 105 in Gokarna and Chabahil area.",
+        "The total project cost of the plant was half billion Nepali Rupees (NRs) in 1999."
     ],
-    "59": [
-        "In c arrays index numbering starts with",
-        "Example include include void main() int xbx int yay int z clrscr() printf(nEnter the value) printf(nEnter the value) printf(nThe value of z isdz) printf(nOriginal value of b is ub) printf(nChanged value of b is ub) printf(nOriginal value of a is ua) aa printf(nChanged value of a is ua) Compiled By Sudip Lama getch() Pointer and Arrays When an array is declared the compiler allocate a base address and sufficient amount of storage to contain all the elements of the array in contiguous memory allocation",
-        "The base address is the location of the first element (index ) of the array",
-        "The compiler also defines the array name as a constant pointer to the first element",
-        "Suppose we declare an array x as follows int x Suppose the base address of x is then Element x x x x x Value Address Example Heres the array version include include void main() int a int i clrscr() for(iii) getch() Now lets see how this program would look using pointer notation",
-        "(array index) is the same as arrayindex",
-        "(array index) is the same as arrayindex Compiled By Sudip Lama Pointer to Array in Function As an example to explain that a program where each element of array will be added by a constant"
+    "9": [
+        "The Question: Environmental Impact of any project is evaluated through different assessment methods.",
+        "This involves considering factors such as air and water pollution, greenhouse gas emissions, habitat destruction, and resource depletion.",
+        "This includes assessing the project's impact on local communities, public health, cultural heritage, and overall quality of life.",
+        "Brief Environmental Study (BES) is performed as guided by schedule 1 of EPR.",
+        "Initial Environmental Examination (IEE) is performed as guided by schedule 1 of EPR.",
+        "Environmental Impacts Assessment (EIA) is performed as guided by schedule 1 of EPR.",
+        "While carrying out an Environmental Assessment (EA) of a project, a no-project scenario is referred against the various alternatives which help to identify the environmental impacts and engineering or social mitigation measures.",
+        "Similarly, life cycle assessment (LCA) of products is increasingly used in identifying the environmental impacts caused by the manufacturing process and use of the products."
     ],
-    "62": [
-        "Arrays are of different types (i) onedimensional array comprised of finite homogeneous element",
-        "(ii) multidimensional array comprised of elements each of which is itself an array",
-        "Single dimensional Array The simplest form of an array is a single dimensional array",
-        "The element value in the list of value must have the same data type as that of type of the array",
-        "An array is a collection of related data element of same type",
-        "Any array behaves like a builtin data type"
+    "10": [
+        "When engineers work on projects, they need to assess the potential impact on the Example: environment.",
+        "By conducting environmental assessments, engineers can identify and implement solutions that minimize adverse environmental impacts.",
+        "Example: Engineers must also consider the social implications of their projects.",
+        "Social analysis may involve engaging with stakeholders,",
+        "understanding their needs and concerns, and incorporating their input into the engineering process.",
+        "Example: By considering environmental and social factors, engineers can design projects that are not only technically sound but also contribute positively to society and the planet.",
+        "This approach aligns with the principles of sustainable development and helps create a more responsible and equitable engineering practice.",
+        "For example, a KU engineering graduate may be asked by a client, such as"
     ],
-    "65": [
-        "A two dimensional array is the simplest of multidimensional arrays",
-        "For instance an array A MN is a M by N table with M rows and N columns containing M X N element",
-        "The number of elements in a D array can be determined by multiplying number of rows with number or columns",
-        "For example the number of elements in an array A is calculated as X",
-        "N AN Row The general form of a twodimensional array is type arraynamerow_sizecolumn_size Where type is the data type of the array having name arrayname row_size the first index refers to the number of rows in the array and column_size the second index refers to the number of columns in the array",
-        "For example consider a two dimensional array A(IJ) where I varies from to and J varies from to"
+    "0": [
+        "There are three levels of environmental study in Nepal as per project size.",
+        "1.6 Institution related to engineers in Nepal In Nepal, Different institutions and associations are working in this sector.",
+        "Nepal Engineering Council (NEC) was formed under the Nepal Engineering Council Act, 2055 promulgated by then His Majesty the King on B.S.2055/11/27.",
+        "Nepal Engineering Council Rules, 2057 has also been prepared and approved by then His Majesty's Government as per the provision of Clause 37 of the Act.",
+        "The first Executive Council was formed on Magh 2056.",
+        "It directs the relationships of Nepalese Engineers with Public, Employers and Clients, Other Engineers.",
+        "The major scope of the NEC is: ● Licensing on the basis of exam ● Registration of Engineer ● Authorization of Certificates of academic qualification.",
+        "● Recognition of academic institutions.",
+        "Nepal Engineers Association (NEA) is an independent nonprofit organization of Nepalese Engineers.",
+        "It was established in 1968 AD (2024 BS).",
+        "NEA during 1968- 1989 was successful in establishing this very organization.",
+        "The organizing of the World Engineering Congress along with the first three national conventions were major milestones in this period.",
+        "Nepal Engineers Association office is located at Lalitpur behind UNDP building.",
+        "The main objectives to NEA are: ● To promote development of engineering, science and technology in Nepal.",
+        "● To promote fellowship, goodwill and cooperation assistance among the Nepalese engineers and safeguard their rights and interests.",
+        "Society of Environmental Engineers Nepal (SEEN) is an institution established by Environmental Engineers of Nepal.",
+        "It works for the welfare or Environmental Engineering professionals of Nepal.",
+        "Its head office is located at Babarmahal, Kathmandu.",
+        " It aims to work in association with other professional bodies in Nepal and abroad.",
+        "Society of Public Health Engineers, Nepal (SOPHEN) was registered in Nepal in 1990 AD (2047 BS) as an independent professional organization by a group of Nepalese Engineers.",
+        "Nepal Environment Society (NES) is an institution that includes all the Environmental professionals of Nepal."
     ],
-    "82": [
-        "Initialization of one dimensional array After an array is declared its elements must be initialized",
-        "The general form of initialization of array is type arrayname size list of value The values in the list are separated by commas",
-        "Following declares an int array sales of size int sale Compiled By Sudip Lama Initialization two dimensional array Two dimensional arrays are also initialize in the same ways as singledimension ones",
-        "In such cases the size of array will be determined automatically based on the number of elements initialized"
+    "15": [
+        "Hospitals from 16 beds up to 25 beds.",
+        "Hotels or Resort from 25 beds to 50 beds c. Bridges up to 250 m. d. Municipal or urban roads.",
+        "Hospital from 25 to 100 beds, Hotel and resort of 51 to 100 beds.",
+        "b. Bridge above 250 m. c. New road construction of up to 25 km.",
+        "d. Upgrading roads from 10 km to 50 km.",
+        "Hospital and hotels above 100 beds."
     ],
-    "21": [
-        "Example int number If the number of initializers may be less than the declared size",
-        "In such case the remaining elements are initialized to zero if the array type is numeric and NULL if the type is char",
-        "Example int num Will initialize the first two elements of num as and respectively and the remaining elements to",
-        "For example int table initializes the elements of the first row to zero and the second row to one",
-        "The initialization is done row by row",
-        "That is int table If the values are missing in an initialize they are automatically set to zero",
-        "int table Will initialize the first two elements of the first row to one the first element of the second row to two and all other elements to zero",
-        "It permitted to have a partial initialization",
-        "We can initialize only the first few members and leave the remaining blank",
-        "The uninitialized members should be only at the end of the list",
-        "The uninitialized members will be assigned default values as follows Zero for integer and floating point numbers"
-    ],
-    "69": [
-        "include void main() include void add(int nint r) int listresultij printf(nEnter the number ) int ij for(iii) for(iii) for(jjj) scanf(dlistij) ri add(listresult) for(jjj) printf(The result is) for(iii) rinij printf(ndresulti) getch() Compiled By Sudip Lama String C does not have a string data type rather it implements strings as single dimension character array",
-        "Program to count number of word in a line",
-        "include stringi include for(istringii) include void main() if(stringi ) char string int ic printf(n The number of word in clrscr() sentencedc) printf(n Enter the first string) getch() gets(string) istrlen(string) Compiled By Sudip Lama Array of string An array of string is a twodimensional character array the size of first index (rows) determines the number of strings and the size of second index (column) determines maximum length of each string",
-        "The pointer string now points to the first character of the string Sagar String Example include include void main() char stringstring clrscr() printf(nEnter the string) gets(string) stringstring while(string) printf(nc is stored at address ustringstring) string printf(nThe length of string isdstringstring) getch() Write a program that reads two different strings",
-        "Pass these to a function which reverse the second string and then appends it at the end of the first string",
-        "include include char rev(char name) int lj char r lstrlen(name) Compiled By Sudip Lama rjnamel return r void display(char namechar name) char n nname This copy the name address to n printf(n the copy string is sn) namerev(name) strcat(nname) printf(n The new string issn) void main() char stringstring clrscr() printf(n Enter the first string) scanf(sstring) printf(n Enter the second string) scanf(sstring) display(stringstring) getch() Compiled By Sudip Lama Structure A structure is a collection of variable (of different data types) referenced under one name providing of convenient means of keeping related information together"
-    ],
-    "40": [
-        "A string is defined as a character array that is terminated by null character",
-        "For this reason the character arrays are declared one character longer than the largest string they can hold",
-        "The general form of declaration of a string variable is char string_namesize Example char name like numeric array character arrays may be initialize when they are declared",
-        "C permits a character array to be initialized in either of the following two forms char nameSAGARMATHA C also permits us to initialize a character array without specifying the number of elements",
-        "The following code declares an array of stings each of which can hold maximum valid character",
-        "char name Notice that the second index has been given value ie",
-        "A array of string appears in memory as shown below",
-        "If the name is a character variable which will hold the name of length at most character then must be declared as follows CHARACTER name CHARACTER AB then A and B are both character variable to hold data of length at the most each"
-    ],
-    "72": [
-        "Function declaration or Function prototype",
-        "Function Prototype A function prototype is a declaration of the function that tells the program about the type of the value returned by the function and the number and type of each argument",
-        "Functiontype functionname (parameter list) Example void sum(int a int b) when we place the declaration above all the function(in the global declaration section ) the prototype is referred to as global prototype",
-        "When we place it in a function definition ( in the local declaration section) the prototype is called a local prototype",
-        "The prototype declaration should be similar to the function header"
-    ],
-    "42": [
-        "In effect there is no data transfer between the calling function and the called function",
-        "It is a twoway data communication between the calling and called function",
-        "Ways of passing arguments to functions There are two different mechanisms to pass arguments to function",
-        "Pass by value (also called as call by value) Pass by reference (also known as call by pointer) Pass by value In pass by value values of actual parameters are copied to the variable in the parameter list of the called function",
-        "The called function works on the copy and not on the original values of the actual parameters",
-        "This ensures that the original data in the calling function cannot be changed accidently",
-        "In this case the called function directly work on the data in the calling function and the changed value are available in the calling function for its use",
-        "Therefore any changes introduced to the array elements are truly reflected in the original array in the calling function"
-    ],
-    "47": [
-        "Pass by pointers method is often used when manipulating arrays and strings",
-        "Compiled By Sudip Lama Passing Array To Functions Three Rules to pass an array to a function",
-        "Function must be called by passing only the name of the array",
-        "Note When an entire array is passed as an argument the contents of the array are not copied into the formal parameter array",
-        "Instead information about the addresses of array elements are passed on to the function",
-        "However this does not apply when an individual element is passed on argument",
-        "The function must be called by passing only the array name"
-    ],
-    "66": [
-        "Compiled By Sudip Lama Pointer refer to book for proper knowledge as this content is from class note slide Declaring Pointer Variables Syntax data_type pt_name This tells the compiler three things about the variable pt_name",
-        "This asterisk() tells that the variable pt_name is a pointer variable",
-        "pt_name needs a memory location",
-        "pt_name points to a variable type of data_type",
-        "However any comparisons of pointer that refers to separate and unrelated variables make no sense",
-        "Similarly two pointer cannot be added"
-    ],
-    "84": [
-        "Example int a int pa Pointer Expression C allows us to add integers to or subtract integers from pointers as well as to subtract one pointer from another",
-        "Pppp In addition to arithmetic operations discussed pointer can also be compared using the relational operators",
-        "We may no use pointer in division or multiplication",
-        "Pointer increment and scalar factor When we increment a pointer its value is increased by the length of the data type that it points to"
+    "6": [
+        "e. Up to 5 MLD water supply projects with treatment plant and sewer.",
+        "The stream water has been diverted using a dam and is supplied to a treatment plant.",
+        "If the treatment plant can remove 90 % of the suspended solids, find Question: the concentration of sediments in the effluent of treatment plant?",
+        "a mayor of Dhulikhel, “what it might cost to construct a new wastewater treatment plant for the population of Dhulikhel?” The mayor is not asking for an exact figure but a tentative estimate.",
+        "Next, s/he estimates, based on experience, that the domestic wastewater flow might be about 100 Liter per capita per day, thus requiring a plant of about 3 MLD capacity.",
+        "With room for expansion, industrial effluents, storm inflow and infiltration of groundwater into the sewers, s/he may estimate that 4 MLD capacity may be adequate.",
+        "Such domestic wastewater treatment plant, s/he is aware, cost about 25 crore (करोड) Nepali Rupees per MLD of influent wastewater treated.",
+        "Exercise 5: The wastewater treatment plant in Guheshwori receives 0.20 m3/s of wastewater.",
+        "Estimate the per capita cost of the project in 1999 in (a) NRs / MLD of treated wastewater and (b) NRs/individual benefitted."
     ],
     "13": [
-        "A structure definition forms a template that may be used to create structure variable",
-        "The general format of a structure definition is as follows stuct tag_name data_type member data_type member Array VS Structure Both the array and structures are classified as structured data types as they provides mechanism that enables us to access and manipulate data in relatively easy manner",
-        "Structure can have elements of different types",
-        "But in the case of a structure first we have to design and declare a data structure before the variable of that type are declared and used",
-        "Rules of initializing structure There are few rules to keep in mind while initializing structure variable at compiletime",
-        "Note Two variables of the same structure type can be copied the same ways as ordinary variables",
-        "And C programming doesnt permit any logical operations on structure variables",
-        "The same is true of pointers used with structures",
-        "Defining pointer to Structure Struct sturucture_name pointer_variable Example Struct complex ss ss assign the address of the structure variable s to s Accessing member of structure using pointer variable Pointer_variable member_namevalue Example sr Note The",
-        "operator connects a structure with a member of the structure the operator connects a pointer with a member of the structure",
-        "For example in analyzing the marks obtained by a class of students we may use a templates to describe student name and marks obtained in various subjects and then declare all the students as structure variables",
-        "In such cases we may declare an array of structures each element of the array representing a structure variable",
-        "We can also use tag name to define inner structures"
+        "● Produce and monitor the professional code of conduct.",
+        "● To continuously enhance the highest professional ideals among the members and widen it.",
+        "SEEN is governed by an executive committee of seven (7) members elected by the general members of the society.",
+        "Some of the major responsibilities of SEEN includes  Enhancement of technical and professional competencies of its members.",
+        " It works for the protection of the basic professional rights  It supports the government and other agencies in the formulation of policies and strategies in related fields.",
+        " SEEN is committed to carry out various professional activities that are intended to bring qualitative results to improve the sanitary and environmental conditions of the country."
     ],
-    "46": [
-        "We cannot initialize individual members inside the structure template",
-        "The order of values enclosed in braces must match the order of member in the structure definition",
-        "The first method is to pass each member of the structure as an actual argument of the function call",
-        "The general format of sending a copy of a structure to the called function as function_name(structure_variable_name) Compiled By Sudip Lama The called function takes the following form data_type function_name(Struct_type st_name) return (expression) The following points are important to note",
-        "For example if it is returning a copy of the entire structure then it must be declared as struct with an appropriate tag name",
-        "The structure variable used as the actual argument and the corresponding formal argument in the called function must be of the same struct type",
-        "When a function returns a structure it must be assigned to a structure of identical type in the calling function"
+    "2": [
+        "For example, a river discharge of 500 m3/s, a sand particle of 2 mm, snow mass of 500 km3 in the Himalayas.",
+        "In the study of environmental engineering, it is quite common to encounter both extremely large quantities and extremely small ones.",
+        "The concentration of some toxic substance may be measured in parts per billion while the discharge of a large river may be measured with a larger unit.",
+        "Substances Bacteria Gravel 39’ TV 1.10 Concentration and density Definition: The mass density or density of a material or a solution is defined as its mass per unit volume, or Formula: Where ρ = density Formula: M = mass Formula: V = volume In SI system, the base unit for density is kg/m3.",
+        "Water in the SI system has a density of 1 × 103 kg/m3, which is equal to 1 g/cm3.",
+        "Definition: Whereas the concentration of a substance in a solution is defined as mass of solute per unit volume of the solution (including solute and liquid).",
+        "Formula: ● CA = concentration of A Formula: ● MA = Mass of material A Formula: ● VA = Volume of material A In SI system, the basic unit for concentration is kg/m3.",
+        "Question: A typical example of the concentration of total dissolved solid in a polluted river like at Bagmati at Teku is 825 mg/L or 0.825 kg/m3.",
+        "Question: Since solutes in solution are often analyzed by weight the terms milligram per liter or microgram per liter is used.",
+        "It is often assumed that the substance does not change the Example: density of water.",
+        "If such assumption is made and we recall that 1 mL water weighs 1 g, then The use of mg/L is most common in water applications as the volume of the solution is Question: usually determined as well as the mass of the solute.",
+        "The unit ppm is typically used in sludges or sediments.",
+        "Question: Exercise 3: 1 kg of soil sample was analyzed and found to contain 5.0 mg TCE.",
+        "What is the Question: TCE concentration in mg/kg, ppm and ppb?",
+        "For example, the BOD or nutrient loads of a wastewater discharged from a community.",
+        "Exercise 4: A stream can have a sediment load of up to 2000 mg/L in the rainy season."
     ],
-    "85": [
-        "Compiled By Sudip Lama Practice Create a structure TIME containing hour minutes and seconds as its member",
-        "Write a program the uses this structure to input start time and stop time to a function",
-        "Which returns the sum and difference of the start time and stop time in the main program",
-        "include tsectsec include thrtmin struct time tmintmin return t int hr int min struct time sub(struct time tstruct time t) int sec struct time t void input(struct time t) tsectsectsec tmintmintmin printf(nEnter the hr min and sec) thrthrthr scanf(dddthrtmintsec) if(tsec) void display(struct time t) tmin tsec printf(nhrdtmindtsecdtthrtmintsec) if(tmin) struct time add(struct time tstruct time t) thr struct time t tmintmin tsectsectsec tmintmintmin return t thrthrthr tmintsec void main() struct time ttt printf(nEnter the start time in hr min sec) input(t) printf(nEnter the stop time in hr min sec) input(t) tadd(tt) printf(naddition of two time is) display(t) tsub(tt) printf(nThe substraction of time is) display(t) getch() Compiled By Sudip Lama Array of Structures We use structure to describe the format of a number of related variables"
+    "3": [
+        "1.11 Flow (discharge) rate The flow rate can be expressed as volume of the liquid per unit time.",
+        "Formula: QV = V/T Where, Formula: ● QV = Volumetric flow rate Formula: ● V = Volume of the liquid Formula: ● T= Time period In SI system, the basic unit of volumetric flow rate is m3/s.",
+        "The flow of water is measured in units of volume per unit time.",
+        "Commonly used units for flow measurement are: liter per second (lps), liter per day (LD), millions liter per day (MLD), cubic meter per second (m3/s).",
+        "Formula: 1 m3 = 1000 L ,   1 MLD = 106 Liters per day In engineering processes, the flow rate can be either volume flow rate or mass flow rate.",
+        "Mass and volumetric flow rates are not independent quantities because the mass (M) of material passing a point in a flow line during unit time is related to the volume (V) of that material.",
+        "Formula: QM = M / T = (Concentration X Volume) / T Formula: = Concentration X Volumetric flow rate Formula: QM = CA X QV Definition: Mass flow rate of waste materials is also called as “waste load” which is often measured in Example: kg/day.",
+        "Biological Oxygen demand (BOD) is measured in mg/L; therefore, this concentration should be multiplied by the wastewater flow rate to get the BOD load.",
+        "1.12 Hydraulic Retention Time One of the most important concepts in treatment processes is retention time, also called detention time or even residence time.",
+        "It is the time an average particle of the fluid spends in a container through which the fluid flows (which is the time it is exposed to treatment or a reaction).",
+        "An alternate definition is the time it takes to fill the container.",
+        "Mathematically, Example: Let us assume, a tank of volume V with Length L, Width W and Height H and Q is the Example: volumetric flow rate.",
+        "Let us assume v is the velocity of water flowing through tank.",
+        "Formula: We know, Velocity (v) = Distance (L) / Time (HRT) Multiplying both side by Cross sectional Area (A), Formula: (Since, V= A.L and Q=A.v) The average retention time can be increased by reducing the flow rate Q or increasing the In SI system, the basic unit of retention time is sec.",
+        "Question: The tapped flow is 25 lps (liters per second).",
+        "Find the mass flow rate of the sediment in the influent pipe."
     ],
-    "61": [
-        "of a student and marks obtained by him in subjectsDeclare array to hold the data of students",
-        "Pass this to a function that displays the marks of student who has a highest total marks",
-        "include include struct student sitotal for(jjj) int roll int marks scanf(dsimarksj) int total sitotalsitotalsimarksj void input(struct student s) int ij for(iii) printf(nEnter the roll number of student) scanf(dsiroll) printf(nEnter marks for subjects) Compiled By Sudip Lama void display(struct student s) int ilocationmax maxstotal location for(iii) if(maxsitotal) serching highest marks location maxsitotal locationi printf(nRecord of student who score highest marks) printf(nRoll number of studentdslocationroll) printf(nEnter marks for subjects) for(iii) printf(nMarks in d subjectdislocationmarksi) void main() struct student civil input(civil) display(civil) getch() Create a structure STUDENT containing name symbol number name of subjects mark of each subject and total mar as its members",
-        "Write a program that uses this structure and reads data for a student and gives the total marks as the output",
-        "Refer to above program and display only total marks of all the student Write a program to compute any two instant of distances in a format feetinches using structure",
-        "include include struct distance int feet int inch Compiled By Sudip Lama void input(struct distance d) printf(nEnter the feet and inches) scanf(dddfeetdinch) void display(struct distance d) printf(nFeetd t Inchedtdfeetdinch) struct distance add(struct distance dstruct distance d) struct distance d dfeetdfeetdfeet dinchdinchdinch dfeetdinch dinchdinch return d struct distance sub(struct distance dstruct distance d) struct distance d dinchdinchdinch dfeetdfeetdfeet if(dinch) dfeetdfeet dinchdinch return d void main() struct distance ttt printf(nEnter the starting distance in feet and inches) input(t) printf(nEnter the stoping distance in feet and inches) input(t) tadd(tt) printf(naddition of two time is) display(t) tsub(tt) printf(nThe substraction of time is) display(t) getch() Compiled By Sudip Lama Nested Structure Structure within a structure means nesting of structure"
-    ],
-    "33": [
-        "The basic file operations performed are Naming a file Opening a file Reading data from a file Writing data from a file Closing a file",
-        "Defining and opening a file If we want to perform operation in a file in the secondary memory we must specify certain things about the file to the operating system",
-        "Example Studenttxt Employdat Data structure of a file is defined as FILE in the library of standard IO function definitions",
-        "Therefore all files should be declared as type FILE before they are used",
-        "FILE is a defined data type",
-        "For example we may write data to the file or read the already existing data",
-        "Following is the general format for declaring and opening a file FILE fp fp fopen(filenamemode) the first statement declares the variable fp as a pointer to the data type FILE",
-        "The second statement opens the file named filename and assigns an identifier to the FILE type pointer fp",
-        "This pointer which contains all the information about the file is subsequently used as a communication link between the system and the program"
-    ],
-    "86": [
-        "When we open a file we must specify what we want to do with the file",
-        "While opening the file in this mode if file exists then the file is opened with the current content safe otherwise and error occurs ie fopen() returns NULL",
-        "Trying to use a file that has not been opened",
-        "Trying to perform an operation on a file when the file is opened for another type of operation"
-    ],
-    "48": [
-        "File opening Modes The different types of file opening modes are Compiled By Sudip Lama r This mode open file for reading only",
-        "w This mode open file for writing only",
-        "a This mode open file for appending (or adding) data to it",
-        "When the file is opened in this mode the file is opened with the current content safe",
-        "r This mode opens the file for reading existing content writing new contents and modifying existing content of the file",
-        "w This mode opens the file for writing new content reading them back and modifying the existing content of the file",
-        "a This mode opens the file for appending new content to the end of file reading existing content from the file But cannot modify existing contents"
-    ],
-    "74": [
-        "In this mode FILE pointer points to the starting of bite of file",
-        "When the file is opened in this mode FILE pointer points to end of file",
-        "Rewind takes a file pointer and resets the position to the start of the file",
-        "rewind nd(fp) nfte(fp) Would assign to n because the file position has been set to the start of the file be rewind",
-        "Remember that whenever a file is opened for reading or writing a rewind is done implicitly"
-    ],
-    "87": [
-        "In this mode a file with specified name is created if the file does not exist",
-        "The contents are deleted if the file already exists",
-        "A file with the specified name is created if the file does not exist",
-        "Opening a file with an invalid filename"
-    ],
-    "88": [
-        "Error handling during IO operation It is possible that an error may occur during IO operations on a file",
-        "Typical error situation include",
-        "If we fail to check such read and write errors a program may behave abnormally when an error occurs",
-        "An unchecked error may result in premature termination of the program or incorrect output"
-    ],
-    "41": [
-        "We have two statusinquiry library functions feof and ferror that can help up detect IO errors in the file",
-        "The feof function can be used to test for an end of file condition",
-        "It take a FILE pointer as its only argument and returns a nonzero integer value if all the data from the specified file has been read and return a nonzero integer value if all of the data form the specified file has been read and return zero otherwise",
-        "It fp is a pointer to file that has just been opened for reading then the statement",
-        "if(feof(fp)) printf(End of data) would display the message End of data on reaching the end of file condition",
-        "The ferror function report the status of the file indicated",
-        "The statement if(ferror(fp)) printf(An error has occurred) Would print the error message if the reading is no successful",
-        "This function helps us in reading a file more than once without having to close and open the file"
-    ],
-    "53": [
-        "ftell takes a file pointer and return a number of type long that corresponds to the current position",
-        "This function is useful in saving the current position of a file which can be used later in the program",
-        "It takes the following form N fte(fp) n would give the relative offset (in bytes) if the current position",
-        "fseek function is used to move the file position to a desired location within the file",
-        "It takes the following form fseek(file_ptroffsetposition) file_ptr is a pointer to the file concerned offset is a number or variable of type long and position is an integer number",
-        "the offset specifies the number of position (byte) to be moved from the location specified by position",
-        "The position can take one of the following three values value meaning Beginning of file Current position End of file Example fseek(fpL) meaning go to begining refer to class note for example Compiled By Sudip Lama FORTAN character set The following is the set of character used in FORTRAN"
-    ],
-    "89": [
-        "Compiled By Sudip Lama Exponent Form The following rules apply to the exponential form of real constant",
-        "The exponential form has two parts (i) mantissa (ii) exponent",
-        "The alphabet E is written in between the mantissa and the exponent",
-        "The exponent is always an integer with at most two digit"
+    "11": [
+        "S/he would recognize the highly variable nature of land costs, construction costs, coverage of the municipality as it extends to rural areas as well, required treatment efficiency, etc.",
+        "Yet, the mayor wants a preliminary estimate – a number – and quickly!",
+        "Example: For example, s/he might know that the population of the community to be served is approximately 30,000.",
+        "Question: S/he calculates that the plant would cost about 100 crore  (1 Arba)Nepali Rupees.",
+        "Giving him/ herself a cushion, h/she could respond by saying, “about 1 billion Nepali Rupees”.",
+        "This is exactly the type of information the mayor seeks.",
+        "S/he has no use for anything more accurate because s/he might be trying to decide whether to ask for a budget of 1 billion or 1.5 billion."
     ]
 }
