@@ -135,25 +135,25 @@ def group_sentences(file_path, output_prefix="output"):
         json.dump(topic_labels, f, ensure_ascii=False, indent=4)
             
     #store in pdf file:
-    pdf= FPDF()
-    pdf.set_auto_page_break(auto=True, margin=15)
-    pdf.add_page()
-    pdf.add_font('TiemposTextRegular','','fonts/TiemposTextRegular.ttf',uni=True)
-    pdf.set_font("TiemposTextRegular", size=12)
-    for topic_id, sents in grouped.items():
-        label = topic_labels.get(topic_id, f"Topic {topic_id}")
+    # pdf= FPDF()
+    # pdf.set_auto_page_break(auto=True, margin=15)
+    # pdf.add_page()
+    # pdf.add_font('TiemposTextRegular','','fonts/TiemposTextRegular.ttf',uni=True)
+    # pdf.set_font("TiemposTextRegular", size=12)
+    # for topic_id, sents in grouped.items():
+    #     label = topic_labels.get(topic_id, f"Topic {topic_id}")
             
-        if topic_id == -1:
-            continue
+    #     if topic_id == -1:
+    #         continue
             
-        pdf.set_font("TiemposTextRegular", size=14)
-        pdf.multi_cell(0, 10, f"Topic {topic_id}: {label} \n")
+    #     pdf.set_font("TiemposTextRegular", size=14)
+    #     pdf.multi_cell(0, 10, f"Topic {topic_id}: {label} \n")
             
-        pdf.set_font("TiemposTextRegular", size=12)
-        for sent in sents:
-            pdf.multi_cell(0, 8, f"- {sent}")
-        pdf.ln(5)
+    #     pdf.set_font("TiemposTextRegular", size=12)
+    #     for sent in sents:
+    #         pdf.multi_cell(0, 8, f"- {sent}")
+    #     pdf.ln(5)
 
-    pdf.output(f"{output_prefix}_{file_path}.pdf") 
+    # pdf.output(f"{output_prefix}_{file_path}.pdf") 
         
     return grouped, topic_labels

@@ -1,6 +1,7 @@
 from keras.models import Model
-from keras.layers import Input,Embedding,LSTM, Dense, Bidirectional,Concatenate,Dropout,LayerNormalization,Attention
+from keras.layers import Input,Embedding,LSTM, Dense, Bidirectional,Concatenate,Dropout,LayerNormalization,Attention,TimeDistributed
 from keras.optimizers import Adam
+
 
 # Function to create a BiLSTM model for sequence-to-sequence tasks
 def build_model (
@@ -11,12 +12,11 @@ def build_model (
     max_input_len=300,          
     max_output_len=400,
     dropout_rate=0.3,           #regularization strength for randomly droping connections during training
-    attention_units=256          #attention mechanism size
     ):      
     
     
     #Encoder:
-    encoder_inputs= Input(shape=(max_input_len),name="encoder_input")
+    encoder_inputs= Input(shape=(max_input_len,),name="encoder_input")
     
     #embedding layer for encoder
     enc_embedding = Embedding(
@@ -56,11 +56,13 @@ def build_model (
         lstm_units,
         activation='tanh',
         name="state_c_combiner"
-    )(Concatenate()[forward_c,backward_c])
+    )(Concatenate()([forward_c,backward_c]))
     
+    encoder_outputs_proj = TimeDistributed(Dense(lstm_units))(encoder_outputs)
+
     
     #Decoder:
-    decoder_inputs = Input(shape =(max_output_len),name="decoder_input")
+    decoder_inputs = Input(shape =(max_output_len,),name="decoder_input")
     
     #Embedding layer for decoder
     dec_embedding = Embedding(
@@ -94,7 +96,7 @@ def build_model (
     )
      
     #computing attention context vector ( decoder focusinhg and encoder output)
-    context_vector = attention_layer([decoder_outputs,encoder_outputs])
+    context_vector = attention_layer([decoder_outputs, encoder_outputs_proj])
     
     #Concatenating context vector with decoder outputs
     decoder_combined = Concatenate(
