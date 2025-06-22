@@ -19,17 +19,13 @@ from hdbscan import HDBSCAN
 from bertopic import BERTopic
 from umap import UMAP
 from sentence_transformers import SentenceTransformer
-
 import globals
-from remove_tables import remove_and_extract_tables
-
 
 
 def remove_header_footer_from_pdf(doc_path, header=True, footer=True):
-    
-    tables_info, new_path = remove_and_extract_tables(doc_path)
+    doc = fitz.open(doc_path)
+    globals.count += 1
 
-    doc = fitz.open(new_path)
     for page in doc:
         rect = page.rect
         height = rect.y1  # Page height in points
@@ -59,7 +55,6 @@ def remove_header_footer_from_pdf(doc_path, header=True, footer=True):
     # Save the cleaned file
     out_path = f"no_header_footer_{globals.count}.pdf"
     doc.save(out_path)
-    doc.close()
     return out_path
 
     #def extract_and_remove_tables(doc_path):
@@ -70,6 +65,7 @@ def remove_header_footer_from_pdf(doc_path, header=True, footer=True):
 
     
 def extract_text_from_pdf(doc_path,contains_header,contains_footer):
+        
         new_path = remove_header_footer_from_pdf(doc_path,contains_header,contains_footer)
         sentences_all = []
         print(new_path)
