@@ -8,6 +8,7 @@ import preprocessing
 import pdfplumber
 from collections import defaultdict
 import re
+import spacy
 import json
 from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
 import fitz
@@ -21,6 +22,124 @@ from bertopic import BERTopic
 from umap import UMAP
 from sentence_transformers import SentenceTransformer
 
+
+nlp = spacy.load("en_core_web_sm")
+
+def classify_line_spacy(line):
+    line = line.strip()
+    if not line or len(line) < 3:
+        return None
+
+    doc = nlp(line)
+    line_lower = line.lower()
+
+    # --- 1. Ends with a question mark ---
+    if line.endswith('?'):
+        return "Question: " + line
+
+    # --- 2. Starts with WH-word (what, why, when, etc.) ---
+    if doc[0].lower_ in ['what', 'why', 'when', 'where', 'how', 'which', 'who']:
+        return "Question: " + line
+
+    # --- 3. Imperative task-style sentence ---
+    task_verbs = [
+        'explain', 'evaluate', 'compare', 'contrast', 'discuss',
+        'analyze', 'define', 'describe', 'justify', 'interpret', 'illustrate'
+    ]
+
+    # If it starts with a verb that’s often used in questions or instructions
+    if doc[0].pos_ == "VERB" and doc[0].lemma_.lower() in task_verbs:
+        return "Question: " + line
+
+    # --- DEFINITION ---
+    if re.search(r'\b(is|are|was|were)\s+(defined as|known as|referred to as|called|termed|means)\b', line_lower):
+        return "Definition: " + line
+    if re.search(r'\bdefinition of\b|\brefers to\b|\bdenotes\b', line_lower):
+        return "Definition: " + line
+
+    # --- FORMULA ---
+    formula_symbols = ['=', '≠', '≈', '≡', '∫', '∑', '∏', '∂', '∇', 'Δ', 'δ',
+                       'sin(', 'cos(', 'tan(', 'log(', 'ln(', 'exp(', 'sqrt(',
+                       'α', 'β', 'θ', 'λ', 'μ', 'π', '±', '÷', '∞', '∈', '∉',
+                       '⊂', '⊆', '∩', '→', '←', '↔']
+    if any(sym in line for sym in formula_symbols) or re.match(r'^[A-Za-z0-9\s]+\s*=\s*.*$', line):
+        return "Formula: " + line
+
+    # --- THEOREM ---
+    if re.search(r'\b(theorem|lemma|corollary|proposition|proof|qed|hence proved|thus proved)\b', line_lower):
+        return "Theorem: " + line
+
+    # --- EXAMPLE ---
+    if re.search(r'\b(for example|e\.g\.|example:|consider|suppose|let us|case study|illustration|such as|to illustrate|to demonstrate)\b', line_lower):
+        return "Example: " + line
+
+    # --- LIST ITEM ---
+    if re.match(r'^\s*(•|·|▪|▫|◦|‣|⁃|\d+[\.\)]|[a-zA-Z][\.\)])\s+', line):
+        return "List Item: " + line
+
+    return line  # Default return original line
+
+
+def classify_line(line):
+    line_lower = line.lower()
+
+    # Define keyword patterns with word boundaries
+    question_patterns = [
+        r'\bwhat is\b', r'\bhow to\b', r'\bwhy does\b', r'\bwhen is\b', r'\bwhere is\b',
+        r'\bwhich of\b', r'\bfind the\b', r'\bcalculate\b', r'\bdetermine\b', r'\bsolve\b',
+        r'\bprove that\b', r'\bshow that\b', r'\bexplain\b', r'\bdiscuss\b', r'\banalyze\b',
+        r'\bcompare\b', r'\bcontrast\b', r'\bdescribe\b'
+    ]
+
+    definition_patterns = [
+        r'\bis defined as\b', r'\bis called\b', r'\brefers to\b', r'\bmeans that\b',
+        r'\bis the process\b', r'\bis a method\b', r'\bdefinition[: ]', r'\bdefinition of\b',
+        r'\bthe term\b', r'\bthe concept\b', r'\bthe process of\b', r'\bthe method of\b',
+        r'\bdefined as\b', r'\bcalled as\b', r'\breferred to\b', r'\bdenotes\b',
+        r'\bis coined\b', r'\bis termed\b'
+    ]
+
+    formula_symbols = [
+        '=', '≠', '≈', '≡', '∫', '∑', '∏', '∂', '∇', 'Δ', 'δ',
+        'sin(', 'cos(', 'tan(', 'log(', 'ln(', 'exp(', 'sqrt(',
+        'α', 'β', 'θ', 'λ', 'μ', 'π', '±', '÷', '∞', '∈', '∉', '⊂', '⊆', '∩', '→', '←', '↔'
+    ]
+
+    theorem_patterns = [
+        r'\btheorem\b', r'\bproposition\b', r'\blemma\b', r'\bcorollary\b',
+        r'\bproof:\b', r'\bqed\b', r'\bthus proved\b', r'\bhence proved\b'
+    ]
+
+    example_patterns = [
+        r'\bfor example\b', r'\bexample:\b', r'\be\.g\.\b', r'\bconsider\b', r'\bsuppose\b',
+        r'\blet us\b', r'\binstance\b', r'\bcase study\b', r'\billustration\b',
+        r'\bfor instance\b', r'\bsuch as\b', r'\blike\b', r'\bas an example\b',
+        r'\bto illustrate\b', r'\bto demonstrate\b', r'\bto show\b', r'\bto explain\b'
+    ]
+
+    list_item_pattern = r'^\s*(•|·|▪|▫|◦|‣|⁃|\d+[\.\)]|[a-zA-Z][\.\)])\s+'
+
+    # Check for classification using regex
+    if any(re.search(p, line_lower) for p in question_patterns) or line.strip().endswith('?'):
+        return "Question: " + line
+
+    if any(re.search(p, line_lower) for p in definition_patterns):
+        return "Definition: " + line
+
+    if any(sym in line for sym in formula_symbols) and len(re.findall(r'[a-zA-Z0-9]', line)) > 2:
+        return "Formula: " + line
+
+    if any(re.search(p, line_lower) for p in theorem_patterns):
+        return "Theorem: " + line
+
+    if any(re.search(p, line_lower) for p in example_patterns):
+        return "Example: " + line
+
+    if re.match(list_item_pattern, line):
+        return "List Item: " + line
+
+    return line  # return original line if no classification matches
+    
     
 def extract_text_from_pdf(doc_path):
         sentences_all = []
@@ -39,6 +158,12 @@ def extract_text_from_pdf(doc_path):
                     
                         if not line or len(line) < 5:
                             continue  # skip short lines
+                        
+                        classified_line = classify_line_spacy(line)
+                        
+                        if classified_line.startswith(("Question:", "Definition:", "Formula:", "Theorem:", "Example:", "List Item:")):
+                            clean_lines.append(classified_line)
+                            continue
                         
                         # Remove known noise patterns
                         if re.match(r"^[-–—•●]?\s*\d+[.)]?$", line):  # items like '1.', 'b)', '2)'
@@ -130,12 +255,14 @@ def group_sentences(file_path, output_prefix="output"):
         else:
             topic_labels[topic_id] = "No Label"
 
-    ##saving to json file
-    with open(f"{output_prefix}_clustered.json", "w", encoding="utf-8") as f:
-        json.dump(grouped, f, ensure_ascii=False, indent=4)
+    return grouped, topic_labels
 
-    with open(f"{output_prefix}_topic_labels.json", "w", encoding="utf-8") as f:
-        json.dump(topic_labels, f, ensure_ascii=False, indent=4)
+    ##saving to json file
+    # with open(f"{output_prefix}_clustered.json", "w", encoding="utf-8") as f:
+    #     json.dump(grouped, f, ensure_ascii=False, indent=4)
+
+    # with open(f"{output_prefix}_topic_labels.json", "w", encoding="utf-8") as f:
+    #     json.dump(topic_labels, f, ensure_ascii=False, indent=4)
             
     #store in pdf file:
     # pdf= FPDF()
@@ -159,4 +286,3 @@ def group_sentences(file_path, output_prefix="output"):
 
     # pdf.output(f"{output_prefix}_{file_path}.pdf") 
         
-    return grouped, topic_labels

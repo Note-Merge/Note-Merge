@@ -1,92 +1,709 @@
 {
-    "2": [
-        " : Introduction to Environmental Engineering Chapter-1 1.1 Profession Profession is an occupation that requires advanced training in the liberal arts or sciences and mental rather than manual work (Davis and Cornwell, 2010).",
-        "If the tasks performed by environmental engineers were examined, it would be found that the engineers deal with the structures, equipment and systems that are designed to protect and enhance the quality of the environment and to protect and enhance public health and welfare.",
-        " : Introduction to Environmental Engineering Any engineering project, large or small, a product being designed, or a services to be provided encompasses within its implementation a series of decisions made by engineers.",
-        "Traditionally, engineers were able to practice their profession without having to address environmental ethics to the same depth that is now required.",
-        "1.4 Environmental Engineering Definition: Environmental Engineering is defined as the application of engineering principles, under constraint, to the protection and enhancement of the quality of the environment and to the enhancement and protection of public health and welfare ( Sincero and Sincero, 1996).",
-        "Environmental Engineering is manifest by sound engineering thought and practice in the solution of problems of environmental sanitation, notably in the provision of safe, palatable (tastes pleasant), and ample public water supplies; the proper disposal of or recycle of wastewater and solid wastes; the adequate drainage of urban and rural areas for proper sanitation; and the control of water, soil, and atmospheric pollution, and the social and environmental impact of these solutions.",
-        "Furthermore it is concerned with engineering problems in the field of public health, the elimination of industrial health hazards, and the provision of adequate sanitation in urban, rural",
-        " : Introduction to Environmental Engineering and recreational areas, and the effect of technological advances on the environment (ASCE, 1977).",
-        "Traditionally, the environmental engineering has been the province of the civil engineering profession.",
-        "Around 1968, the name sanitary engineering or public health engineering was changed to environmental engineering.",
-        " : Introduction to Environmental Engineering In general Environmental engineering is focused on: Provisions of safe, palatable, and ample public water supplies Proper disposal of or recycling of wastewater and solid wastes Control of water, soil and atmospheric pollution including noise pollution Environmental engineers have the responsibility To plan, design, construct and operate sewage treatment plants to prevent the pollution of receiving streams.",
-        "To carry out environmental assessment of projects and products To provide inputs in decision making regarding the environmental issues of development sector and welfare of public To predict the level of pollution and design control mechanisms and products One aspect of the profession of environmental engineering is that environmental engineer is engaged in a truly worthwhile mission.",
-        "The environmental engineer is the epitome of the solution as opposed to the problem."
-    ],
-    "3": [
-        "The professionalism is defined by following seven characteristics: Theorem: Professional decisions are made by means of general principles, theories or propositions Example: that are independent of the particular case under consideration.",
-        "Professional decisions imply knowledge in a specific area in which the person is expert.",
-        "The professional is an expert only in his or her profession and not as expert at everything.",
-        "The professional's relations with his or her clients are objective and independent of particular sentiments about them.",
-        "A professional achieves status and financial reward by accomplishment, not by inherent Example: qualities such as birth order, race, religion, sex or age or by membership in a union.",
-        "A professional's decisions are assumed to be on behalf of the client and to be independent of self-interest.",
-        "The professional relates to a voluntary association of professionals.",
-        "Question: A professional is someone who knows better what is good for clients than do the clients.",
-        "The professional's expertise puts the client into a very vulnerable position.",
-        "This vulnerability has necessitated the development of strong professional codes and ethics, which serve to protect the client.",
-        "Such codes are enforced through colleague peer group."
-    ],
-    "9": [
-        "1.2 Engineering Engineering is a profession that applies mathematics and science to utilize the properties of matter and sources of energy to create useful structures, machines, products, systems and processes (Davis and Cornwell, 2010).",
-        "Definition: Engineering may be defined as the application, under constraints of scientific principles to the planning, design, construction, and operation of structures, equipment, and systems for the benefit of society ( Sincero and Sincero, 1996).",
-        "Engineering is the profession in which a knowledge of the mathematical and natural sciences gained by study, experience, and practice is applied with judgment to develop ways to utilize economically the materials and forces of nature for the benefit of human society.",
-        "Definition: In other words, Engineering may be defined as the application, under constraints of scientific principles to the planning, design, construction and operation of structures, equipment and systems for the benefit of the society.",
-        "\"Scientist discover things, Engineers make them work.\""
-    ],
-    "8": [
-        "If there were a perfect plant, painting or a road, all future water treatment plants or roads (not the Example: alignment but the structure!)",
-        "Similarly, a sewer can be constructed with a concrete, cast iron, steel, aluminum, plastic  or clay materials.",
-        "With correct engineering design procedures, such a sewer would carry the design flow and , thus, would be technically correct ( Vesilind and Morgan, 2004).",
-        "Based on the these values, calculation of acceptable levels of pollution is also possible.",
-        "Additional Reading (3) Rubin and Davidson :  section a to e (4) Reible :  : pp 1-19 References: ASCE (1977) Official Record, Environmental Engineering Division, Statement of Purpose, American Society of Civil Engineers, New York Davis, M. L. and Cornwell, D. A.",
-        "(2011) Introduction to Environmental Engineering, Fourth ed., Tata McGraw Hill Education Private Limited, New Delhi, India Sincereo, A. P. and Sincero, G. A.",
-        "(1996) Environmental Engineering : A Design Approach, Prentice Hall of India, Reprinted 2006, New Delhi, India Society of Public Health Engineers, Nepal ( SOPHEN) (2012) : Official introduction, Website of Vesilind, P. A. and Morgan S. M. ( 2004) Introduction to Environmental Engineering, Thomson Brooks / Cole"
-    ],
-    "7": [
-        "For example, teaching aid in the  a class could be: chalk and a duster, white board marker or a LCD projector.",
-        "- Support the government to develop, adopt and implement policies and strategies for overall development of sanitary and environmental conditions of the country.",
-        "- Provide technical counseling and awareness to public for any critical environmental issues emerged due to natural or human activities.",
-        "To build and operate water treatment plants.",
-        "To build and operate solid waste collection, transportation and disposal systems To plan, design, construct and operate air pollution control equipment.",
-        "To design reservoirs and to control groundwater contamination.",
-        "Our client, in the broadest sense, is the environment itself, and out objective is to preserve and protect our global home, for the sake of our progeny as well as Mother Earth herself."
-    ],
-    "4": [
-        " : Introduction to Environmental Engineering Question: If a project is planned, an estimate of the benefits derived is compared in ratio form to the cost incurred.",
-        "Should this ratio be more that 1.0, the project is clearly worthwhile, and the projects with the highest benefit/cost rations should be constructed first because these will provide the greatest returns on the investment.",
-        "Internal Rate of Return (IRR) is an indicator to reflect the profit of the projects.",
-        "The IRR  is the \"annualized effective compounded return rate\" or \"rate of return\" that makes the net present value of all cash flows (both positive and negative) from a particular investment equal to zero.",
-        "In more specific terms, the IRR of an investment is the discount rate at which the net present value of costs (negative cash flows) of the investment equals the net present value of the benefits (positive cash flows) of the investment.",
-        "Question: Internal rates of return are commonly used to evaluate the desirability of investments or projects.",
-        "The higher a project's internal rate of return, the more desirable it is to undertake the project.",
-        "Assuming all projects require the same amount of up-front investment, the project with the Example: highest IRR would be considered the best and undertaken first.",
-        "IRR values of some of the projects in Nepal is shown in Table 1.1."
-    ],
-    "6": [
-        "When life and health enter benefit/cost calculations, the analyses are generally referred as risk/benefit/cost analysis to indicate that people or resources are at risk.",
-        "They have in the past few years become more widely known as simply risk analyses.",
-        "Risk analysis is comprise do risk assessment and risk management.",
-        "The former involves a study and analysis of the potential effect of certain hazards on human health.",
-        "Using statistical information, risk assessment is intended to be a tool for making Definition: informed decisions.",
-        "For example, it has been shown Example: that the life expectancy of people living in a dirty urban atmosphere is considerably shorter than that of people living identical lives but breathing clean air.",
-        "In addition to the potential effect to human health and well being, environmental impacts also include effects on the natural resources or infrastructures providing socio-economic services.",
-        "Risk Question: analysis calculates the potential damage to the health, and environmental impact analysis provides a means for decision making based on long-term effects on resources."
-    ],
-    "5": [
-        "In Nepal, Society of Public Health Engineers (SOPHEN) is an association working the sector.",
-        "Box 1  : Introduction to SOPHEN Society of Public Health Engineers, Nepal (SOPHEN) was registered in Nepal in 1990 AD (2047 BS) as an independent professional organization by a group of Nepalese Engineers.",
-        "SOPHEN is governed by an executive committee of eleven members elected by the general members of the society.",
-        "Some of the major responsibilities of SOPHEN include the enhancement of technical and professional competencies of its members, work for the protection of the basic professional rights and support the government and other agencies in the formulation of policies and strategies in related fields.",
-        "SOPHEN is committed to carry out various professional activities that are intended to bring qualitative results to improve the sanitary and environmental conditions of the country.",
-        "It aims to work in association with other professional bodies in Nepal and aboard.",
-        "SOPHEN has been recognized by all the sectors of the society as a leading professional body of Nepal.",
-        "Source : SOPHEN (2012)"
+    "20": [
+        "Program set of instructions that specify the operations operands and the sequence by which processing has to occur",
+        "Instruction a binary code that specifies a sequence of microoperations for the computer",
+        "Address Sequencing Microinstructions are usually stored in groups where each group specifies a routine where each routine specifies how to carry out an instruction",
+        "Each routine must be able to branch to the next routine in the sequence",
+        "Mapping The next step is to generate the microoperations that executed the instruction",
+        "Mapping of Instruction Code to Microoperation address Subroutines Subroutine calls are a special type of branch where we return to one instruction below the calling instruction",
+        "II BSc CS Computer Architecture Subroutine Call and Return It is a selfcontained sequence of instructions that performs a given computational task",
+        "During the execution of a program a subroutine may be called when it is called a branch is executed to the beginning of the subroutine to start executing its set of instructions",
+        "After the subroutine has been executeda branch is made back to the main program",
+        "A subroutine call is implemented with the following microoperations CALL SP SP Decrement stack point MSP PC Push content of PC onto the stack PCEffective Address Transfer control to the subroutine RETURN PC MSP Pop stack and transfer to PC SP SP Increment stack pointer Program Interrupt Transfer program control from a currently running program to another service program as a result of an external or internal generated request",
+        "CPU then deviates from what it was doing store the return address from PC and branch to the address of the subroutine"
     ],
     "10": [
-        "Objectives Dissemination of state-of-art technologies to practitioners, policy makers and beneficiaries.",
-        "- Establish professional relationship with similar institutions to national and international level sharing ideas and technologies for mutual benefits and interests.",
-        "- Coordinate with other national and international professional bodies enhancing professional competencies to the implementation of emerging technologies.",
-        "- Building capacities of its members through various research, training and workshop in national and international level."
+        "of bits required for opcode depends on no",
+        "It consists of a bit operation code a bit address and an indirect address mode bit designated by I",
+        "The I bit is so the instruction is recognized as a direct address instruction",
+        "The number along each output shows the decimal equivalent of the required binary selection",
+        "For example the number along the output of DR is",
+        "The operation code (opcode) part of the instruction contains three bits and the meaning of the remaining bits depends on the operation code encountered",
+        "Therefore the other () bits are used to specify the operation to be executed",
+        "The remaining bits are used to specify the type of inputoutput operation",
+        "It is divided into three parts The I bit the operation code and bits through",
+        "The operation code in bits through are decoded with a x decoder",
+        "Bit of the instruction is transferred to a flipflop designated by the symbol I",
+        "Displacement It is an bit or bit immediate value given in the instruction",
+        "They are useful for manipulating individual bits or group of bits that represent binary coded information"
+    ],
+    "9": [
+        "of operations available in computer",
+        "Instruction Set Completeness A computer should have a set of instructions so that the user can construct machine language programs to evaluate any function",
+        "The set of instructions are said to be complete if the computer includes a sufficient number of instructions in each of the following categories II BSc CS Computer Architecture Arithmetic logical and shift instructions Data Instructions (for moving information to and from memory and processor registers) o Program control or Brach o Input and output instructions There is one arithmetic instruction ADD and two related instructions complement AC(CMA) and increment AC(INC)",
+        "Makes Program creation easier",
+        "DATA TRANSFER AND MANIPULATION Most computer instructions can be classified into three categories Data transfer Data manipulation Program control instructions Data Transfer Instruction Data transfer instructions move data from one place in the computer to another without changing the data content common transfers between memory processor registersbetween processor registers and input or outputand between the processor registers themselves",
+        "Typical Data Transfer Instruction Load transfer from memory to a processor register usually an AC (memory read) Store transfer from a processor register into memory (memory write) Move transfer from one register to another register Exchange swap information between two registers or a register and a memory word InputOutput transfer data among processor registers and inputoutput device PushPop transfer data between processor registers and a memory stack II BSc CS Computer Architecture Data Manipulation Instruction Data Manipulation Instructions perform operations on data and provide the computational capabilities for the computer",
+        "It is divided into three basic types ) Arithmetic ) Logical and bit manipulation ) Shift Instruction Arithmetic Instructions Logical and bit manipulation Instructions Logical instructions performs binary operations on strings of bits stored in registers",
+        "PROGRAM CONTROL Program control instructions specify conditions for altering the content of the program counter while data transfer and manipulation instructions specify condtions for dataprocessing operations",
+        "II BSc CS Computer Architecture The computer which having the fewer instructions is classified as a reduced instruction set computer abbreviated as RISC",
+        "CISC Characteristics A large number of instructionstypically from to instructions",
+        "Some instructions that perform specialized tasks and are used infrequently",
+        "Variablelength instruction formats Instructions that manipulate operands in memory RISC Characteristics Relatively few instructions Relatively few addressing modes Memory access limited to load and store instructions All operations done within the registers of the CPU Fixedlength easily decoded instruction format Singlecycle instruction execution Hardwired rather than microprogrammed control A relatively large number of registers in the processor unit Efficient instruction pipeline II BSc CS Computer Architecture UNIT III COMPUTER ARITHMETIC Arithmetic Processor Arithmetic instruction in digital computers manipulate data to produce results necessary for the solution of the computational problems",
+        "An arithmetic processor is the part of a processor unit that execute arithmetic instruction",
+        "An arithmetic instruction may specify binary or decimal data and it may be represented in Fixed point (integer or fraction) OR floating point form",
+        "An arithmetic processor is simple for binary fixed point add instruction Data types considered for the arithmetic operations are o Fixedpoint binary data in signed magnitude representation o Fixedpoint binary data in signeds complement representation o Floating point binary data o Binary coded decimal (BCD) data Negative fixed point binary number can be represented in three ways o Signed magnitude (most computers use for floating point operations ) o Signed s complement o Signed s complement(most computer use for integers)"
+    ],
+    "72": [
+        "That type of stored program concept is called stored program organization",
+        "REGISTER STACK ORGANIZATION A stack can be placed in a portion of a large memory or it can be organized as a collection of a finite number of memory words or registers",
+        "II BSc CS Computer Architecture MEMORY STACK ORGANIZATION A portion of memory is used as a stack with a processor register as a stack pointer The program counter PC points at the address of the next instruction in program",
+        "𝑫𝑹𝑴𝑺𝑷 𝑺𝑷𝑺𝑷 Most computers do not provide hardware to check stack overflow (full stack) or underflow(empty stack)"
+    ],
+    "19": [
+        "The first part specifies the operation to be performed and the second specifies an address",
+        "When the second part specifies the address of an operand the instruction is said to have a direct address",
+        "When second part of the instruction designate an address of a memory word in which the address of the operand is found such instruction have indirect address",
+        "One bit of the instruction code can be used to distinguish between a direct and an indirect address",
+        "Therefore it is recognized as an indirect address instruction",
+        "The address part is the binary equivalent of",
+        "The effective address to be the address of the operand in a computationtype instruction or the target address in a branchtype instruction",
+        "A memoryreference instruction uses bits() to specify an address next bits for operation code(opcode) and one bit to specify the addressing mode I I is equal to for direct address and to for indirect address",
+        "Read the effective address from memory if the instruction has an indirect address",
+        "If I we have a memory reference instruction with an indirect address",
+        "Single memory reference to access dataNo additional calculations to find the effective address of the operand"
+    ],
+    "63": [
+        "For a memory unit with words we need bits to specify an address since If we store each instruction code in one bit memory word we have available four bits for the operation code (abbreviated opcode) to specify one out of possible operations and bits to specify the address of an operand",
+        "The memory address register (AR) has bits since this is the width of a memory address",
+        "The program counter (PC) also has bits and it holds the address of the next instruction to be read from memory after the current instruction is executed",
+        "Two registers AR and PC have bits each since they hold a memory address",
+        "The memory unit stores the binary information in the form of bits"
+    ],
+    "71": [
+        "The operation is performed with the memory operand and the content of AC",
+        "There are three logic operations AND complement AC (CMA) and clear AC(CLA)",
+        "Moving information from memory to AC is accomplished with the load AC (LDA) instruction",
+        "Storing information from AC into memory is done with the store AC (STA) instruction"
+    ],
+    "62": [
+        "The instruction code format shown in Fig",
+        "Computer Instructions The basic computer has three instruction code formats as shown in Fig",
+        "Each format has bits",
+        "Instruction Formats The bits of the instruction are divided into groups called fields",
+        "The most common fields found in instruction formats are An operation code field that specifies the operation to be perform An address field that designates a memory address or a processor register",
+        "Data codes and formats in the peripherals differ from the word format in the CPU and memory"
+    ],
+    "5": [
+        "The mode bit is for a direct address and for an indirect address",
+        "If D it is a memory reference instruction and the mode of address is determined from the I value",
+        "The effective address is read from memory using the microoperation AR MAR If D and I Nothing is done",
+        "AR is used during the exec phase to read an operand",
+        "A mode field that specifies the way the operand or the effective address is determined",
+        "ADDRESSING MODES Addressing modes refers to the way in which the operand of an instruction is specified",
+        "The addressing mode specifies a rule for interpreting or modifying the address field of the instruction before the operand is actually executed",
+        "The purpose of using addressing modes is as follows To give the programming versatility to the user",
+        "Types Of Addressing Mode Implied Mode Immediate Mode Register Mode Register Indirect Mode AutoIncrement or AutoDecrement Mode Direct Mode Indirect Mode Relative Addressing Mode Indexed Addressing mode Base Register Addressing Mode II BSc CS Computer Architecture Implied Mode In this addressing mode the instruction itself specifies the operands implicitly",
+        "It is also called as implicit addressing mode",
+        "Register Mode In this mode the operand is stored in the register and this register is present in CPU",
+        "The instruction has the address of the Register where the operand is stored",
+        "Register Indirect Mode In this mode the instruction specifies the register whose contents give us the address of operand which is in memory",
+        "Auto increment or auto decrement mode Effective address of the operand is the contents of a register specified in the instruction",
+        "Direct Addressing Mode In this mode effective address of operand is present in instruction itself",
+        "Indirect Addressing Mode In this the address field of instruction gives the address where the effective address is stored in memory",
+        "Relative Addressing Mode In this the contents of PC(Program Counter) is added to address part of instruction to obtain the effective address",
+        "EA A (PC) where EA is effective address and PC is program counter",
+        "The operand is A cells away from the current cell(the one pointed to by PC) Indexed Addressing Mode In this the contents of the indexed register is added to the Address part of the instruction to obtain the effective address of operand",
+        "A large variety of addressing modestypically from to differ modes"
+    ],
+    "34": [
+        "The control finds the operand in memory at address and adds it to the content of The instruction in address shown in Fig",
+        "Necessary to provide a register in the control unit for storing the instruction code after it is read from memory (IR)",
+        "The instruction read from memory is placed in the instruction register (IR)",
+        "An inputoutput instruction does not need a reference to memory and is recognized by the operation code with a in the leftmost bit of the instruction",
+        "An instruction read from memory is placed in the instruction register (IR)",
+        "Fetch an instruction from memory",
+        "It passes the address to the control memory",
+        "Its operation is initialized by CPU by sending a byte to the control register",
+        "It is not directly accessible to the CPU and is accessed using the InputOutput channels"
+    ],
+    "51": [
+        "The control goes to address to find the address of the operand",
+        "The next address can be determined as Loading an initial address to start the control operations",
+        "Incrementing the control address register Loading an address from control memory Transferring an external address",
+        "Once these operations are executed the control must determine the next address",
+        "An initial address is loaded into the CAR when power is turned on this is usually the address of the first microinstruction in the instruction fetch routine",
+        "Next the control unit must determine the effective address of the instruction",
+        "The other control line is in the other direction from the destination to the source"
+    ],
+    "56": [
+        "The address of the operand in this case is",
+        "Only register addresses for R and R need be specified in this instruction",
+        "RAL Rotate Left with Carry Immediate Mode In this addressing mode the operand is specified in the instruction explicitly",
+        "MOV R initializes register R to a constant value",
+        "Thus the register contains the address of operand rather than the operand itself",
+        "Example ADD R In this the is effective address of operand"
+    ],
+    "75": [
+        "Two registers are used for input and output",
+        "Five registers have three control inputs LD (load) INR (increment) and CLR (clear)",
+        "Two registers have only a LD input",
+        "o Increment PC by enabling the INR input of PC"
+    ],
+    "33": [
+        "The input register (INPR) receives an bit character from an input device",
+        "The output register (OUTR) holds an bit character for an output device",
+        "The input register INPR and the output register OUTR have bits each",
+        "This is because INPR receives a character from an input device which is then transferred to AC",
+        "OUTR receives a character from AC and delivers it to an output device",
+        "The inputs of AC come from an adder and logic circuit",
+        "This circuit has three sets of inputs",
+        "o One set of bit inputs come from the outputs of AC",
+        "o A third set of bit inputs come from the input register INPR"
+    ],
+    "4": [
+        "Common Bus System The basic computer has eight registers a memory unit and a control unit Paths must be provided to transfer information from one register to another and between memory and registers",
+        "A more efficient scheme for transferring information in a system with many registers is to use a common bus",
+        "The connection of the registers and memory of the basic computer to a II BSc CS Computer Architecture common bus system is shown in Fig",
+        "The outputs of seven registers and memory are connected to the common bus",
+        "The bit outputs of DR are placed on the bus lines when SSS",
+        "The lines from the common bus are connected to the inputs of each register and the data inputs of the memory",
+        "The memory receives the contents of the bus when its write input is activated",
+        "The memory places its bit output onto the bus when the read input is activated and SSS",
+        "The input data and output data of the memory are connected to the common bus but the memory address is connected to AR",
+        "o Enable the read input of memory",
+        "o Place the content of memory onto the bus by making SSS",
+        "The Major Differences are Peripherals are electromechnical and electromagnetic devices and CPU and memory are electronic devices",
+        "The IO Bus consists of data lines address lines and control lines",
+        "IO Versus Memory Bus To communicate with IO the processor must communicate with the memory unit",
+        "Like the IO bus the memory bus contains data address and readwrite control lines",
+        "There are ways that computer buses can be used to communicate with memory and i",
+        "Use two Separate buses one for memory and other for IO",
+        "Use one common bus for both memory and IO but separate control lines for each",
+        "Use one common bus for memory and IO with common control lines",
+        "IO Processor In the first method the computer has independent sets of data address and control buses one for accessing memory and other for IO",
+        "A bidirectional data bus allows data transfer from memory to cpu during read operation and cpu to memory during write operation"
+    ],
+    "36": [
+        "The particular register whose LD (load) input is enabled receives the data from the bus during the next clock pulse transition",
+        "When the contents of AR or PC are applied to the bit common bus the four most significant bits are set to s",
+        "When AR or PC receives information from the bus only the least significant bits are transferred into the register",
+        "The content of any register can be applied onto the bus and an operation can be performed in the adder and logic circuit during the same clock cycle",
+        "The selection lines in each multiplexer select the input data for the particular bus",
+        "The output bus connected to the inputs of all registers thus by selecting a destination register it is possible to store the result in it",
+        "The three registers are connected to a common address bus and either one can provide an address for memory",
+        "CPU can select the receiver register to read the byte through the data bus"
+    ],
+    "22": [
+        "INPR is connected to provide information to the bus but OUTR can only receive information from the bus",
+        "To provide the data path for the transfer of PC to AR we must apply timing signal T to achieve the following connection o Place the content of PC onto the bus by making the bus selection inputs S S S equal to o Transfer the content of the bus to AR by enabling the LD input of AR",
+        "o Transfer the content of the bus to IR by enabling the LD input of IR",
+        "The data must be valid and remain in the bus long enough for the destination unit to accept it",
+        "Similarly a destination unit that initiates the transfer has no way of knowing whether the source unit has actually placed the data on bus",
+        "The source unit initiates the transfer by placing the data on the bus and enabling its data valid signal",
+        "The data accepted signal is activated by the destination unit after it accepts the data from the bus",
+        "The source unit then disables its data accepted signal and the system goes into its initial state",
+        "The source unit in this case does not place data on the bus until after it receives the ready for data signal from the destination unit",
+        "If it had requested the attention it place its VAD(vector address) on the bus"
+    ],
+    "73": [
+        "This type of register is equivalent to a binary counter with parallel load and synchronous clear",
+        "Word Count Register iii",
+        "Word Count Register WC holds the number of words to be transferred",
+        "The register is incredecre by one after each word transfer and internally tested for zero"
+    ],
+    "13": [
+        "For example the two microoperations DR AC and AC DR can be executed at the same time",
+        "The control memory is programmed to initiate the required sequence of microoperations",
+        "Microoperation A microinstruction specifies one or more microoperations",
+        "Microprogram A sequence of microinstructions forms what is called a microprogram",
+        "The microprogram consists of microinstructions that specify various internal control signals for execution of register microoperations",
+        "The microinstruction contains bits to initiate the microoperations and bits to determine the address sequence for control memory",
+        "It allows the execution of the microoperations specified by the control word simultaneously with the generation of the next microinstruction",
+        "The microinstruction contains a control word that specifies one or more microoperations for the data processor",
+        "For different control sequence a different set of microinstructions is used in control memory",
+        "While microinstruction sequences are usually determined by incrementing the CAR this is not always the case",
+        "The result of the micro operation is available at the output bus",
+        "The operation can be done with one microoperation A A"
+    ],
+    "25": [
+        "II BSc CS Computer Architecture The registerreference instructions are recognized by the operation code with a in the leftmost bit (bit ) of the instruction",
+        "The AND and complement provide a NAND operation",
+        "II BSc CS Computer Architecture The common arithmetic expressions are written in infix notation with each operator written between the operands",
+        "II BSc CS Computer Architecture The multiplicand is stored in B register and its sign in Bs",
+        "Hardware Implementation of Booths Algorithm The hardware implementation of the booth algorithm requires the register The register used are AC BR and QR respectively",
+        "Binary of s complement of s complement of Binary of s complement of s complement of The result is in AC BR II BSc CS Computer Architecture",
+        "FLOATING POINT ARITHMETIC OPERATIONS Register Configuration Three registers are there BR AC and QR",
+        "Each register is subdivided into two parts mantissa part (uppercase symbol) and exponent part (lowercase symbol",
+        "Register BR is subdivided into Bs B and b and QR into Qs Q and q",
+        "II BSc CS Computer Architecture The bit in A is checked again and the process is repeated until A"
+    ],
+    "42": [
+        "So an operand from memory is not needed",
+        "Execution of instructions is fast because operand data are stored in consecutive memory locations",
+        "Disadv The size of the program increases",
+        "Program created are much short in size but number of bits per instruction increase",
+        "Programs run much slow because instruction contains too many bits of information Expression X (AB)(CD) R R are registers",
+        "Advantages Shorter instructions and faster instruction fetch",
+        "Faster memory access to the operand(s) Disadvantages Very limited address space Using multiple registers helps performance but it complicates the instructions",
+        "This slows down the execution as this includes multiple memory lookups to find the operand"
+    ],
+    "41": [
+        "With these three instructions we can add and subtract binary numbers when negative numbers are in signeds complement representation",
+        "For this case it is necessary to take the s complement of the value in A",
+        "Addition and Subtraction with signeds complement data The left most bit of binary number represents the sign bit for positive and for negative",
+        "If the sign bit is the entire the entire number is represented in s complement form",
+        "The addition of two numbers in signeds complement form consists of adding the number with the sign bits treated the same as the other bits of the number",
+        "The sum is obtained by adding the contents of AC and BR(including their sign bits)",
+        "In this method the multiplier or multiplicand if it is negative number is represented in s complement representation",
+        "Since both are negative numbers they are represented in s complement form"
+    ],
+    "24": [
+        "The circulate instructions CIR and CIL can be used for arithmetic shifts as well as any other type of shifts desired",
+        "II BSc CS Computer Architecture Shift Instructions Shift are operations in which bits of a word are moved left or right",
+        "The shift will be denoted by the statement shr EAQ to designate the right shift depicted",
+        "Initialise AC and Qn to zero",
+        "If QnQn subtract BR from AC ie Add s complement of BR to AC",
+        "perform arithmetic right shift on AC BR using ashr instruction",
+        "If QnQn or perform arithmetic right shift on AC BR",
+        "If QnQn Add BR to AC perform arithmetic right shift on AC BR",
+        "Arithmetic right shift is shifts a bit to the right it retains the sign(first) bit as such",
+        "(Qn shl EAQ Add s complement of B) If E it signifies that AB so the quotient in Qn remains a"
+    ],
+    "38": [
+        "The branch instructions BUN BSA and ISZ together with the four skip instructions provide capabilities for program control and checking of status conditions",
+        "This is done using an unconditional branch",
+        "Addressing sequencing capabilities of control memory include Incrementing the CAR Unconditional and conditional branching (depending on status bit)",
+        "II BSc CS Computer Architecture Conditional Branching Status bits provide parameter information such as the carryout from the adder sign of a number mode bits of an instruction etc",
+        "control the conditional branch decisions made by the branch logic together with the field in the microinstruction that specifies a branch address",
+        "Branch Logic Branch Logic may be implemented in one of several ways The simplest way is to test the specified condition and branch if the condition is true else increment the address register",
+        "A generates the control signal for the branch a generates the signal to increment the Unconditional branching occurs by fixing the status bit as always being",
+        "The branch is indicated by the opcode of the instruction"
+    ],
+    "78": [
+        "Timing and Control The timing for all registers in the basic computer is controlled by a master clock generator",
+        "The clock pulses are applied to all flipflops and registers in the system including the flipflops and registers in the control unit",
+        "The clock pulses do not change the state of a register unless the register is enabled by a control signal",
+        "All the internal operations in a digital system are synchronized by means of clock pulses supplied by a common clock pulse Generator"
+    ],
+    "79": [
+        "The control signals are generated in the control unit and provide control inputs for the multiplexers in the common bus control inputs in processor registers and microoperations for the accumulator",
+        "The microoperations for the fetch and decode phases can be specified by the following register transfer statements",
+        "The A and B buses form the two inputs of an ALUThe operation select lines decide the micro operation to be performed by ALU",
+        "OPERATION OF CONTROL UNIT Example R R R MUX A selector (SELA) BUS A R MUX B selector (SELB) BUS B R ALU operation selector (OPR) ALU to ADD Decoder destination selector (SELD) R Out Bus Control Word Encoding of register selection fields Binary SELA SELB SELD Input Input ALU CONTROL Encoding of ALU Operations Examples of ALU Microoperations II BSc CS Computer Architecture"
+    ],
+    "30": [
+        "o There are two major types of control organization Hardwired control and Microprogrammed control The differences between hardwired and microprogrammed control are The block diagram of the hardwired control unit is shown in Fig",
+        "Hardwired control Microprogrammed control The control logic is implemented with gates flipflops decoders and other digital circuits",
+        "The control information is stored in a control memory",
+        "Compared with the hardwired control operation is slow",
+        "Required changes or modifications can be done by updating the microprogram in control memory",
+        "Microprogrammed Control (Control Memory) Microinstruction Each word in control memory contains within it a microinstruction",
+        "A computer that employs a microprogrammed control unit will have two separate memories",
+        "The control memory This memory contains a fixed microprogram that cannot be alter by the user",
+        "Control Memory Control Memory is the storage in the microprogrammed control unit to store the microprogram"
+    ],
+    "48": [
+        "The advantage that it can be optimized to produce a fast mode of operation",
+        "It is used by source unit to inform the destination unit whether there a valid data in the bus",
+        "It is used by the destination unit to inform the source whether it can accept the data",
+        "It is used for short distances and where speed is important",
+        "It is used to increase the speed of processing by making data available for the II BSc CS Computer Architecture CPU at a rapid rate",
+        "It is considered to be the fastest and the most flexible mapping form",
+        "It also allows many processes to run on a single machine simultaneously"
+    ],
+    "60": [
+        "The outputs of the counter are decoded into timing signals T through T",
+        "The sequence counter SC can be incremented or cleared synchronously",
+        "The counter is incremented to provide the sequence of timing signals out of the x decoder",
+        "The sequence counter SC responds to the positive transition of the clock",
+        "On the next positive clock transition (the one marked T in the diagram) the counter is cleared to",
+        "The sequence counter SC is cleared to providing a decoded timing signal T"
+    ],
+    "69": [
+        "As an example consider the case where SC is incremented to provide timing signals T T T T and T in sequence",
+        "At time T SC is cleared to if decoder output D is active",
+        "The first positive transition of the clock clears SC to which in turn activates the timing signal T out of the decoder",
+        "Output D from the operation decoder becomes active at the end of timing signal T",
+        "This causes the timing signal T to become active instead of T that would have been active if SC were incremented instead of cleared"
+    ],
+    "64": [
+        "This is expressed symbolically by the statement The timing diagram of Fig",
+        "shows the time relationship of the control signals",
+        "This produces the sequence of timing signals T T T T Tand so on as shown in the diagram",
+        "When timing signal T becomes active the output of the AND gate that implements the control function DT becomes active",
+        "The timing diagram fig"
+    ],
+    "46": [
+        "Initially the CLR input of SC is active",
+        "SC is incremented with every positive clock transition unless its CLR input is active",
+        "The sequence counter SC is initially set to a number equal to the number of bits in the multiplier",
+        "Register A and E are cleared and the sequence counter SC is set to a number equal to the number of bits of the multiplier",
+        "Initialise SC to the number of bits in the multiplier",
+        "Decrement SC after each shift operation",
+        "Continue the steps until SC becomes zero"
+    ],
+    "80": [
+        "Instruction Cycle A program residing in the memory unit of the computer consists of a sequence of instructions",
+        "The program is executed in the computer by going through a cycle for each instruction",
+        "Each instruction cycle in turn is subdivided into a sequence of sub cycles or phases",
+        "In the basic computer each instruction cycle consists of the following phases"
+    ],
+    "23": [
+        "The main memory This memory is available to the user for storing programs",
+        "The users program in main memory consists of machine instructions and data",
+        "When the program not residing in main memory is needed by the CPU they are brought in from auxiliary memory",
+        "Programs not currently needed in main memory are transferred into auxiliary memory to provide space in main memory for other programs that are currently in use",
+        "Main memory is made up of RAM and ROM",
+        "It also stores the bootstrap loader program to load and start the operating system when computer is turned on",
+        "Virtual Memory Virtual Memory provides the illusion of a large memory It allows programs to run regardless of actual physical memory size",
+        "It provides each process its own memory space",
+        "Virtual address space used by the programmer",
+        "This concept divides memory (virtual and physical) into fixed size The program provides the virtual memory address space"
+    ],
+    "39": [
+        "It is a ROM in which all control information is permanently stored",
+        "Generally memorystorage is classified into categories Volatile Memory This loses its data when power is switched off",
+        "NonVolatile Memory This is a permanent storage and does not lose any data when power is switched off",
+        "RAM Random Access Memory DRAM Dynamic RAM is made of capacitors and transistors and must be refreshed every ms",
+        "SRAM Static RAM has a six transistor circuit in each cell and retains data until powered off",
+        "NVRAM NonVolatile RAM retains its data even when turned off",
+        "ROM Read Only Memory is nonvolatile and is more like a permanent storage for information",
+        "PROM(Programmable ROM) EPROM(Erasable PROM) EEPROM(Electrically Erasable PROM) are some commonly used ROMs"
+    ],
+    "53": [
+        "This process is called mapping",
+        "Hardware organization of Associative memory The argument register contains the value to search for and therefore is n bits wide to match the size of a word in the memory",
+        "The types of mapping procedures are Direct mapping Associative mapping SetAssociative mapping",
+        "Associative mapping In this type of mapping the associative memory is used to store content and addresses both of the memory word",
+        "Setassociative mapping This form of mapping is a enhanced form of the direct mapping where the drawbacks of direct mapping is removed",
+        "Set associative addresses the problem of possible thrashing in the direct mapping method",
+        "Set associative cache mapping combines the best of direct and associative cache mapping techniques The most common replacement algorithm used in cache are Random replacement FirstIn First Out(FIFO) and Least Recently Used(LRU) algorithm"
+    ],
+    "54": [
+        "This is implemented using a multiplexer If the status bit is one of eight status bits it is indicated by a bit select number",
+        "If the select status bit is the output is else it is",
+        "Status Bit Conditions It is convenient to supplement the ALU circuit in the CPU with a status register where status bit condition can be stored for further analysis",
+        "Status bits are also called condition code bit or flag bit",
+        "The four status bits are symbolized by CSZ and V N bit is set if result of operation in negative (MSB ) Z bit is set if result of operation is zero (All bits AC) V bit is set if operation produced an overflow C bit is set if operation produced a carry (borrow on subtraction The bits are set or cleared as a result of an operation performed in the ALU",
+        "If it is nothing is done",
+        "Data in the status register is used for input and output flags"
+    ],
+    "18": [
+        "overflow space from to",
+        "Add overflow flipflop (AVF) holds the overflow bit when A and B are added",
+        "The carry in E after the addition constitutes an overflow if it is equal to",
+        "The value of E is transferred into the addoverflow flipflop AVF",
+        "No overflow can occur if the numbers are subtracted so AVF is cleared to",
+        "The subtraction consists of first taking the s compliment of the subtrahend and then adding it to the minuend When two numbers of n digits each are added and the sum occupies n Digits we say that an overflow occurred",
+        "When the two carries are applied to an exclusiveOR gate the overflow is detected when the output of the gate is equal to",
+        "The left most bit in AC and BR represents the sign bits of the numbers The over flow flipflops V is set to if there is an overflow",
+        "The output carry in this case is discarded",
+        "The overflow bit V is set to if the exOR of the last two carries is and it is cleared to otherwise",
+        "Overflow condition is usually detected when a special flipflop is set"
+    ],
+    "70": [
+        "A decoder is used to select a particular registerThe output of each register is connected to two multiplexers to form the two buses A and B",
+        "The transmitter register accepts a data byte from CPU through the data bus and transferred to a shift register for serial transmission",
+        "The receive portion receives information into another shift register and when a complete data byte is received it is transferred to receiver register",
+        "Normally the transfer is from a CPU register to peripheral device or vice versa",
+        "Control Register Control Register specifies the mode of transfer The unit communicates with the CPU via the data bus and control lines"
+    ],
+    "55": [
+        "The operation of insertion is called PUSH",
+        "Similarly for inserting the new item the stack is pushed by incrementing SP and writing a word in the nexthigher location in the stack",
+        "PUSH Initially SP is cleared to EMTY is set to and FULL is cleared to so that SP points to the word at address and the stack is marked empty and not full",
+        "If the stack is not full (if FULL ) a new item is inserted with a push operation",
+        "The push operation is implemented with the following sequence of microoperations 𝑺𝑷𝑺𝑷 𝑴𝑺𝑷 𝑫𝑹 𝑰𝑭(𝑺𝑷 )𝒕𝒉𝒆𝒏 (𝑭𝑼𝑳𝑳) 𝑬𝑴𝑻𝒀 The stack pointer is incremented so that it points to the address of nexthigher word",
+        "A new item is deleted from the stack if the stack is not empty (if EMTY )",
+        "A new item is inserted by the PUSH operation"
+    ],
+    "14": [
+        "The stack pointer register SP contains a binary number whose value is equal to the address of the word is currently on top of the stack",
+        "Three items are placed in the stack A B C in that order",
+        "Now the top of the stack is B so that the content of SP is",
+        "In a word stack the stack pointer contains bits because",
+        "The first item stored in the stack is at address",
+        "The stack pointer SP points at the top of the stack",
+        "SP is used to push or pop items into or from stack",
+        "As shown in Fig the initial value of SP is and the stack grows with decreasing addresses Thus the first item stored in the stack is at address the second item is stored at address and the last address that can be used for the stack is",
+        "The stack pointer is decremented so that it points at the address of the next word",
+        "The stack pointer is then decremented to point at the next item in the stack",
+        "Thus the instruction PUSH X will push the word at address X to the top of the stack",
+        "The stack pointer is updated automatically"
+    ],
+    "84": [
+        "Then the onebit register FULL is set to when the stack is full",
+        "If SP reaches the stack is full of items so FULL is to",
+        "If its value reaches zero the stack is empty so EMTY is set",
+        "No provisions are available for stack limit checks"
+    ],
+    "83": [
+        "The last item is stored at address",
+        "This condition is reached if the top item prior to the last push way location and after incrementing SP the last item is stored in location",
+        "Once an item is stored in location there are no more empty registers in the stack so the EMTY is cleared to",
+        "This condition is reached if the item read was in location"
+    ],
+    "57": [
+        "Scan the expression from left to right",
+        "When an operator is encountered POP two operands from the stack and perform the operation and PUSH the result into the stack",
+        "When the expression is scanned completely the final result is found in the TOP of the Stack",
+        "Expression X (AB)(CD) R R are registers",
+        "Expression X (AB)(CD) AC is accumulator",
+        "Expression X (AB)(CD) Postfixed X ABCD TOP means top of stack"
+    ],
+    "81": [
+        "M is any memory location It can be implemented using three address instruction as ADD R A B R MA MB ADD R C D R MC MD MUL X R R MX R R Two Address Instruction This is common in commercial computers",
+        "M is any memory location",
+        "M is any memory location MT is temporary location",
+        "MX is any memory location Program using zero address instruction TOP A TOP B TOP AB TOP C TOP D TOP CD MX TOP"
+    ],
+    "65": [
+        "Effective address or Offset An offset is determined by adding any combination of three address elements displacement base and index",
+        "Base Contents of base register BX or BP",
+        "EA A (R) In this the address field holds two values A(which is the base value) and R(that holds the displacement) or vice versa",
+        "Base Register Addressing Mode It is again a version of Displacement addressing mode",
+        "This can be defined II BSc CS Computer Architecture as EA A (R) where A is displacement and R holds pointer to base address"
+    ],
+    "15": [
+        "Control returns to the original program after the service program is executed Types of Interrupts ) External Interrupts Arises from IO device from a timing device from a circuit monitoring the power supply or from any other external source ) Internal Interrupts or TRAP Caused by register overflow attempt to divide by zero an invalid operation code stack overflow and protection violation ) Software Interrupts Initiated by executing an instruction (INT or RST) used by the programmer to initiate an interrupt procedure at any desired point in the program Reduced Instruction Set Computer(RISC) A computer with large number instructions is classified as a complex instruction set computer abbreviated as CISC",
+        "As a result CPU has to wait till IO device is ready to transfer data",
+        "When device is ready CPU issues instruction for IO transfer",
+        "Once the data is initiated the CPU starts monitoring the interface to see when next transfer can made",
+        "The instructions of the program keep close tabs on everything that takes place in the interface unit and the IO devices",
+        "Thus the CPU stays in a program loop until the IO unit indicates that it is ready for data transfer",
+        "This is a time consuming process and the CPU time is wasted a lot in keeping an eye to the executing of program",
+        "In the meantime the CPU executes other program",
+        "When the CPU receives such an signal it temporarily stops the execution of the program and branches to a service program to process the IO transfer and after completing it returns back to task what it was originally performing",
+        "It continue to perform its task",
+        "This process is continued until appropriate device is found",
+        "The CPU may be placed in an idle state in a variety of ways"
+    ],
+    "21": [
+        "When the sign of A and B are different(identical) compare the magnitudes and subtract the smaller number from the larger",
+        "For equal magnitude subtract B from A and make the sign of the result Hardware Implementation A and B be two registers that hold the magnitudes of No As and Bs be two flipflops that hold the corresponding signs The Result is transferred into A and As",
+        "Can be accomplished by means of complement and add Comparator circuit is needed to establish if A B A B or A B Comparison can be determine from the end carry after the subtraction The sign relationship can be determine from an exclusiveOR gate with As and Bs as inputs Output carry are transferred to E flipflop Where it can be checked to determine the relative magnitude of the Nos",
+        "For an add operation identical signs dictate that the magnitudes be added",
+        "For a subtract operation different signs indicate that the magnitudes be added",
+        "The magnitudes are added with a microoperation EA A B where EA is a register that combines E and A",
+        "The two magnitudes are subtracted if the signs are different for an add operation or identical for a subtract operation",
+        "The magnitudes are subtracted by adding A to the s complemented B",
+        "The information about relative magnitude is available in If Eit signifies that A B",
+        "If the magnitudes were subtracted there may be zero or may have an underflow in the result"
+    ],
+    "61": [
+        "Choose the sign of the result to be same as A if A B or the complement of the sign of A if A B",
+        "II BSc CS Computer Architecture Hardware Algorithm The two signs A and B are compared by an exclusiveOR gate",
+        "If the output of the gate is the signs are identical If it is the signs are different",
+        "E indicates that A B and the number in A is the correct result",
+        "E indicates that A B",
+        "However when A B the sign of the result is the complement of the original sign of A The final result is found in register A and its sign in As"
+    ],
+    "59": [
+        "Multiplication algorithms Multiplication of two fixed point binary numbers in signed magnitude representation is done with paper and pencil of successive shift and add operation if the multiplier bit is a the multiplicand is copied down otherwise zero are copied down",
+        "Hardware Implementation for SignedMagnitude data Multiplication is conveniently implemented with two changes in the process Use an adder to add binary numbers as there are bits in multiplier and successively accumulate the partial products in a register",
+        "Booths Multiplication Algorithm Booth algorithm gives a procedure for multiplying binary integers in signed s complement representation in efficient number additionssubtractions required",
+        "DIVISION ALGORITHMS Division of two fixedpoint binary numbers in signed magnitude representation is done with paper and pencil by a process of successive compare shift and subtract operations",
+        "Binary Division HARDWARE IMPLEMENTATION OF SIGNED MAGNITUDE DATA Two modifications is done to the division process to facilitate hardware implementation",
+        "The exponents do not have a distinct sign bit because they are biased but are represented as a biased positive quantity II BSc CS Computer Architecture The exponents are also connected to a magnitude comparator that provides three binary outputs to indicate their relative magnitude"
+    ],
+    "85": [
+        "Instead of shifting the divisor to the right the dividend or partial remainder is shifted to the left",
+        "The sign of the remainder is the same as the sign of the dividend",
+        "The sign of the results transferred into Qs to be part of quotient",
+        "The quotient sign is in Qs and the sign of the remainder in As is the same as the original sign of the dividend"
+    ],
+    "32": [
+        "Divide overflow A divide overflow condition occurs if the higher order half bits of the dividend constitute a number greater than or equal to the divisor",
+        "It may result in a quotient with an overflowThe length of the registers is finite and could not hold number of bits greater than its length",
+        "Which will call it a divide overflow flipflop and label it DVF",
+        "In some computers it is the responsibility of the programmers to check if DVF is set after each divide instruction",
+        "In older computers the occurrence of a divide overflow stopped the computer and this condition was referred to as a DIVIDE STOP",
+        "The best way to avoid a divide overflow is to use floating point data",
+        "The divide overflow can be handled very simply if numbers are in floating point representation",
+        "A divide overflow condition is tested by subtracting divisor in B from half of the bits of the dividend stored in A if AB the divide overflow flipflop DVF set and the operation is terminated prematurely",
+        "Initialize registers and evaluate the sign Align the dividend(check overflow )"
+    ],
+    "86": [
+        "The IO Subsystem of the computer provides an efficient mode of communication between the central system and the outside environment The most common input output devices are Monitor Keyboard Mouse Printer Magnetic tapes etcThe devices that are under the direct control of the computer are said to be connected online",
+        "Peripherals connected to a computer need special communication links for interfacing them with the central processing unit",
+        "The purpose of communication link is to resolve the differences that exist between the central computer and each peripheral",
+        "The operating modes of peripherals are different from each other and must be controlled so as not to disturb the operation of other peripherals connected to the To Resolve these differences computer systems include special hardware components between the CPU and Peripherals to supervises and synchronizes all input and out transfers"
+    ],
+    "40": [
+        "Therefore a conversion of signal values may be needed",
+        "ASYNCHRONOUS DATA TRANSFER This Scheme is used when speed of IO devices do not match with microprocessor and timing characteristics of IO devices is not predictable",
+        "In this method two types of techniques are used based on signals before data transfer",
+        "The data transfer can be i Synchronous or ii",
+        "Asynchronous II BSc CS Computer Architecture When both the transmitting and receiving units use same clock pulse then such a data transfer is called Synchronous process",
+        "On the other hand if the there is no concept of clock pulses and the sender operates at different moment than the receiver then such a data transfer is called Asynchronous data transfer",
+        "The data transfer can be handled by various modes",
+        "CAM is accessed simultaneously and in parallel on the basis of data content rather than by specific address or location"
+    ],
+    "31": [
+        "The data transfer rate of peripherals is usually slower than the transfer rate of CPU and consequently a synchronization mechanism may be needed",
+        "This is done in computers that provides a separate IO processor (IOP)",
+        "MODES OF DATA TRANSFER Transfer of data is required between CPU and peripherals or memory or sometimes between any two devices or units of your computer system",
+        "This data transfer with the computer is Internal Operation",
+        "some of the modes use CPU as an intermediate path others transfer the data directly to and from the memory unit and this can be handled by following ways i Programmed IO ii",
+        "Each data transfer is initiated by a instruction in the program",
+        "II BSc CS Computer Architecture The transfer of data requires three instructions In this technique CPU is responsible for executing data from the memory for output and storing data in memory for executing of Programmed IO as shown in Flowchart Drawback of the Programmed IO The main drawback of the Program Initiated IO was that the CPU has to monitor the units all the times when the program is executing",
+        "The disadvantage is that time required to poll them can exceed the time to serve them in large number of IO devices",
+        "The transfer of data between a fast storage device such as magnetic disk and memory is often limited by the speed of the CPU"
+    ],
+    "67": [
+        "These components are called Interface Units because they interface between the processor bus and the peripheral devices",
+        "IO BUS and Interface Module It defines the typical link between the processor and several peripherals",
+        "The IO bus from the processor is attached to all peripherals interface",
+        "Each Interface decodes the address and control received from the IO bus interprets them for peripherals and provides signals for the peripheral controller",
+        "Each peripheral has its own controller"
+    ],
+    "28": [
+        "Data Output command A data output command causes the interface to respond by transferring data from the bus into one of its registers",
+        "Data Input command The data input command is the opposite of the data output",
+        "In this case the interface receives on item of data from the peripheral and places it in its buffer register",
+        "When this input is active the CPU terminates the execution of the current instruction and places the address bus data bus and read write lines into a high Impedance state",
+        "The RD (read) and WR (write) inputs are bidirectional",
+        "RAM Chip A RAM chip has one or more control inputs(CS CS) on select the chip only when needed",
+        "The read(RD) and write(WR) inputs and the chip select input decide the operation",
+        "When the chip is selected either RD or WR input is active and the operation is carried out",
+        "Since a ROM is read only the databus can only be in output mode"
+    ],
+    "35": [
+        "i Strobe Control ii",
+        "Handshaking STROBE CONTROL The strobe control method of Asynchronous data transfer employs a single control line to time each transfer",
+        "The strobe may be activated by either the source or the destination unit",
+        "The strobe is a single line that informs the destination unit when a valid data word is available",
+        "The information on the data bus and strobe signal remain in the active state to allow the destination unit to receive the data",
+        "II BSc CS Computer Architecture DestinationInitiated Data Transfer In this method the destination unit activates the strobe pulse to informing the source to provide the data",
+        "When accepted the destination unit then disables the strobe and the source unit removes the data from the bus",
+        "Disadvantage of Strobe Signal The disadvantage of the strobe method is that the source unit initiates the transfer has no way of knowing whether the destination unit has actually received the data item that was places in the bus",
+        "HANDSHAKING The handshaking method solves the problem of strobe method by introducing a second control signal that provides a reply to the unit that initiates the transfer"
+    ],
+    "29": [
+        "SourceInitiated Data Transfer In the block diagram fig",
+        "The Handshaking method solves this problem",
+        "Principle of Handshaking The basic principle of the twowire handshaking method of data transfer is as follow One control line is in the same direction as the data flows in the bus from the source to destination",
+        "The sequence of control during the transfer depends on the unit that initiates the transfer",
+        "Source Initiated Transfer using Handshaking The sequence of events shows four possible states that the system can be at any given time",
+        "Destination Initiated Transfer Using Handshaking The name of the signal generated by the destination unit has been changed to ready for data to reflects its new meaning",
+        "From there on the handshaking procedure follows the same pattern as in the source initiated case",
+        "The only difference between the Source Initiated and the Destination Initiated transfer is in their choice of Initial sate",
+        "II BSc CS Computer Architecture Advantage of the Handshaking method The Handshaking scheme provides degree of flexibility and reliability because the successful completion of data transfer relies on active participation by both units"
+    ],
+    "47": [
+        "ASYNCHRONOUS SERIAL TRANSMISSION The transfer of data between two units is serial or parallel",
+        "In parallel data transmission n bit in the message must be transmitted through n separate conductor path",
+        "In serial transmission each bit in the message is sent in sequence one at a time",
+        "Parallel transmission is faster but it requires many wires",
+        "Serial transmission is slower but is less expensive",
+        "In Asynchronous serial transfer each bit of message is sent a sequence at a time and binary information is transferred only when it is available",
+        "Serial Transmission of Asynchronous is done by two ways a) Asynchronous Communication Interface b) First In First out Buffer ASYNCHRONOUS COMMUNICATION INTERFACE It works as both a receiver and a transmitter"
+    ],
+    "58": [
+        "First In First Out Buffer (FIFO) A First In First Out (FIFO) Buffer is a memory unit that stores information in such a manner that the first item is in the item first out",
+        "A FIFO buffer comes with separate input and output terminals",
+        "The important feature of this buffer is that it can input data and output data at two different rates",
+        "When placed between two units the FIFO can accept data from the source unit at one rate rate of transfer and deliver the data to the destination unit at another rate",
+        "If the source is faster than the destination the FIFO is useful for source data arrive in bursts that fills out the buffer",
+        "FIFO is useful in some applications when data are transferred asynchronously"
+    ],
+    "2": [
+        "Direct Memory Access (DMA) Programmed IO Mode In this mode of data transfer the operations are the results in IO instructions which is a part of computer program",
+        "The Execution process of InterruptInitiated IO is represented in the flowchart Direct Memory Access (DMA) In the Direct Memory Access (DMA) the interface transfer the data into and out of the memory unit through the memory bus",
+        "This transfer technique is called Direct Memory Access (DMA)",
+        "During the DMA transfer the CPU is idle and has no control of the memory buses",
+        "A DMA Controller takes over the buses to manage the transfer directly between the IO device and memory",
+        "One common method extensively used in microprocessor is to disable the buses through special control signals such as Bus Request (BR) Bus Grant (BG) These two control signals in the CPU that facilitates the DMA transfer",
+        "The Bus Request (BR) input is used by the DMA controller to request the CPU",
+        "II BSc CS Computer Architecture The CPU activates the Bus Grant (BG) output to inform the external DMA that the Bus Request (BR) can now take control of the buses to conduct memory transfer without processor",
+        "When the DMA terminates the transfer it disables the Bus Request (BR) line",
+        "The CPU disables the Bus Grant (BG) takes control of the buses and return to its normal operation",
+        "The transfer can be made in several ways that are DMA Burst Cycle Stealing DMA Burst In DMA Burst transfer a block sequence consisting of a number of memory words is transferred in continuous burst while the DMA controller is master of the memory buses",
+        "Cycle Stealing Cycle stealing allows the DMA controller to transfer one data word at a time after which it must returns control of the buses to the CPU",
+        "DMA Controller The DMA controller needs the usual circuits of an interface to communicate with the CPU and IO device",
+        "The DMA controller has three registers i",
+        "The registers in the DMA are selected by the CPU through the address bus by enabling the DS (DMA select) and RS (Register select) inputs",
+        "When the BG (Bus Grant) input is the CPU can communicate with the DMA registers through the data bus to read from or write to the DMA registers",
+        "When BG the DMA can communicate directly with the memory by specifying an address in the address bus and activating the RD or WR control",
+        "DMA Transfer The CPU communicates with the DMA through the address and data buses as with any interface unit",
+        "The DMA has its own address which activates the DS and RS lines",
+        "The CPU initializes the DMA through the data bus",
+        "Once the DMA receives the start control command it can transfer between the peripheral and the memory",
+        "When BG the RD and WR are input lines allowing the CPU to communicate with the internal DMA registers",
+        "When BG the RD and WR are output lines from the DMA controller to the random access memory to specify the read or write operation of data"
+    ],
+    "87": [
+        "There are two ways of choosing the branch address Vectored Interrupt Nonvectored Interrupt In vectored interrupt the source that interrupt the CPU provides the branch information",
+        "In nonvectored interrupt the branch address is assigned to the fixed address in the memory",
+        "II BSc CS Computer Architecture Polling Procedure There is one common branch address for all interrupts",
+        "Branch address contain the code that polls the interrupt sources in sequence"
+    ],
+    "26": [
+        "Devices with high speed transfer are given higher priority and slow devices are given lower priority",
+        "Establishing the priority can be done in two ways Using Software Using Hardware A pooling procedure is used to identify highest priority in software means",
+        "The highest priority is tested first",
+        "The particular service routine of the highest priority device is served",
+        "Using Hardware Hardware priority system function as an overall manager",
+        "Serial or Daisy Chaining Priority Device with highest priority is placed first",
+        "Priority is established according to the position of the bits in the register",
+        "Mask register is used to provide facility for the higher priority devices to interrupt when lower priority device is being serviced or disable all lower priority devices when higher is being serviced",
+        "Corresponding interrupt bit and mask bit are ANDed and applied to priority encoder",
+        "Priority encoder generates two bits of vector address"
+    ],
+    "49": [
+        "II BSc CS Computer Architecture UNIT Memory Organization A memory unit is the collection of storage units or devices together",
+        "Memory Hierarchy The total memory capacity of a computer can be visualized by hierarchy of components",
+        "The memory hierarchy system consists of all storage devices contained in a computer system from the slow Auxiliary Memory to fast Main Memory and to smaller Cache memory",
+        "Its access time is generally times that of the main memory hence it is at the bottom of the hierarchy",
+        "The main memory occupies the central position because it is equipped to communicate directly with the CPU and with auxiliary memory devices through Inputoutput processor (IO)",
+        "It is the central storage unit of the computer system",
+        "It is a large and fast memory used to store data during computer operations"
+    ],
+    "7": [
+        "The cache memory is a high speed memory used to store frequently accessed program data which is currently being executed in the CPU",
+        "Approximate access time ratio between cache memory and main memory is about to Main Memory The memory unit that communicates directly within the CPU auxillary memory and cache memory is called main memory",
+        "Cache Memory Cache memory is small high speed RAM buffer located between CPU and the main memory",
+        "Cache memory hold copy of the instructions (instruction cache) or Data (Operand or Data cache) currently being used by the CPU",
+        "The data or contents of the main memory that are frequently used by the CPU are stored in the cache memory so data can be accessed faster",
+        "Whenever the CPU needs to access memory it first checks the cache memory",
+        "If the data is not found in cache memory then the CPU moves onto the main memory",
+        "It also transfers block of recent data into the cache and keeps on deleting the old data in cache to accomodate the new one",
+        "If the processor finds that the memory location is in the cache a cache hit has occurred and data is read from chache II BSc CS Computer Architecture If the processor does not find the memory location in the cache a cache miss has occurred",
+        "For a cache miss the cache allocates a new entry and copies in data from main memory then the request is fulfilled from the contents of the cache",
+        "The performance of cache memory is frequently measured in terms of a quantity called Hit ratio",
+        "Hit ratio hit (hit miss) no",
+        "of hitstotal accesses Transformation of data from main memory to cache memory is refered as mapping process",
+        "The cache is used to store the tag field whereas the rest is stored in the main memory",
+        "During the write operation if the main memory and cache memory are updated in paralled it is called WriteThrough",
+        "If the cache memory is updated first and the main memory is updated only when the word is II BSc CS Computer Architecture removed from cache then it is a WriteBack method",
+        "This method is used when the data is updated several times when it is in cache"
+    ],
+    "88": [
+        "Magnetic Disks It is a circular plate made of metal or plastic coated with magnetized material",
+        "Many disks may be stacked on a spindle",
+        "Magnetic Tape Magnetic tape consists of electrical mechanical and electrical components to transfer data",
+        "Tape is a plastic coated with magnetic recording medium"
+    ],
+    "16": [
+        "The plate is divided into concentric circles called tracks",
+        "Tracks are divided into sections called sectors",
+        "A readwrite head is used to point a specific track in the disk",
+        "When a track is reached the disk rotates to the specified sector and starts data transfer",
+        "Tracks near the circumference is longer than the center of the disk",
+        "To ensure equal number of bits in all tracks it stores data in variable density",
+        "Bits are recorded as magnetic spots along the tracks",
+        "ReadWrite heads are mounted on each track to record and read data as a sequence in each track",
+        "Tape cannot be started or stopped inbetween characters hence gaps are inserted between records where tape can be stopped",
+        "Each record in the tape has an identification bit in the beginning",
+        "A tape address specifies record number and number of characters in the record",
+        "Records may be fixed or variable length"
+    ],
+    "66": [
+        "The key register holds a mask that allows searching based on part of argument",
+        "If a bit in the key register is then the corresponding bit in the argument and each memory word must be the same to be considered a match",
+        "If a bit in the key register is then the corresponding bit is considered a match whether or not the argument and memory word are equal for that bit",
+        "This allows searches for words where any subset of the bits match the argument register",
+        "The match register M is m bits wide (could be huge) and will contain a for each word that matches the masked argument and a for each word that does not"
+    ],
+    "45": [
+        "Direct mapping In direct mapping assigned each memory block to a specific line in the cache",
+        "If a line is previously taken up by a memory block when a new block needs to be loaded the old block is trashed",
+        "Direct mappings performance is directly proportional to the Hit ratio",
+        "Any block can go into any line of the cache",
+        "This means that the word id bits are used to identify which word in the block is needed but the tag becomes all of the remaining bits",
+        "This enables the placement of the any word at any place in the cache memory",
+        "It does this by saying that instead of having exactly one line that a block can map to in the cache we will group a few lines together creating a set",
+        "Then a block in memory can map to any one of the lines of a specific setSetassociative mapping allows that each word that is present in the cache can have two or more words in the main memory for the same index address"
     ]
 }

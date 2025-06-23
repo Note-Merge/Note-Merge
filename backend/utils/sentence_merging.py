@@ -1,4 +1,4 @@
-from clustering1 import group_sentences
+from clustering2 import group_sentences
 import os
 import json
 from fpdf import FPDF
@@ -9,9 +9,8 @@ from collections import defaultdict
 #initialize model
 model = SentenceTransformer('all-mpnet-base-v2')
 
-    
-grouped1, topic_labels1 = group_sentences("docu.pdf", output_prefix="output1")
-grouped2, topic_labels2 = group_sentences("docu2.pdf", output_prefix="output2")
+grouped1, topic_labels1 = group_sentences("Ch5.pdf", output_prefix="output1")
+grouped2, topic_labels2 = group_sentences("ch51.pdf", output_prefix="output2")
 
 
 def get_topic_embeddings(grouped):
@@ -101,6 +100,10 @@ def export_pdf_json(merged_topics, output_folder="generated",base_filename ="mer
     pdf.add_page()
     pdf.add_font('TiemposTextRegular', '', 'fonts/TiemposTextRegular.ttf', uni=True)
     pdf.set_font("TiemposTextRegular", size=12)
+    pdf.set_left_margin(10)
+    pdf.set_right_margin(10)
+    pdf.set_auto_page_break(auto=True, margin=15)
+    pdf.add_page()
 
     for topic_id, content in merged_topics.items():
         label = content.get("label", f"Topic {topic_id}")
