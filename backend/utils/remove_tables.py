@@ -1,4 +1,5 @@
 import fitz
+import re
 import camelot
 import globals
 
@@ -12,10 +13,11 @@ def remove_and_extract_tables(path):
 
     dict_tables = {}
 
+    print(f"#########################################TABLES OF pdf {globals.count}")
 
     for i in range(1,len(pdf)):
-        tables = camelot.read_pdf(path,pages=f"{i}")
-        if(tables):
+        tables_with_lines = camelot.read_pdf(path,pages=f"{i}")
+        if(tables_with_lines):
             pages_with_table.append(i)
             
     for i in pages_with_table:
@@ -24,6 +26,7 @@ def remove_and_extract_tables(path):
 
         for table in tables:
             tables_of_a_page.append(table._bbox)
+            print(table.df)
             table_data.append(table.df)
         dict_tables[i] = tables_of_a_page
     
@@ -47,4 +50,28 @@ def remove_and_extract_tables(path):
     out_path = f"table_deleted_{globals.count}.pdf"
     pdf.save(out_path) 
     pdf.close()
-    return dict_tables,out_path      
+    return table_data,out_path      
+
+
+def store_table_data(tables_data):
+    table_out_path = f"tables_extracted/tables_data_{globals.count}.pdf"
+    #creating a new pdf file to insert table data 
+
+    tables_data = [data.to_string(index=False) for data in tables_data]
+    filtered_table_data = []
+    for data in tables_data:
+        cleaned = re.sub(r'\s+', ' ', data)
+        if(len(cleaned) > 20):
+            filtered_table_data.append(data)
+
+    if(filtered_table_data):
+        try: 
+            #if there are tables present in document then open a pdf
+            file = fitz.open()
+            for data in filtered_table_data:
+                page = file.new_page()
+                page.insert_text((72,72),data,fontsize = 12)
+                file.save(table_out_path)
+            
+        finally:
+            file.close()

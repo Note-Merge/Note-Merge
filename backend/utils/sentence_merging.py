@@ -2,6 +2,7 @@ from clustering import group_sentences
 import os
 import json
 from fpdf import FPDF
+import fitz
 
 from sentence_transformers import SentenceTransformer,util
 from collections import defaultdict
@@ -9,8 +10,8 @@ from collections import defaultdict
 #initialize model
 model = SentenceTransformer('all-mpnet-base-v2')
 
-grouped1, topic_labels1 = group_sentences("IOE_microprocessor_chapter_1.pdf",contains_header= True,contains_footer =True,output_prefix="output1")
-grouped2, topic_labels2 = group_sentences("KU_microprocessor_chapter_1.pdf",contains_header = False,contains_footer = False,output_prefix="output2")
+grouped1, topic_labels1 = group_sentences("docu.pdf",contains_header= True,contains_footer =False,output_prefix="output1")
+grouped2, topic_labels2 = group_sentences("docu2.pdf",contains_header = True,contains_footer = False,output_prefix="output2")
 
 def get_topic_embeddings(grouped):
     topic_embeddings= {}
@@ -83,37 +84,40 @@ for id2 , paras in grouped2.items():
 
     
 def export_pdf_json(merged_topics, output_folder="generated",base_filename ="merged_output"):
-    #create folder if not existing
-    os.makedirs(output_folder, exist_ok=True)
-    
-    pdf_path = os.path.join(output_folder, f"{base_filename}")
-    json_path = os.path.join(output_folder, f"{base_filename}.json")
-    
-    #create json file
-    with open(json_path, "w", encoding="utf-8") as f:
-        json.dump(merged_topics, f, ensure_ascii=False, indent=4)
-    
-    #create pdf file
-    pdf = FPDF()
-    pdf.set_auto_page_break(auto=True, margin=15)
-    pdf.add_page()
-    pdf.add_font('TiemposTextRegular', '', 'fonts/TiemposTextRegular.ttf', uni=True)
-    pdf.set_font("TiemposTextRegular", size=12)
-
-    for topic_id, content in merged_topics.items():
-        label = content.get("label", f"Topic {topic_id}")
-        paragraphs = content.get("paragraphs", [])
-
-        pdf.set_font("TiemposTextRegular", size=14)
-        pdf.multi_cell(0, 10, f"{topic_id}: {label}\n")
-
+    try:
+        #create folder if not existing
+        os.makedirs(output_folder, exist_ok=True)
+        
+        pdf_path = os.path.join(output_folder, f"{base_filename}")
+        json_path = os.path.join(output_folder, f"{base_filename}.json")
+        
+        #create json file
+        with open(json_path, "w", encoding="utf-8") as f:
+            json.dump(merged_topics, f, ensure_ascii=False, indent=4)
+        
+        #create pdf file
+        pdf = FPDF()
+        pdf.set_auto_page_break(auto=True, margin=15)
+        pdf.add_page()
+        pdf.add_font('TiemposTextRegular', '', 'fonts/TiemposTextRegular.ttf', uni=True)
         pdf.set_font("TiemposTextRegular", size=12)
-        for para in paragraphs:
-            pdf.multi_cell(0, 8, f"- {para}")
-        pdf.ln(5)
 
-    pdf.output(f"{pdf_path}.pdf")
-    print(f"✅ Exported: \nPDF: {pdf_path}\nJSON: {json_path}")
+        for topic_id, content in merged_topics.items():
+            label = content.get("label", f"Topic {topic_id}")
+            paragraphs = content.get("paragraphs", [])
+
+            pdf.set_font("TiemposTextRegular", size=14)
+            pdf.multi_cell(0, 10, f"{topic_id}: {label}\n")
+
+            pdf.set_font("TiemposTextRegular", size=12)
+            for para in paragraphs:
+                pdf.multi_cell(0, 8, f"- {para}")
+            pdf.ln(5)
+
+        pdf.output(f"{pdf_path}.pdf")
+        print(f"✅ Exported: \nPDF: {pdf_path}\nJSON: {json_path}")
+    finally:
+        pdf.close()
     
     
 export_pdf_json(merged_topics, output_folder="generated", base_filename="merged_output")

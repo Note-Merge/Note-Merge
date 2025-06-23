@@ -21,50 +21,48 @@ from umap import UMAP
 from sentence_transformers import SentenceTransformer
 
 import globals
-from remove_tables import remove_and_extract_tables
-
+from remove_tables import remove_and_extract_tables, store_table_data
 
 
 def remove_header_footer_from_pdf(doc_path, header=True, footer=True):
-    
-    tables_info, new_path = remove_and_extract_tables(doc_path)
+    try:
+    #########################################################################################
+        tables_data, new_path = remove_and_extract_tables(doc_path)
+        store_table_data(tables_data)
+    ########################################################################################
+        doc = fitz.open(new_path)
+        for page in doc:
+            rect = page.rect
+            height = rect.y1  # Page height in points
 
-    doc = fitz.open(new_path)
-    for page in doc:
-        rect = page.rect
-        height = rect.y1  # Page height in points
+            # Initialize crop values
+            top, bottom = 0, 0
 
-        # Initialize crop values
-        top, bottom = 0, 0
-
-        # Match page height and decide crop margins
-        if height == 540:  # PPT
-            if header: top = 20
-            if footer: bottom = 20
-        elif height == 792:  # US Letter
-            if header: top = 60
-            if footer: bottom = 75
-        elif height == 842:  # A4
-            if header: top = 60
-            if footer: bottom = 80
-        else:
-            print(f"Unknown page height: {height}, skipping crop.")
+            # Match page height and decide crop margins
+            if height == 540:  # PPT
+                if header: top = 20
+                if footer: bottom = 20
+            elif height == 792:  # US Letter
+                if header: top = 60
+                if footer: bottom = 75
+            elif height == 842:  # A4
+                if header: top = 60
+                if footer: bottom = 80
+            else:
+                print(f"Unknown page height: {height}, skipping crop.")
 
 
-        #page.add_redact_annot(footer_area, fill=(1, 1, 1))  # white fill
-        #page.add_redact_annot(header_area, fill=(1,1,1)) #white fill header
-        #page.apply_redactions()
-        page.set_cropbox(fitz.Rect(rect.x0, rect.y0 + top, rect.x1, rect.y1 - bottom))
+            #page.add_redact_annot(footer_area, fill=(1, 1, 1))  # white fill
+            #page.add_redact_annot(header_area, fill=(1,1,1)) #white fill header
+            #page.apply_redactions()
+            page.set_cropbox(fitz.Rect(rect.x0, rect.y0 + top, rect.x1, rect.y1 - bottom))
 
-    # Save the cleaned file
-    out_path = f"no_header_footer_{globals.count}.pdf"
-    doc.save(out_path)
-    doc.close()
-    return out_path
-
-    #def extract_and_remove_tables(doc_path):
-        
-        #tables = camelot.pdf()
+        # Save the cleaned file
+        out_path = f"no_header_footer_{globals.count}.pdf"
+        doc.save(out_path)
+    finally:
+        doc.close()
+        return out_path
 
 
 
@@ -122,6 +120,7 @@ def extract_text_from_pdf(doc_path,contains_header,contains_footer):
                     page_text = " ".join(clean_lines)
                     sentences1 = preprocessing.TextPreprocessor.sentence_tokenize(page_text)
                     sentences_all.extend(sentences1)
+        pdf.close()             
         return sentences_all
     
     
@@ -135,7 +134,7 @@ def group_sentences(file_path,contains_header,contains_footer,output_prefix="out
         hdbscan_model=custom_hdbscan
     )
 
-    note = extract_text_from_pdf(file_path,contains_header, contains_footer)
+    note = extract_text_from_pdf(file_path,contains_header,contains_footer)
     #print(note)
 
     note_text = " ".join(note)
