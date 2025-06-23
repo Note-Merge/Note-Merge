@@ -1,17 +1,19 @@
 import os
 os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 
-
-
 from bertopic import BERTopic
 import preprocessing
 import pdfplumber
 from collections import defaultdict
 import re
+import spacy
 import json
 import fitz 
 import camelot
 from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
+import fitz
+import io
+from PIL import Image
 
 
 from fpdf import FPDF
@@ -178,33 +180,34 @@ def group_sentences(file_path,contains_header,contains_footer,output_prefix="out
         else:
             topic_labels[topic_id] = "No Label"
 
-    ##saving to json file
-    with open(f"{output_prefix}_clustered.json", "w", encoding="utf-8") as f:
-        json.dump(grouped, f, ensure_ascii=False, indent=4)
+    return grouped, topic_labels
 
-    with open(f"{output_prefix}_topic_labels.json", "w", encoding="utf-8") as f:
-        json.dump(topic_labels, f, ensure_ascii=False, indent=4)
+    ##saving to json file
+    # with open(f"{output_prefix}_clustered.json", "w", encoding="utf-8") as f:
+    #     json.dump(grouped, f, ensure_ascii=False, indent=4)
+
+    # with open(f"{output_prefix}_topic_labels.json", "w", encoding="utf-8") as f:
+    #     json.dump(topic_labels, f, ensure_ascii=False, indent=4)
             
     #store in pdf file:
-    pdf= FPDF()
-    pdf.set_auto_page_break(auto=True, margin=15)
-    pdf.add_page()
-    pdf.add_font('TiemposTextRegular','','fonts/TiemposTextRegular.ttf',uni=True)
-    pdf.set_font("TiemposTextRegular", size=12)
-    for topic_id, sents in grouped.items():
-        label = topic_labels.get(topic_id, f"Topic {topic_id}")
+    # pdf= FPDF()
+    # pdf.set_auto_page_break(auto=True, margin=15)
+    # pdf.add_page()
+    # pdf.add_font('TiemposTextRegular','','fonts/TiemposTextRegular.ttf',uni=True)
+    # pdf.set_font("TiemposTextRegular", size=12)
+    # for topic_id, sents in grouped.items():
+    #     label = topic_labels.get(topic_id, f"Topic {topic_id}")
             
-        if topic_id == -1:
-            continue
+    #     if topic_id == -1:
+    #         continue
             
-        pdf.set_font("TiemposTextRegular", size=14)
-        pdf.multi_cell(0, 10, f"Topic {topic_id}: {label} \n")
+    #     pdf.set_font("TiemposTextRegular", size=14)
+    #     pdf.multi_cell(0, 10, f"Topic {topic_id}: {label} \n")
             
-        pdf.set_font("TiemposTextRegular", size=12)
-        for sent in sents:
-            pdf.multi_cell(0, 8, f"- {sent}")
-        pdf.ln(5)
+    #     pdf.set_font("TiemposTextRegular", size=12)
+    #     for sent in sents:
+    #         pdf.multi_cell(0, 8, f"- {sent}")
+    #     pdf.ln(5)
 
-    pdf.output(f"{output_prefix}_{file_path}.pdf") 
+    # pdf.output(f"{output_prefix}_{file_path}.pdf") 
         
-    return grouped, topic_labels

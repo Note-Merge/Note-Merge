@@ -1,4 +1,4 @@
-from clustering import group_sentences
+from clustering2 import group_sentences
 import os
 import json
 from fpdf import FPDF
@@ -98,6 +98,10 @@ def export_pdf_json(merged_topics, output_folder="generated",base_filename ="mer
         #create pdf file
         pdf = FPDF()
         pdf.set_auto_page_break(auto=True, margin=15)
+        pdf.set_left_margin(10)
+        pdf.set_right_margin(10)
+        pdf.set_auto_page_break(auto=True, margin=15)
+        pdf.add_page()
         pdf.add_page()
         pdf.add_font('TiemposTextRegular', '', 'fonts/TiemposTextRegular.ttf', uni=True)
         pdf.set_font("TiemposTextRegular", size=12)
