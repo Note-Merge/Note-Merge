@@ -1,0 +1,21 @@
+{
+    "0": "microprocessor, cpu, chip, fig, single",
+    "8": "devices, functions, computing, reads, performs",
+    "17": "world, outside, devices, communicates, inputoutput",
+    "11": "bus, common, communication, path, organization",
+    "6": "lines, data, bus, buses, address",
+    "4": "arithmetic, logic, automated, features, calculations",
+    "7": "memory, read, altered, information, instructions",
+    "2": "signals, control, unit, command, operations",
+    "9": "systems, acquisition, smart, analyzers, automatic",
+    "18": "register, information, registers, bus, excessive",
+    "3": "computer, eniac, mechanical, development, computers",
+    "12": "consisted, digits, decimal, handle, words",
+    "5": "cycle, operations, micro, characterized, sequences",
+    "10": "architecture, concept, vonneumann, program, neumann",
+    "15": "address, field, indicating, memory, specifies",
+    "19": "contains, instruction, executed, program, counter",
+    "14": "cycle, fetch, execute, instruction, execution",
+    "13": "hardwired, unit, essentially, modified, rewiring",
+    "16": "immediate, language, mar, address, rtl"
+}

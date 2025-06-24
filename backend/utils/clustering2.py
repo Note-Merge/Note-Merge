@@ -335,7 +335,7 @@ def group_sentences(file_path, output_prefix="output"):
             
     #store in pdf file:
     pdf= FPDF()
-    pdf.set_auto_page_break(auto=True, margin=15)
+    pdf.set_auto_page_break(auto=True, margin=5)
     pdf.add_page()
     pdf.add_font('TiemposTextRegular','','fonts/TiemposTextRegular.ttf',uni=True)
     pdf.set_font("TiemposTextRegular", size=12)

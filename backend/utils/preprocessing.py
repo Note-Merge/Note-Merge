@@ -12,6 +12,7 @@ import nltk
 
 
 #downloading the stopwords
+
 # nltk.download('stopwords')
 # nltk.download('punkt')
 # nltk.download('wordnet')
@@ -27,12 +28,13 @@ stop_words = set(stopwords.words('english'))
 
 
 class TextPreprocessor:
-    
+    @staticmethod
     def stopwords_removal(text):
         #removing stopwords
         text = ' '.join([word for word in text.split() if word not in stop_words])
         return text
     
+    @staticmethod
     def preprocess_text(text):
         #lowercasing the text
         #text = text.lower()
@@ -55,8 +57,11 @@ class TextPreprocessor:
     
         # lemmatizing
         #text = ' '.join([lemmatizer.lemmatize(word) for word in word_tokens])
+        
+        text = ' '.join(word_tokens)
         return text 
 
+    @staticmethod
     def tokenize_text(text):
         #tokenize the text
         tokenizer.fit_on_texts([text])
@@ -66,6 +71,7 @@ class TextPreprocessor:
         padded_seq = pad_sequences(sequences, maxlen=100, padding='post')
         return padded_seq
     
+    @staticmethod
     def sentence_tokenize(texts):
         #split multiple texts into sentences
         sentences = nltk.sent_tokenize(texts)
