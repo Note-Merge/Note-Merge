@@ -9,8 +9,8 @@ def build_model (
     vocab_size_output,
     embedding_dim=256,         #word vector size
     lstm_units=512,             #lstm memory capacity
-    max_input_len=300,          
-    max_output_len=400,
+    max_input_len=450,          
+    max_output_len=550,
     dropout_rate=0.3,           #regularization strength for randomly droping connections during training
     ):      
     
