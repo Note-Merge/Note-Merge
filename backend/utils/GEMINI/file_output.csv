@@ -1,0 +1,42 @@
+key,label,input,output
+file1_topic_11,"blocks, redundant, add, make, nbit","<task:clean> <sos>
+We add r redundant bits to each block to make the length n k r The resulting nbit blocks are called codewords
+In block coding we divide our message into blocks each of k bits called datawords
+We add redundant bits to the bit dataword to make bit codewords
+<eos>","We add `r` redundant bits to each block to make its length `n = k + r`. The resulting `n`-bit blocks are called codewords. In block coding, we divide our message into blocks, each of `k` bits, called datawords. We add redundant bits to the `k`-bit dataword to make `n`-bit codewords."
+file1_topic_12,"set, acceptable, satisfies, condition, relationship","<task:clean> <sos>
+In this coding scheme k and n
+The relationship between m and n in these codes is n m
+Calculate values of k and n that satisfy this requirement
+Solution We need to make k n m greater than or equal to or m m
+If we set m the result is n and k or which is not acceptable
+If we set m then n and k which satisfies the condition
+<eos>","In this coding scheme, k and n are parameters. The relationship between m and n in these codes is expressed as 'n m'. Calculate values of k and n that satisfy this requirement. Solution: We need to ensure that 'k n m' is greater than or equal to 'm' or 'm m'. If we set `m`, the resulting `n` and `k` are found to be unacceptable. If we set `m`, the resulting `n` and `k` satisfy the condition."
+file1_topic_13,"dataword, flipping, changing, derive, wrong","<task:clean> <sos>
+As we saw we have k datawords and n codewords
+Later we will see how to derive a codeword from a dataword
+Assume the dataword is
+The dataword becomes the codeword
+After flipping b ( changing the to ) the final dataword is
+After flipping b we get the wrong dataword
+<eos>","As we saw, we have k datawords and n codewords.
+Later, we will see how to derive a codeword from a dataword.
+Assume the dataword is.
+The dataword becomes the codeword.
+After flipping b (changing its value), the final dataword is.
+After flipping b, we get the wrong dataword."
+file1_topic_14,"column, digit, shows, datawords, process","<task:clean> <sos>
+Table shows the list of datawords and codewords
+Table shows the datawords and codewords
+We keep the rightmost digit ( ) and insert the leftmost digit ( ) as the carry in the second column
+The process is repeated for each column
+<eos>","<task:clean> <sos>
+The table shows the datawords and codewords. We keep the rightmost digit ( ) and insert the leftmost digit ( ) as the carry in the second column. The process is repeated for each column.
+<eos>"
+file1_topic_15,"continued, example, follows, examine, procedure","<task:clean> <sos>
+Example ( continued )
+We examine five cases
+It should have at least two terms
+Example ( continued ) The receiver follows the same procedure as the sender
+We leave this an exercise
+<eos>",Example (continued): We examine five cases. It should have at least two terms. Example (continued): The receiver follows the same procedure as the sender. We leave this an exercise.

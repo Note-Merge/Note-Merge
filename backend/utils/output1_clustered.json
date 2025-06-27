@@ -1,657 +1,204 @@
 {
-    "4": [
-        "Computer Software The software is what really gives the computer life",
-        "Software is installed onto your computer and stored in mass storage devices",
-        "Software can actually be placed into two separate categories system of applications",
-        "System software System software ( popularly called the operating system ) is the foundation software for a computer",
-        "An operating system ( OS ) controls all parts of the computer",
-        "The major functions of the OS ate to handle all input devices ( keyboard mouse disk ) handle all output devices ( screen printer disk ) coordinate and manage use of other resources ( memory disk CPU etc",
-        ") accept commands from users provide an environment over which other programs ( software ) can run",
-        "Examples of popular OS are DOS ( Disk Operating System ) Windows Unix Linux OS and Solaris etc",
-        "Some of these OSes are specific to a particular computer system eg",
-        "Solaris runs on Sun SPARC machines",
-        "Application software Application software is the software that is developed for a particular use",
-        "These software run over the environment provided by the system software",
-        "There are thousands of application software",
-        "There are other utility programs that check if the units inside your machine are functioning properly as they should",
-        "Examples are the disk scanner that checks if the surface of your disks are damaged antivirus that checks if your computer has been infected with some virus ( a malicious program that may just annoy you or even delete all the content of your hard drive ) and clean if found etc",
-        "Problem solving using Computers Standard software packages available in the market are intended for generalpurpose applications",
-        "However the users often require customtailored software for performing specific data processing or computational tasks",
-        "Application software development is the process of creating such software which satisfies the end users requirements and needs",
-        "In simple language it can be said that problem solving using computers is the development of the application software",
-        "Following steps needs to be followed for developing the application software"
+    "3": [
+        "Some applications require that errors be detected and corrected",
+        "INTRODUCTION Let us first discuss some issues related directly or indirectly to error detection and correction",
+        "Let us first discuss some issues related directly or indirectly to error detection and correction",
+        "Topics discussed in this section Types of Errors Redundancy Detection Versus Correction Forward Error Correction Versus Retransmission Coding Modular Arithmetic Topics discussed in this section Note In a singlebit error only bit in the data unit has changed",
+        "Table A code for error detection ( Example ) Note An errordetecting code can detect only the types of errors for which it is designed other types of errors may remain undetected",
+        "What is the error detection and correction capability of this scheme",
+        "In other words if this code is used for error correction part of its capability is wasted",
+        "For each case what is the error that can not be caught",
+        "Table Standard polynomials CHECKSUM The last error detection method we discuss here is called the checksum",
+        "However we briefly discuss it here to complete our discussion on error checking The last error detection method we discuss here is called the checksum",
+        "However we briefly discuss it here to complete our discussion on error checking Topics discussed in this section Idea Ones Complement Internet Checksum Topics discussed in this section Example Suppose our data is a list of five bit numbers that we want to send to a destination",
+        "If the result is it assumes no error otherwise there is an error"
     ],
-    "52": [
-        "It is a set of instructions that tells the computer what to do when the computer operator does something",
-        "It operates in close conjunction with operating system and enables us ( the programmer ) to exploit certain capabilities of operating system while creating the program",
-        "It requires a thorough knowledge ( low level ) of the hardware for which the program is being created",
-        "If not it will inform the programmer where rules have been violated",
-        "It should be able to detect unreasonable or error conditions and indicate them to the programmer or user without stopping all operations crashing the system",
-        "It facilitates topdown modular programming",
-        "It is easy to locate and isolate a faulty function for further investigations"
+    "0": [
+        "Note In moduloN arithmetic we use only the integers in the range to N inclusive",
+        "Example How can we represent the number in ones complement arithmetic using only four bits",
+        "Solution The number in binary is ( it needs five bits )",
+        "We can wrap the leftmost bit and add it to the four rightmost bits",
+        "Solution In ones complement arithmetic the negative or complement of a number is found by inverting all bits",
+        "Positive is negative is",
+        "If we consider only unsigned numbers this is",
+        "In other words the complement of is",
+        "Another way to find the complement of a number in ones complement arithmetic is to subtract the number from n ( in this case )",
+        "Example Let us redo Exercise using ones complement arithmetic",
+        "However can not be expressed in bits",
+        "The extra two bits are wrapped and added with the sum to create the wrapped sum value",
+        "The sum is wrapped and becomes",
+        "All words are added using ones complement addition"
     ],
-    "5": [
-        "Spreadsheets very simply put gives you when you input",
-        "For example Read numbers form user and display the resulting sum",
-        "Write an algorithm and a flowchart to read a five number and check whether the number is a palindrome or not",
-        "Algorithm Step Start Step Declare variable n r sum i Step i Step Repeat steps Step to until i is less than or equal to else goto step Step input to n Step sum Step tempn Step Repeat Steps to until n is greater than else goto step Step rn mod of Step sumsumr Step nn then goto Step Step if sum is equal to temp than goto Step else goto Step Step Display n as palindrome then goto step Step Display n is not palindrome Step ii then goto step Step Stop Flowchart False True True False True False Start Declare n r sum i i ii Is i",
-        "Input to n Stop sum tempn Is n",
-        "r n mod of sumsumr nn Is tempsum",
-        "Display P li d Display Source code include include void main ( ) int nirsumtemp i clrscr ( ) while ( i ) rn sumsumr nn if ( sumtemp ) printf ( Palindrome dtemp ) else printf ( Not Palindrome dtemp ) i getch ( )",
-        "Write a program to evaluate the following series using recursive function",
-        "n include include float sum int sign void add ( int nint i ) int term if ( in ) signsign termiisign sumsumterm add ( ni ) else printf ( n The sum of series is fsum ) void main ( ) int n printf ( nEnter the number of term ) scanf ( dn ) add ( n ) getch ( ) Static variable A variable can be declared static using the keyword static like static int a Internal static variable are those which are declared inside a function",
-        "PRACTICE XXX C SERIES USING ARITHMETIC IF INTEGER P PRINT ENTER THE VALUE OF N AND X READ NX I P SUM IF ( IN ) SUMSUMXP PP II GOTO PRINT SUM IS SUM STOP END Logical IF statement The logical if condition checks any given logical condition and transfer the control accordingly",
-        "Logical Condition The following are the relational operators and their symbols used in FORTRAN PRACTICE Write a program to display FIBNOACCI series until term value is less than in FORTRAN",
-        "C FIBONACCI SERIES INTEGER FST PRINT ENTER THE NUMBER OF TERMS F S WRITE ( ) FS TFS IF ( TGT ) GOTO WRITE ( ) T FS ST GOTO STOP END IFTHENELSE statement The IFTHENELSE statement is more useful and easy to handle than the logical if statement",
-        "ELSEIF PRACTICE Write a program to display Fibonacci series up to N term in FORTRAN",
-        "C FIBONACCI SERIES INTEGER FST PRINT ENTER THE NUMBER OF TERMS READ ( ) N F S IF ( NEQ ) THEN WRITE ( ) F ELSE WRITE ( ) FS DO IN TFS WRITE ( ) T FS ST CONTINUE ENDIF STOP END Write a program to find the HCF for any two number entered by user in FORTRAN C WRITE A PROGRAM TO FIND HCF ( GREATEST COMMON FACTOR ) READ II IRIIII IF ( IREQ ) THEN PRINT THE HCF ISI STOP ENDIF II IIR GOTO STOP END Nested IFTHENELSE In certain cases we may have to use one IFTHENELSE structure within another IFTHEN",
-        "ELSE ENDIF Write a program to check whether a given number is Armstrong or not in FORTRAN",
-        "C PROGRAM TO FIND ARMSTRONG NUMBER OR NOT PRINT ENTER THE NUMBER READ N TEMPN SUM IF ( NGT ) THEN IRNN SUMSUMIR NN GOTO ENDIF IF ( SUMEQTEMP ) THEN PRINT TEMPIS ARMSTORNG ELSE PRINT TEMPIS NOT ARMSTRONG ENDIF STOP END DO LOOPS The DO LOOP is used whenever a particular job is to be repeated number of times",
-        "If vv then stop otherwise go to step PRACTICE C PRIME NUMBER INTEGER COUNT READ NUM COUNT DO INUM IF ( MOD ( NUMI ) EQ ) THEN COUNTCOUNT ENDIF CONTINUE IF ( COUNTEQ ) THEN PRINT NUMIS PRIME ELSE PRINT NUMIS NOT PRIME ENDIF STOP END Rules for subscripted variables The following rules may be strictly followed while defining the subscripted variables",
-        "PRINT ENTET THE VALUE OF N AND X READ NX P SIGN FACT SUM DO IN SIGNSIGN DEN DO JFACT DENDENJ CONTINUE NUMSIGNXP SUMSUMNUMDEN FACTFACT PP CONTINUE PRINT THE SUM ISSUM STOP END Additional Topic Look for Preprocessor and Dynamic Memory Allocation"
+    "21": [
+        "We add r redundant bits to each block to make the length n k r The resulting nbit blocks are called codewords",
+        "In block coding we divide our message into blocks each of k bits called datawords",
+        "We add redundant bits to the bit dataword to make bit codewords"
     ],
-    "24": [
-        "Databases are most useful for organizing data",
-        "For example database software can keep track of your friends name address telephone numbers and you can add or remove whenever you want",
-        "You need to be sure that the source of the data is consistent so that the date will be available in the future when you need it",
-        "These are console oriented IO functions which always use the terminal ( keyboard and screen ) as the target place",
-        "This works fine as long as the data is small",
-        "However many real life problems involve large volumes of data and in such situations the console oriented IO operations pose two major problems",
-        "It becomes cumbersome and time consuming to handle large volumes of data through terminals",
-        "The entire data is lost when either the program is terminated or the computer is turned off",
-        "It is therefore necessary to have more flexible approach where data can be stored on the disk and read whenever necessary without destroying the data",
-        "This method employs the concept of files to store data"
-    ],
-    "51": [
-        "Programming languages are mainly categorized into two types low level and high languages",
-        "Lowlevel language A lowlevel language is a programming language much closer to the hardware",
-        "High Level Language A high level language is a programming language that enables a programmer to write programs more or less independent of a particular type of computer",
-        "Such languages are considered highlevel because they are closer to human languages and further from machine languages",
-        "The main advantage of highlevel languages over lowlevel languages is that they are easier to read write and maintain",
-        "The first highlevel programming languages were designed in the s",
-        "low level or high level languages )"
-    ],
-    "1": [
-        "This converting program is called assembler",
-        "This can be done in two ways by a compiler or interpreter",
-        "Compiler A compiler is a program that translates program ( called source code ) written in some high level language into object code",
-        "The compiler derives its name from the way it works looking at the entire piece of source code and collecting and reorganizing the instructions",
-        "A compiler translates highlevel instructions directly into machine language and this process is called compiling",
-        "Compile Compiling is a process of transforming a program written in a highlevel programming language from source code into object code",
-        "The first step is to pass the source code through a compiler which translates the highlevel language instructions in the source code follow its syntax rules",
-        "The final step in producing an executable program after the compiler has produced object code is to pass the object code through a linker",
-        "The linker combines molecules ( different program segments ) and gives real values to all symbolic addresses ( memory locations ) thereby producing machine code",
-        "The compiler translates the source code into a form called object code",
-        "Object code Object code is the code produced by a compiler",
-        "Object code is often the same as or similar to a computers machine language",
-        "The final step in producing an executable program is to transform the object code into machine languages if it is not already in this form",
-        "A program called linker does this job",
-        "Compilation and Execution Generally coding is done in highlevel language and sometimes in lowlevel language ( such as assembly language )",
-        "In a compiled language a translation program is run to convert the programmers entire highlevel program which is called the source code into a machine language code",
-        "This translation process is called compilations",
-        "The machine language code is called the object code and can be saved and either runs ( executed ) immediately or later",
-        "In an interpreted language a translation program converts each program statement into machine code just before the program statement is to be executed",
-        "No object code is stored and there is no compilation",
-        "This means that in a program where one statement is executed several times ( such as reading and employs payroll record ) that statement is converted to machine language each time it is executed",
-        "The compilation process The object of the compiler is to translate a program written in a high level programming language from source code to object code",
-        "The first step is to pass the source code through a compiler which translate the high level language instructions into object code"
-    ],
-    "80": [
-        "This rule is called syntax",
-        "The expressions such as pppp and pp are allowed",
-        "pp or pp or p are not allowed",
-        "ie pp Is illegal"
-    ],
-    "49": [
-        "Now there are dozens of different languages such as Ada Algol BASIC COBOL C C FORTRAN LISP Pascal and Prolog etc",
-        "Because compilers translate source code into object code which is unique for each type of computer many compilers are available for the same language",
-        "For example there is a C compiler for PCs and another for Unix computers",
-        "The high level languages can be either called compiled languages or interpreted languages",
-        "Some of the most widely used compiled languages are COBOL C C FORTRAN etc",
-        "Unlike the compiled languages",
-        "The most frequently used interpreted language is BASIC"
-    ],
-    "30": [
-        "Interpreter An interpreter translates highlevel instructions into an intermediate form which it then executes",
-        "Interpreter analyzes and executes each line of source code in succession without looking at the entire program the advantage of interpreters is that they can execute a program immediately",
-        "However programs produced by compilers run much faster than the same programs executed by an interpreter",
-        "Compiled programs generally run faster than interpreted programs",
-        "The advantage of an interpreter however is that it does not need to get through the compilation stage during which machine instructions are generated",
-        "The interpreter on the other hand can immediately execute highlevel programs",
-        "For this reason interpreters are sometimes used during the development of a program when a programmer wants to add small sections at a time and test them quickly",
-        "Compiler languages are better than interpreted languages as they can be executed faster and more efficiently once the object code has been obtained",
-        "On the other hand interpreted languages do not need to create object code and so are usually easier to develop that is to code and test"
-    ],
-    "2": [
-        "This means that we can execute them directly but can not read or modify them",
-        "This section also declares all the userdefined functions",
-        "Every C program must have one main ( ) function section",
-        "This section contains two parts declaration part and executable part",
-        "The declaration part declares all the variables used in the executable part",
-        "There is at least one statement in the executable part",
-        "These two parts must appear between the opening and the closing braces",
-        "The program executing begins at the opening brace and ends at the closing brace",
-        "The closing brace of the main function section is the logical end of the program",
-        "All statements in the declaration and executable parts end with a semicolon ( )",
-        "The subprogram section contains all the userdefined functions that are called in the main function",
-        "Userdefined functions are generally placed immediately after the main function although they may appear in any order",
-        "All section except the main function section may be absent when they are not required",
-        "define statements must not end with a semicolon",
-        "define statements may appear anywhere in the program but before it is referenced in the program",
-        "There is no need to put braces around these blocks",
-        "The unit can be invoked from other part of the program",
-        "Such declaration is available for all the function in the program",
-        "Function Definition A function must be defined before it is used anywhere in the program",
-        "add ( ) When the compiler encounters the function call the control is transferred to the function definition",
-        "And it executes each line of code in function and returns the control to the main program again",
-        "A function may be used by many other program",
-        "This is a nonexecutable statement"
+    "13": [
+        "In this coding scheme k and n",
+        "The relationship between m and n in these codes is n m",
+        "Calculate values of k and n that satisfy this requirement",
+        "Solution We need to make k n m greater than or equal to or m m",
+        "If we set m the result is n and k or which is not acceptable",
+        "If we set m then n and k which satisfies the condition"
     ],
     "10": [
-        "Algorithm Development and Flowcharting",
-        "Algorithm Development and Flowchart ( Program design ) You know you have a problem and have identified it in the program analysis stage",
-        "Algorithms Algorithms are a verbal or say written form of the program",
-        "It can be defined as ordered description of instructions to be carried out in order to solve the given task",
-        "Basic Guidelines for writing algorithms",
-        "Describe everything clearly and explicitly",
-        "Important Features of Algorithm",
-        "Flowchart One of the most widely used devices for designing programs is the flowchart which graphically represents the logic needed to solve a programming problem",
-        "A programming flowchart represents the detailed sequence of steps needed to solve the problem",
-        "Program flowcharts are frequently used to visualize the logic and steps in processing",
-        "In other words its a diagrammatic representation of algorithm",
-        "Basic blocks used for drawing flowcharts Structure Purpose Start Stop Processing Decision making Input Outputs Connector For examples Read numbers form user and display the resulting sum",
-        "Flowchart to find the largest among three entered numbers Y N Y N N Y start Read a b cab Display Stop Start input A B C Is AB Is AC Is BC Print A Print C Print B Stop Coding Writing the program is called coding",
-        "Write an algorithm and flowchart to generate the following",
-        "Algorithm Step start Step input to n Number of lines Step Initialize c as Deviation on each line Step i Number of lines Step Repeat step to until i less than or equal to n else goto step Step j Number of column Step Repeat step to until j less than or equal to ( n ) else goto step Step Is j greater than or equal to ( nc ) and less than or equal to ( nc ) than goto Step else goto Step Step Display then goto step Step Display Step jj then goto step Step Display newline Step cc Step ii then goto step Step Stop for ( ii ( nc ) j include void main ( ) int ncij clrscr ( ) c deviation printf ( nEnter the number of lines ) scanf ( dn ) number of lines Flow Chart False True False True True False Start Input to n c ii ( nc ) j ( nc )"
-    ],
-    "50": [
-        "Specifying the input requirements",
-        "Specifying the processing requirements",
-        "Specifying the input requirements Now that you have determined the outputs you need to define the input and data",
-        "To do this you list the inputs required and the source of the data",
-        "For example in a payroll program inputs could be employee timesheets and the source of the in put could be either the employees themselves or their supervisors",
-        "Specifying the processing requirements Now you have to determine the processing requirements for converting the input data to output",
-        "Quantities that have specified relation to inputs"
-    ],
-    "9": [
-        "Do not make any assumptions",
-        "or will precede the signed numeric item",
-        "( with o or x ) causing octal and hex item to be preceded by and x",
-        "Capital alphabetsAZ Digit Symbols",
-        "The symbol or can occur only at the left most end of the number",
-        "For negative number symbol is used at the most position and for the positive number symbol is used",
-        "If no symbol occurs the number is assumed to be positive",
-        "A negative number must be written with the symbol",
-        "For a positive number the symbol is optional",
-        "If there is no sign the number is assumed to be positive",
-        "The exponent is always an integer with at most two digit",
-        "The exponent can have sign ( or )",
-        "If there is no sign the exponent is assumed to be positive",
-        "The subscript is always an integer",
-        "The subscript value can not be negative"
-    ],
-    "81": [
-        "Effectiveness All operations must be sufficiently basic so as to be implemented with even paper and pencil",
-        "In addition using many of them makes a program logic complicated and renders the program unreadable",
-        "These enable us to develop concise programs containing repetitive processes without the use of goto statements",
-        "That is they can not be used for reading a text containing more than one word"
-    ],
-    "19": [
-        "Store the sum of A and B in C",
-        "Practice Write to program to arrange list of elements in ascending order include include include void main ( ) int ntemp int ij printf ( nEnter the list of elements ) for ( iinj ) tempni ninj njtemp printf ( n The elements in assending order ) for ( iii ) printf ( ndni ) getch ( ) Two Dimensional Array A twodimensional array is an array in which each element is itself an array",
-        "Practice Write a program that adds the individual rows of a two dimensional array of m by n and store the sums of rows into a single dimensional array using functions",
-        "Write a function that takes a two dimensional array and onedimensional array and process the result and store in onedimensional array",
-        "Matrix Multiplication include include void input ( int aint rint c ) int ij for ( iiri ) for ( jjcj ) scanf ( daij ) void display ( int aint rint c ) int ij for ( iiri ) for ( jjcj ) printf ( daij ) printf ( n ) void multiply ( int aint bint cint rint cint c ) int ijk for ( iiri ) for ( jjcj ) cij for ( kkck ) cijaikbkj void main ( ) int abcrrcc clrscr ( ) printf ( nEnter the row and column for first matrix ) scanf ( ddrc ) printf ( nEnter the row and column for second matrix ) scanf ( ddrc ) if ( cr ) printf ( nMultipication is not possible ) else printf ( nenter the value to first matrix ) input ( arc ) printf ( nenter the value to second matrix ) input ( brc ) multiply ( abcrcc ) printf ( n The resultant Matrix is ) display ( crc ) getch ( ) Passing string to functions The string are treated as character array in C and therefore the rules of passing string to function are very similar to those for passing array to functions",
-        "WRITE ( ) ( A ( I ) I ) PRACTICE Write a program to take input to one dimensional array and display",
-        "INTEGER IN ( ) PRINT ENTER THE ELEMENTS TO ARRAY READ ( ) ( IN ( I ) I ) PRINT THE ELEMENTS OF ARRAY IS WRITE ( ) ( IN ( I ) I ) STOP END Write a program to arrange one dimensional array in ascending order in FORTRAN",
-        "PRACTICE Write a program to take input and display two dimensional arrays",
-        "C input and display elements OF MATRIX INTEGER IN ( ) PRINT ENTER THE ELEMENTS TO ARRAY READ ( ) ( ( IN ( IJ ) J ) I ) PRINT THE ELEMENTS OF ARRAY IS WRITE ( ) ( ( IN ( IJ ) J ) I ) STOP END Write a program to add two matrixes and display the resultant matrix in FORTRAN",
-        "C ADDING CORRESPONDING ELEMENT OF TWO MATRIX TO THIRD MATRIX INTEGER A ( ) B ( ) C ( ) RRCC PRINT ENTER THE ROW AND COLUMN OF FIRST MATRIX READ RC PRINT ENTER THE ROW AND COLUMN OF SECOND MATRIX READ RC IF ( ( REQR ) AND",
-        "( CEQC ) ) THEN PRINT ENTER ELEMENT TO FIRST ARRAY DO IR DO JC READ A ( IJ ) CONTINUE PRINT ENTER ELEMENT TO SECOND ARRAY DO IR DO JC READ B ( IJ ) CONTINUE DO IR DO JC C ( IJ ) A ( IJ ) B ( IJ ) CONTINUE PRINT RESULTANT ARRAY IS DO IR DO JC PRINT C ( IJ ) CONTINUE ELSE PRINT ADDITION IS NOT POSSIBLE ENDIF STOP END Write a program perform matrix multiplication using nested DO loop C MATRIX MULTIPICATION INTEGER A ( ) B ( ) C ( ) RRCC PRINT ENTER THE ROW AND COLUMN OF FIRST MATRIX READ RC PRINT ENTER THE ROW AND COLUMN OF SECOND MATRIX READ RC IF ( REQC ) THEN PRINT ENTER ELEMENT TO FIRST ARRAY DO IR DO JC READ A ( IJ ) CONTINUE PRINT ENTER ELEMENT TO SECOND ARRAY DO IR DO JC READ B ( IJ ) CONTINUE DO IR DO JC C ( IJ ) DO KR C ( IJ ) C ( IJ ) A ( IK ) B ( KJ ) CONTINUE PRINT RESULTANT ARRAY IS DO IR DO JC PRINT C ( IJ ) CONTINUE ELSE PRINT MULTIPICATION IS NOT POSSIBLE ENDIF STOP END Write a program to perform matrix multiplication using implied DO loop C MATRIX MULTIPICATION INTEGER A ( ) B ( ) C ( ) RRCC PRINT ENTER THE ROW AND COLUMN OF FIRST MATRIX READ RC PRINT ENTER THE ROW AND COLUMN OF SECOND MATRIX READ RC IF ( REQC ) THEN PRINT ENTER ELEMENT TO FIRST ARRAY READ ( ) ( ( A ( IJ ) J C ) IR ) PRINT ENTER ELEMENT TO SECOND ARRAY READ ( ) ( ( B ( IJ ) JC ) IR ) DO IR DO JC C ( IJ ) DO KC C ( IJ ) C ( IJ ) A ( IK ) B ( KJ ) CONTINUE PRINT RESULTANT ARRAY IS WRITE ( ) ( ( C ( IJ ) JC ) IR ) ELSE PRINT MULTIPICATION IS NOT POSSIBLE ENDIF STOP END Write a program to sum the following series up to n term xxx"
-    ],
-    "69": [
-        "Display the value in C",
-        "It can be performed using scanf function",
-        "The general format of scanf is scanf ( control stringargargarnn ) The control string specifies the field format in which the data is to be entered and the arguments arglargargn specify the address of locations where the data is stored",
-        "When the scanf reads a particular value reading of the value will be terminated as soon as the number of character specified by the field width is reached ( if specified ) or until a character that is not valid for the value being read in encountered",
-        "For example scanf ( d d dab ) will assign the data as follows to a skipped ( because of ) to b Inputting Real Numbers Unlike integer numbers the field width of real number is not to be specified and therefore scanf reads real numbers using the simple specification f for both the notation namely decimal point notation and exponential notation"
-    ],
-    "63": [
-        "The definition section defines all symbolic constant",
-        "Constant Tokens Keywords Constant Strings Operators Identifiers Special Symbol Constant is referring to fixed values that do not change during the execution of a program",
-        "CONSTANT Numeric constant Character Constant Variable A variable is a data name that may be used to store a data value",
-        "Defining Symbolic constant Syntax define symbolicname value of constant Eg define pi define max The following rules apply todefine statement which defines a symbolic constant",
-        "valuevalue are constants or constant expressions ( evaluable to an integer constant ) and are known as case labels",
-        "( ) Fortran Constant A number on a string of FORTRAN characters is called a constant"
-    ],
-    "14": [
-        "Keyword All keyword have fixed meaning and these meaning can not be changed",
-        "All keyword words must be written in lowercase",
-        "Both uppercase and lowercase letter are permitted although lowercase letters are commonly used",
-        "The underscore character is also permitted in identifiers",
-        "First character must be an alphabet ( or underscore )",
-        "Can not use a keyword",
-        "Note that case labels end with a colon ( ) The",
-        "A label is any valid variable name and must be followed by a colon",
-        "Note only single quote ( ) must be used and not the double quotes ( )",
-        "No special is allowed in a variable name",
-        "The subscript must be given within parenthesis after the variable name"
-    ],
-    "35": [
-        "Identifiers refer to the name of variables functions and arrays",
-        "In c arrays index numbering starts with",
-        "Example include include void main ( ) int xbx int yay int z clrscr ( ) printf ( nEnter the value ) scanf ( dx ) printf ( nEnter the value ) scanf ( dy ) zxyab printf ( nThe value of z isdz ) printf ( nOriginal value of b is ub ) b printf ( nChanged value of b is ub ) printf ( nOriginal value of a is ua ) aa printf ( nChanged value of a is ua ) getch ( ) Pointer and Arrays When an array is declared the compiler allocate a base address and sufficient amount of storage to contain all the elements of the array in contiguous memory allocation",
-        "The base address is the location of the first element ( index ) of the array",
-        "The compiler also defines the array name as a constant pointer to the first element",
-        "Suppose we declare an array x as follows int x Suppose the base address of x is then Element x x x x x Value Address Example Heres the array version include include void main ( ) int a int i clrscr ( ) for ( iii ) printf ( nd uaiai ) getch ( ) Now lets see how this program would look using pointer notation",
-        "( array index ) is the same as arrayindex",
-        "( array index ) is the same as arrayindex Pointer to Array in Function As an example to explain that a program where each element of array will be added by a constant"
-    ],
-    "84": [
-        "These are userdefined names and consist of a sequence of letters and digits with a letter as a first character",
-        "This statement displays the character contained in the variable_name at the terminal",
-        "Variable name can be form one to six character in length",
-        "The first character of the variable name must be an alphabet and the succeeding characters can be alphabets or numeric digits"
-    ],
-    "54": [
-        "The rules of identifiers",
-        "Symbolic names have the same form as variable names",
-        "A blank space is required between define and symbolic name and between the symbolic name and the constant",
-        "After definition the symbolic name should not be assigned any other value within the program by using an assignment statement",
-        "Symbolic names are NOT declared for data types",
-        "Rules of naming variable",
-        "FORTRAN verbs which have special meaning in FORTRAN can not be used as variable names"
+        "As we saw we have k datawords and n codewords",
+        "Later we will see how to derive a codeword from a dataword",
+        "Assume the dataword is",
+        "The dataword becomes the codeword",
+        "After flipping b ( changing the to ) the final dataword is",
+        "After flipping b we get the wrong dataword"
     ],
     "22": [
-        "Variable definitions The statement datatype variable_name eg",
-        "int atotal Defining a variable tells the compiler the name of the variable and the type of variable",
-        "An identifier declared as int becomes an integer variable and can hold integer value only",
-        "An identifier declared as float becomes a floatingpoint variable and can hold floatingpoint number only",
-        "This is done as follows register auto int a Most compilers allow only int or char type variable to be placed in register",
-        "If the variables are not declared the variable names starting with letters IJKLM or N are considered to be integer variable and other as real variables",
-        "The general format for declaring integer variables is shown below INTEGER list of variables Eg",
-        "Example IMPLICIT INTEGER ( A ) The above statement declares that all the variable name starting with the alphabet A are integer variables",
-        "This does not affect the general rule that the variables starting with the letters IJKLM or N are also integer variable",
-        "So the above statement declare that all the variable starting with the letters AIJKLM or N are integer variable in the program"
+        "Table shows the list of datawords and codewords",
+        "Table shows the datawords and codewords",
+        "We keep the rightmost digit ( ) and insert the leftmost digit ( ) as the carry in the second column",
+        "The process is repeated for each column"
     ],
-    "75": [
-        "Example const int size const is a new data type qualifier defined by ANSI standard",
-        "This tells the compiler that the value of the int variable size must not be modified by the program",
-        "The sizeof operator The sizeof is a compile time operator and when used with an operand it returns the number of bytes the operator occupies",
-        "sizeof ( int ) It returns",
-        "The size must be integer value or integer constant without any sign"
+    "12": [
+        "Example ( continued )",
+        "We examine five cases",
+        "It should have at least two terms",
+        "Example ( continued ) The receiver follows the same procedure as the sender",
+        "We leave this an exercise"
+    ],
+    "5": [
+        "The codeword is corrupted during transmission and is received",
+        "The receiver accepts the received codeword and the errors are undetected",
+        "No error occurs the received codeword is",
+        "The received codeword is",
+        "The codeword is received"
+    ],
+    "8": [
+        "Two corrupted bits have made the error undetectable",
+        "One singlebit error changes a",
+        "One singlebit error changes r",
+        "Three bitsa a and aare changed by errors",
+        "No bit is corrupted",
+        "Some bits are corrupted but the decoder failed to detect them",
+        "Example Which of the following g ( x ) values guarantees that a singlebit error is caught",
+        "Any singlebit error can be caught",
+        "All singlebit errors in positions to are caught",
+        "No singlebit error can be caught"
+    ],
+    "24": [
+        "First the receiver finds that the received codeword is not in the table",
+        "The receiver assuming that there is only bit corrupted uses the following strategy to guess the correct dataword",
+        "Comparing the received codeword with the first codeword in the table ( versus ) the receiver decides that the first codeword is not the one that was sent because there are two different bits",
+        "The original codeword must be the second one in the table because this is the only one that differs from the received codeword by bit"
+    ],
+    "1": [
+        "Table A code for error correction ( Example ) Note The Hamming distance between two words is the number of differences between corresponding bits",
+        "Example Let us find the Hamming distance between two pairs of words",
+        "The Hamming distance d ( ) is because",
+        "The Hamming distance d ( ) is because Note The minimum Hamming distance is the smallest Hamming distance between all possible pairs in a set of words",
+        "Example Find the minimum Hamming distance of the coding scheme in Table",
+        "Solution We first find all Hamming distances",
+        "Solution We first find all the Hamming distances",
+        "Note To guarantee the detection of up to s errors in all cases the minimum Hamming distance in a block code must be dmin s",
+        "Example The minimum Hamming distance for our first code scheme ( Table ) is",
+        "Example A code scheme has a Hamming distance dmin",
+        "Error correction codes need to have an odd minimum distance (",
+        "So the minimum Hamming distance is dmin",
+        "Note All Hamming codes discussed in this book have dmin"
     ],
     "23": [
-        "In order to provide some control over the range of number and storage space c has three classes of integer storage namely short int int and long int in both signed and unsigned form",
-        "Type Size ( bits ) Range char or signed char to unsigned char to int or signed int to unsigned int to short int or signed short int to unsigned short int to long int or signed long int to unsigned long int to float E to E double E to E long double E to E Operators Operators are words or symbols that cause a program to do something to variable",
-        "Type conversion in expression Implicit type conversion C automatically converts any intermediate value to the proper type so that the expression can be evaluated without losing any significance",
-        "This automatic conversion is known as implicit type conversion",
-        "During evaluation it adheres to very strict rules of type conversion",
-        "If the operands are of different type the lower type is automatically converted to the higher type before the operation proceeds",
-        "The result is of higher type",
-        "For example int ab float bc babc the resultant of abc expression is float Explicit Conversion It is the process in which we want to force a type conversion in a way that is different from the automatic conversion",
-        "The general form of cast is ( typename ) expression Where typename is one of the standard C data type",
-        "Implicit type declaration The general format is given below IMPLICIT type ( ) type ( )"
+        "The dmin in this case is",
+        "Example Our second block code scheme ( Table ) has dmin",
+        "So in this code we have dmin"
     ],
-    "72": [
-        "Float data type ( for floatingpoint ) floating point numbers are stored in bits with digit of precision",
-        "Double data type ( for double precision floating point number ) the data type double is also used for handling floatingpoint numbers",
-        "But it is treated as a distinct data type because it ( double data type ) occupies twice as much memory as type float and stores floatingpoint numbers with much larger range and precision",
-        "There is one and only one decimal point",
-        "This means that there must be one decimal point and there should not be more than one decimal points"
+    "19": [
+        "This code guarantees detection of only a single error",
+        "This code can detect up to two errors",
+        "Solution This code guarantees the detection of up to three errors ( s ) but it can correct up to one error",
+        "This shows that our code can not correct two errors",
+        "Any two errors next to each other can not be detected"
     ],
-    "60": [
-        "Char data type ( for character ) A single character can be defined as a character ( char ) type data",
-        "Characters are usually stored in bits ( one byte ) of internal storage",
-        "for character and string",
-        "A string of character is called a character constant",
-        "A variable which acquires only character string is called a character variable",
-        "For character variables the declaration is compulsory"
+    "20": [
+        "For example if the third codeword ( ) is sent and one error occurs the received codeword does not match any valid codeword",
+        "If two errors occur however the received codeword may match a valid codeword and the errors are not detected",
+        "Again we see that when any of the valid codewords is sent two errors create a codeword which is not in the table of valid codewords",
+        "However some combinations of three errors change a valid codeword to another valid codeword",
+        "Otherwise there is an error somewhere and the data are not accepted"
     ],
-    "48": [
-        "Void data type ( for empty set of value and nonreturning functions ) the void type specifies an empty set of values",
-        "It is used as the return type for functions that do not return a value",
-        "Function with no arguments and no return values When a function has no argument it does not receive any data from the calling function",
-        "Similarly when it does not return value the calling function does not receive any data from the called function",
-        "Function with no argument and return type In this function the function does not take any input from the calling function but it returns value to the calling function",
-        "Recursive A function is said to be recursive if a statement in the body of the function calls itself",
-        "The return statement is necessary only when the function is returning some data back to the calling function"
+    "2": [
+        "LINEAR BLOCK CODES Almost all block codes used today belong to a subset called linear block codes",
+        "A linear block code is a code in which the exclusive OR ( addition modulo ) of two valid codewords creates another valid codeword",
+        "Almost all block codes used today belong to a subset called linear block codes",
+        "Topics discussed in this section Minimum Distance for Linear Block Codes Some Linear Block Codes Topics discussed in this section Note In a linear block code the exclusive OR ( XOR ) of any two valid codewords creates another valid codeword",
+        "Example Let us see if the two codes we defined in Table and Table belong to the class of linear block codes",
+        "The scheme in Table is a linear block code because the result of XORing any codeword with any other codeword is a valid codeword",
+        "For example the XORing of the second and third codewords creates the fourth one",
+        "The scheme in Table is also a linear block code",
+        "In a cyclic code if a codeword is cyclically shifted ( rotated ) the result is another codeword",
+        "Cyclic codes are special linear block codes with one extra property"
     ],
-    "55": [
-        "C operators can be classified into a number of categories",
-        "Special operators C support some special operators of interest such as comma operator sizeof operator pointer operator ( and ) and member selection operator (",
-        "Example X ( int ) ie is converted to integer by truncation Operator precedence and associativity Precedence is used to determine how an expression involving more than one operator is evaluated",
-        "Example int a int pa Pointer Expression C allows us to add integers to or subtract integers from pointers as well as to subtract one pointer from another",
-        "Pppp In addition to arithmetic operations discussed pointer can also be compared using the relational operators",
-        "We may no use pointer in division or multiplication",
-        "Pointer increment and scalar factor When we increment a pointer its value is increased by the length of the data type that it points to"
+    "6": [
+        "Note A simple paritycheck code is a singlebit errordetecting code in which n k with dmin",
+        "This shows that the simple parity check guaranteed to detect one single error can also find any odd number of errors",
+        "Note A simple paritycheck code can detect an odd number of errors",
+        "Note In a cyclic code those e ( x ) errors that are divisible by g ( x ) are not caught",
+        "Note If the generator has more than one term and the coefficient of x is all single errors can be caught",
+        "Example Find the status of the following generators related to two isolated singlebit errors",
+        "This is a very poor choice for a generator",
+        "A codeword with two isolated errors up to bits apart can be detected by this generator",
+        "Note A generator that contains a factor of x can detect all oddnumbered errors",
+        "Note A good polynomial generator needs to have the following characteristics"
     ],
-    "34": [
-        "It is one if the specified relation is true and zero if the relation is false",
-        "When postfix ( or ) is used with a variable in an expression the expression is evaluated first using the original value of the variable and then the variable is incremented ( or decremented ) by one",
-        "expression expression The conditional expression is evaluated first",
-        "If the result is nonzero expression is evaluated and is returned as the value of the conditional expression",
-        "It return zero otherwise",
-        "Any expression within parenthesis is first evaluated",
-        "Exponentiation is given the top priority and evaluated first in an expression",
-        "The value of the expression is evaluated first"
-    ],
-    "79": [
-        "include include void main ( ) int abl printf ( nEnter two numbers ) scanf ( ddab ) labab printf ( nThe largest number is d l ) getch ( )",
-        "( acac ) ( bcbc ) printf ( nThe largest value is dl ) getch ( ) The goto statement It is the statement to branch unconditionally from one point to another in the program",
-        "include include int hcf ( int fint s ) if ( fs ) return s return ( sfs ) void main ( ) int ab clrscr ( ) printf ( nEnter the number ) scanf ( ddab ) printf ( The Hcf is d hcf ( ab ) ) getch ( ) Storage classes The available storage classes are",
-        "Reverse a number using recursive function include include void fib ( int ) void main ( ) int n rev ( n ) getch ( ) void rev ( int n ) static int r int d if ( n ) dn rrd nn rev ( n ) else printf ( dr ) Register variable We can tell the compiler that a variable should be kept in one of the machines registers instead of keeping in the memory ( where normal variables are stored )",
-        "include include void main ( ) int a int i clrscr ( ) for ( iii ) printf ( nd u ( ai ) ai ) getch ( ) Note"
-    ],
-    "83": [
-        "The comma operator The comma operator can be used to link the related expression together",
-        "A comma linked list of expressions are evaluated left to right and the value of rightmost expression is the value of the combined expression",
-        "The above statement can be equivalently written as int table Commas are require after each brace that closes off a row except in the case of the last row",
-        "The expression may be any simple variable or structure variable or an expression using simple variables"
-    ],
-    "7": [
-        "Managing input and output operation Reading a character Reading a single character can be done by using the function getchar",
-        "The getchar takes the following form variable_namegetchar ( ) Variable_name is a valid C name that has been declared as char type",
-        "When this statement is encountered the computer waits until a key is pressed and then assigns this character as a value to getchar function",
-        "Since getchar is used on the right hand side of an assignment statement the character value of getchar is in turn assigned to the variable name on the left",
-        "For example char name namegetchar ( ) The getchar ( ) function accept any character keyed in",
-        "This could create problem when we use getchar ( ) in a loop interactively",
-        "Writing a character Like a getchar there is a analogous function putchar for writing characters one at a time to the terminal",
-        "It takes the form as shown below putchar ( variable_name ) where variable_name is a type char variable containing a character",
-        "For example answerY putchar ( answer ) this statement display the character Y include include void main ( ) char name char ch int i printf ( nEnter the name ) while ( ( chgetchar ( ) ) n ) nameich i namei printf ( nThe name is s name ) getch ( ) Formatted input Formatted input refers to an input data that has been arranged in particular format",
-        "For example scanf ( f f f x y z ) Inputting Character Strings Scanf can input strings containing more than one character",
-        "Following are the specifications for reading character strings ws or wc Formatted output The printf statement provides certain features that can be effectively exploited to control the alignment and spacing of printout on the terminals",
-        "Characters that will be printed on the screen as they appear",
-        "Reading line of text scanf with s or ws can read only string without whitespaces",
-        "that can be used to read a line containing a variety of characters including whitespace",
-        "For example char name scanf ( nname ) printf ( sname ) Note we can use getchar and gets functions to take input to character array variable",
-        "For example to getchar look at unformatted input example"
-    ],
-    "42": [
-        "This includes RETURN and TAB",
-        "A dummy getchar ( ) may be used to eat the unwanted newline character",
-        "We can also use the fflush function to flush out the unwanted character",
-        "Blanks tabs or newlines",
-        "Blanks tabs and newlines are ignored",
-        "Carriage control In any output the first character of the output is lost",
-        "That is considered as the carriage control",
-        "So the first character of the output must be made a blank space so that the loss does not affect the output"
-    ],
-    "76": [
-        "Control string and arguments are separated by commas",
-        "Control string ( also known as format string ) contain field specification which direct the interpretation of input data",
-        "argn ) Control string consists of three types of items",
-        "Escape sequence character such as nt and b The control string indicates how many arguments follow and what their types are",
-        "The arguments argargargn are the variables whose values are formatted and printed according to the specifications of the control string"
-    ],
-    "36": [
-        "It may include field ( or format ) specifications consisting of the conversion character a data type character ( or type specifier ) and an optional number specifying the field width",
-        "Format specifications that define the output format for display of each item",
-        "FORMAT specification When data are to be input or the result to be output we fully mention the type of the data ( integer real or character ) and also its size",
-        "The specification of the types of the data and its size is called FORMAT specification",
-        "FORMAT statement The general form of a FORMAT statement is n FORMAT ( sssr ) where n is the statement number sssr are the format specifications Rules",
-        "I format The symbol I is used to denote the integer quantities",
-        "The general I format specification is I w Where w is the width of the integer data",
-        "Example This data can be describe by the format statement FORMAT ( II ) This can be also be written as FORMAT ( I ) F Format The symbol F is used to denote the real data expressed in decimal form"
+    "17": [
+        "The dataword is created",
+        "No dataword is created",
+        "Note that here the dataword is wrongly created due to the syndrome value",
+        "The dataword is not created"
     ],
     "16": [
-        "respectively Decision making and Branching C language possesses such decisionmaking capabilities by supporting the following statements if statement switch statement conditional operator statement goto statements These statements are known as decisionmaking statements",
-        "if statement It takes the following form if ( test expression ) It allows the computer to evaluate the expression first and then depending on whether the value of the expression ( relation or condition ) is true ( non zero ) or false ( zero ) it transfers the control to a particular statement",
-        "This point of program has two paths to follow one for the true condition and the other for the false condition Entry False True The ifelse statement The general form is if ( test expression ) Trueblock statement ( s ) else Falseblock statement ( s ) statementx if the test expression is true then the trueblock statement ( s ) immediately following the if statements are executed otherwise the falseblock statement ( s ) are executed",
-        "In either case trueblock or falseblock will be executed not both",
-        "Trueblock statement Falseblock statement Statement x Nesting of ifelse statement The general form is if ( test condition ) if ( test condition ) statement else statement else statement statementx The else if ladder A multipath decision is a chain of ifs in which the statement associated with each else is an if",
-        "It takes the following general form if ( condition ) statement else if ( condition ) statement else if ( condition ) statement else if ( condition n ) statementn else defaultstatement statementx The switch statement The switch statement tests the value f a given variable ( or expression ) against a list of case values and when a match is found a block of statements associated with that case is executed",
-        "The general form of the switch statement is as shown below switch ( expression ) case value block break case value block break default defaultblock break statementx The expression is an integer expression or characters",
-        "block blockare statement lists and may contain zero or more statements",
-        "The general form is If ( expression ) nnn Where ( expression ) is a valid FORTRAN arithmetic expression enclosed within parenthesis",
-        "The general form of the statement is IF ( condn ) Statement Where condn is a logical condition statement is an executable statement",
-        "The general form of the statement is IF ( condn ) THEN S S ELSE S S ENDIF Where condn is a logical condition SS are the statement to be executed when cond is true SS are the statement to be executed when cond is false"
+        "No xi can be divisible by x",
+        "If i is equal to or greater than xi is divisible by g ( x )",
+        "c All values of i make xi divisible by g ( x )",
+        "This g ( x ) is useless",
+        "d This polynomial can not divide xt if t is less than",
+        "It should not divide xt for t between and n"
     ],
-    "26": [
-        "In both the cases the control is transferred subsequently to the statementx",
-        "The goto requires a label in order to identify the place where the branch is to be made",
-        "The label is placed immediately before the statement where the control is to be transferred",
-        "The general forms of goto and label statements are shown below goto label label statement label statement goto label Forward jump Backward jump Note that a goto breaks the normal sequential execution of the program",
-        "If the label is before the statement goto label a loop will be formed and some statements will be executed repeatedly",
-        "Such jump is known as a backward jump",
-        "On the other hand if the label is placed after the goto label some statements will be skipped and the jump is known as a forward jump",
-        "Another use of the goto statement is to transfer the control out of the loop ( or nested loop ) when certain peculiar conditions are encountered",
-        "Avoiding goto When a goto is used many compilers generate a less efficient code",
-        "Jump Statement The jump statement unconditionally transfers program control one point to another point in a program"
+    "15": [
+        "Note All burst errors with L r will be detected",
+        "All burst errors with L r will be detected with probability ( ) r",
+        "All burst errors with L r will be detected with probability ( ) r Example Find the suitability of the following generators in relation to burst errors of different lengths",
+        "This generator can detect all burst errors with a length less than or equal to bits out of burst errors with length will slip by out of burst errors of length or more will slip by",
+        "This generator can detect all burst errors with a length less than or equal to bits out of million burst errors with length will slip by out of million burst errors of length or more will slip by",
+        "c This generator can detect all burst errors with a length less than or equal to bits out of billion burst errors with length will slip by out of billion burst errors of length or more will slip by"
     ],
-    "77": [
-        "Decision making and looping Looping ( or iteration ) is the process of executing a sequence of statements until some condition for termination of loop is satisfied",
-        "If the conditions are not satisfied then the body of the loop will not be executed",
-        "If the condition is true the program continues to evaluate the body of the loop once again",
-        "If the condition is true the body of loop is executed otherwise the loop is terminated and execution continues with the statement that immediately follows the loop",
-        "If the condition is satisfied the body of the loop is again executed"
-    ],
-    "86": [
-        "EntryControlled loop In entrycontrolled loop the control conditions are tested before the start of the loop execution",
-        "ExitControlled loop In exitcontrolled loop the test is performed at the end of the body of the loop and therefore the body is executed unconditionally for the first time",
-        "When the body of the loop is executed the control is transferred back to the for statement after the evaluating the last statement in the loop",
-        "Now the control variable is incremented using as assignment statement such as ii and the new value of the control variable is again tested to see whether it satisfies the loop condition"
-    ],
-    "32": [
-        "Body of the loop",
-        "The testcondition is evaluated and if the condition is true then the body of the loop is executed",
-        "After execution of the body the test condition is once again evaluated and if it is true the body is executed once again",
-        "This process of repeated execution of the body continues until the testcondition finally becomes false and the control is transferred out of the loop",
-        "Body of the loop Test condition",
-        "This process continues as long as the condition is true",
-        "Since the testcondition is evaluated at the bottom of the loop the dowhile construct provides an exitcontrolled loop and therefore the body of the loop is always executed at least once",
-        "The value of the control variable is tested using the testcondition",
-        "This process continues till the value of the control variable fails to satisfy the testcondition"
-    ],
-    "71": [
-        "The break Statement The break statement enables a program to skip over part of the codes",
-        "A break statement terminates the smallest enclosing while dowhile for or switch statement",
-        "The continue Statement The continue is another jump statement some what like the break statement as both the statement skip over a part of the code",
-        "But the continue statement is little different from break",
-        "Instead of forcing termination it force the next iteration of the loop to take place skipping any code in between"
-    ],
-    "87": [
-        "cc Display Display Array Array is a collection of variables of the same type that are referenced by a common base",
-        "The array is given a name and its elements are referred by their subscripts or indices",
-        "The arrayname specifies the name with which the array will be referenced and size defined how many elements the array will hold",
-        "array_nameimember_name Example classroll Practice Define a structure to hold the roll no"
-    ],
-    "44": [
-        "Arrays are of different types ( i ) onedimensional array comprised of finite homogeneous element",
-        "( ii ) multidimensional array comprised of elements each of which is itself an array",
-        "Single dimensional Array The simplest form of an array is a single dimensional array",
-        "An array definition specifies a variable type and a name along with one more feature size to specify how many data items the array will contain",
-        "The element value in the list of value must have the same data type as that of type of the array",
-        "An array is a collection of related data element of same type",
-        "Any array behaves like a builtin data type"
-    ],
-    "62": [
-        "A two dimensional array is the simplest of multidimensional arrays",
-        "For instance an array A MN is a M by N table with M rows and N columns containing M X N element",
-        "The number of elements in a D array can be determined by multiplying number of rows with number or columns",
-        "For example the number of elements in an array A is calculated as X",
-        "N AN Row M A The general form of a twodimensional array is type arraynamerow_sizecolumn_size Where type is the data type of the array having name arrayname row_size the first index refers to the number of rows in the array and column_size the second index refers to the number of columns in the array",
-        "For example consider a two dimensional array A ( IJ ) where I varies from to and J varies from to"
-    ],
-    "67": [
-        "Initialization of one dimensional array After an array is declared its elements must be initialized",
-        "The general form of initialization of array is type arrayname size list of value The values in the list are separated by commas",
-        "Following declares an int array sales of size int sale Initialization two dimensional array Two dimensional arrays are also initialize in the same ways as singledimension ones",
-        "When the array is completely initialize with all values explicitly we need not specify the size of first dimension",
-        "In such cases the size of array will be determined automatically based on the number of elements initialized"
+    "4": [
+        "The checksum is used in the Internet by several protocols although not at the data link layer",
+        "The receiver can add all the numbers received ( including the checksum )",
+        "The sender initializes the checksum to and adds all data items and the checksum ( the checksum is considered as one data item and is shown in color )",
+        "The sender now sends six data items to the receiver including the checksum",
+        "Since the value of the checksum is this means that the data is not corrupted",
+        "The receiver drops the checksum and keeps the other data items",
+        "If the checksum is not zero the entire packet is dropped",
+        "The checksum is sent with the data",
+        "If the value of checksum is the message is accepted otherwise it is rejected",
+        "Note that if there is any corruption the checksum recalculated by the receiver is not all s"
     ],
     "18": [
-        "Example int number If the number of initializers may be less than the declared size",
-        "In such case the remaining elements are initialized to zero if the array type is numeric and NULL if the type is char",
-        "Example int num Will initialize the first two elements of num as and respectively and the remaining elements to",
-        "For example int table initializes the elements of the first row to zero and the second row to one",
-        "The initialization is done row by row",
-        "That is int table If the values are missing in an initialize they are automatically set to zero",
-        "int table Will initialize the first two elements of the first row to one the first element of the second row to two and all other elements to zero",
-        "It permitted to have a partial initialization",
-        "We can initialize only the first few members and leave the remaining blank",
-        "The uninitialized members should be only at the end of the list",
-        "The uninitialized members will be assigned default values as follows Zero for integer and floating point numbers"
+        "In addition to sending these numbers we send the sum of the numbers",
+        "For example if the set of numbers is ( ) we send ( ) where is the sum of the original numbers",
+        "The receiver adds the five numbers and compares the result with the sum",
+        "If the two are the same the receiver assumes no error accepts the five numbers and discards the sum",
+        "Example We can make the job of the receiver easier if we send the negative ( complement ) of the sum called the checksum"
     ],
-    "74": [
-        "include include void add ( int nint r ) int ij for ( iii ) ri for ( jjj ) rinij void main ( ) int listresultij printf ( nEnter the number ) for ( iii ) for ( jjj ) scanf ( dlistij ) add ( listresult ) printf ( The result is ) for ( iii ) printf ( ndresulti ) getch ( ) String C does not have a string data type rather it implements strings as single dimension character array",
-        "Program to count number of word in a line",
-        "include include include void main ( ) char string int ic clrscr ( ) printf ( n Enter the first string ) gets ( string ) istrlen ( string ) stringi for ( istringii ) if ( stringi ) c printf ( n The number of word in sentencedc ) getch ( ) Array of string An array of string is a twodimensional character array the size of first index ( rows ) determines the number of strings and the size of second index ( column ) determines maximum length of each string",
-        "Pass these to a function which reverse the second string and then appends it at the end of the first string",
-        "include include char rev ( char name ) int lj char r lstrlen ( name ) for ( lljllj ) rjnamel rj return r void display ( char namechar name ) char n nname This copy the name address to n printf ( n the copy string is sn ) namerev ( name ) strcat ( nname ) printf ( n The new string issn ) void main ( ) char stringstring clrscr ( ) printf ( n Enter the first string ) scanf ( sstring ) printf ( n Enter the second string ) scanf ( sstring ) display ( stringstring ) getch ( ) Structure A structure is a collection of variable ( of different data types ) referenced under one name providing of convenient means of keeping related information together"
+    "14": [
+        "The sum is then complemented resulting in the checksum value ( )",
+        "The value of the checksum word is set to",
+        "All words including the checksum are added using ones complement addition",
+        "The sum is complemented and becomes the checksum",
+        "The sum is complemented and becomes the new checksum",
+        "Example Let us calculate the checksum for a text of characters ( Forouzan )"
     ],
-    "68": [
-        "Function declaration or Function prototype",
-        "Function Prototype A function prototype is a declaration of the function that tells the program about the type of the value returned by the function and the number and type of each argument",
-        "Functiontype functionname ( parameter list ) Example void sum ( int a int b ) when we place the declaration above all the function ( in the global declaration section ) the prototype is referred to as global prototype",
-        "When we place it in a function definition ( in the local declaration section ) the prototype is called a local prototype",
-        "The prototype declaration should be similar to the function header"
-    ],
-    "31": [
-        "In effect there is no data transfer between the calling function and the called function",
-        "It is a twoway data communication between the calling and called function",
-        "Ways of passing arguments to functions There are two different mechanisms to pass arguments to function",
-        "Pass by value ( also called as call by value ) Pass by reference ( also known as call by pointer ) Pass by value In pass by value values of actual parameters are copied to the variable in the parameter list of the called function",
-        "The called function works on the copy and not on the original values of the actual parameters",
-        "This ensures that the original data in the calling function can not be changed accidently",
-        "In this case the called function directly work on the data in the calling function and the changed value are available in the calling function for its use",
-        "This method is also used when we require multiple values to returned by the called function",
-        "Let us consider following example to explain it"
-    ],
-    "28": [
-        "Passing Array To Functions Three Rules to pass an array to a function",
-        "Function must be called by passing only the name of the array",
-        "In the function definition the formal parameter must be an array type the size of the array does not need to be specified",
-        "The function prototype must show that the argument in a array",
-        "Note When an entire array is passed as an argument the contents of the array are not copied into the formal parameter array",
-        "Instead information about the addresses of array elements are passed on to the function",
-        "Therefore any changes introduced to the array elements are truly reflected in the original array in the calling function",
-        "However this does not apply when an individual element is passed on argument",
-        "The function must be called by passing only the array name"
-    ],
-    "66": [
-        "One dimensional array include include include float mean ( float aint size ) int i float sum for ( iisizei ) sumai return ( sumsize ) float star ( float aint size ) int i float xmstd xmmean ( asize ) for ( iisizei ) std ( xmai ) ( xmai ) stdsqrt ( stdsize ) return std void main ( ) float a i printf ( nEnter element ) for ( iii ) scanf ( fai ) printf ( n The standard deviation is fstar ( a ) ) getch ( ) Passing Two dimensional Array to the function The rules are",
-        "of a student and marks obtained by him in subjectsDeclare array to hold the data of students",
-        "Pass this to a function that displays the marks of student who has a highest total marks",
-        "include include struct student int roll int marks int total void input ( struct student s ) int ij for ( iii ) printf ( nEnter the roll number of student ) scanf ( dsiroll ) printf ( nEnter marks for subjects ) sitotal for ( jjj ) scanf ( dsimarksj ) sitotalsitotalsimarksj void display ( struct student s ) int ilocationmax maxstotal location for ( iii ) if ( maxsitotal ) serching highest marks location maxsitotal locationi printf ( nRecord of student who score highest marks ) printf ( nRoll number of studentdslocationroll ) printf ( nEnter marks for subjects ) for ( iii ) printf ( nMarks in d subjectdislocationmarksi ) void main ( ) struct student civil input ( civil ) display ( civil ) getch ( ) Create a structure STUDENT containing name symbol number name of subjects mark of each subject and total mar as its members",
-        "Write a program that uses this structure and reads data for a student and gives the total marks as the output",
-        "Refer to above program and display only total marks of all the student Write a program to compute any two instant of distances in a format feetinches using structure"
-    ],
-    "65": [
-        "Pointer refer to book for proper knowledge as this content is from class note slide Declaring Pointer Variables Syntax data_type pt_name This tells the compiler three things about the variable pt_name",
-        "This asterisk ( ) tells that the variable pt_name is a pointer variable",
-        "pt_name needs a memory location",
-        "pt_name points to a variable type of data_type",
-        "However any comparisons of pointer that refers to separate and unrelated variables make no sense",
-        "Similarly two pointer can not be added"
-    ],
-    "43": [
-        "We can not initialize individual members inside the structure template",
-        "The order of values enclosed in braces must match the order of member in the structure definition",
-        "The first method is to pass each member of the structure as an actual argument of the function call",
-        "The general format of sending a copy of a structure to the called function as function_name ( structure_variable_name ) The called function takes the following form data_type function_name ( Struct_type st_name ) return ( expression ) The following points are important to note",
-        "For example if it is returning a copy of the entire structure then it must be declared as struct with an appropriate tag name",
-        "The structure variable used as the actual argument and the corresponding formal argument in the called function must be of the same struct type",
-        "When a function returns a structure it must be assigned to a structure of identical type in the calling function"
-    ],
-    "41": [
-        "Practice Create a structure containing real and imaginary as its member",
-        "include include struct complex int r int m void main ( ) struct complex ccc printf ( nEnter the real n imaginary for first complex ) scanf ( ddcrcm ) printf ( nEnter the real n imaginary for second complex ) scanf ( ddcrcm ) crcrcrcmcm cmcrcmcmcr printf ( nThe resultant is ) printf ( nReal is dcr ) printf ( nImaginary is dcm ) getch ( ) Structure and function There are three methods by which the values of a structure can be transferred from one function to another",
-        "Practice Create a structure TIME containing hour minutes and seconds as its member",
-        "Write a program the uses this structure to input start time and stop time to a function",
-        "Which returns the sum and difference of the start time and stop time in the main program",
-        "include include struct time int hr int min int sec void input ( struct time t ) printf ( nEnter the hr min and sec ) scanf ( dddthrtmintsec ) void display ( struct time t ) printf ( nhrdtmindtsecdtthrtmintsec ) struct time add ( struct time tstruct time t ) struct time t tsectsectsec tmintmintmin thrthrthr tmintsec tsectsec thrtmin tmintmin return t struct time sub ( struct time tstruct time t ) struct time t tsectsectsec tmintmintmin thrthrthr if ( tsec ) tmin tsec if ( tmin ) thr tmintmin return t void main ( ) struct time ttt printf ( nEnter the start time in hr min sec ) input ( t ) printf ( nEnter the stop time in hr min sec ) input ( t ) tadd ( tt ) printf ( naddition of two time is ) display ( t ) tsub ( tt ) printf ( nThe substraction of time is ) display ( t ) getch ( ) Array of Structures We use structure to describe the format of a number of related variables",
-        "Build functions to add and subtract given distances and display the results in the main function",
-        "include include struct distance int feet int inch void input ( struct distance d ) printf ( nEnter the feet and inches ) scanf ( dddfeetdinch ) void display ( struct distance d ) printf ( nFeetd t Inchedtdfeetdinch ) struct distance add ( struct distance dstruct distance d ) struct distance d dfeetdfeetdfeet dinchdinchdinch dfeetdinch dinchdinch return d struct distance sub ( struct distance dstruct distance d ) struct distance d dinchdinchdinch dfeetdfeetdfeet if ( dinch ) dfeetdfeet dinchdinch return d void main ( ) struct distance ttt printf ( nEnter the starting distance in feet and inches ) input ( t ) printf ( nEnter the stoping distance in feet and inches ) input ( t ) tadd ( tt ) printf ( naddition of two time is ) display ( t ) tsub ( tt ) printf ( nThe substraction of time is ) display ( t ) getch ( ) Nested Structure Structure within a structure means nesting of structure"
-    ],
-    "40": [
-        "The basic file operations performed are Naming a file Opening a file Reading data from a file Writing data from a file Closing a file",
-        "Defining and opening a file If we want to perform operation in a file in the secondary memory we must specify certain things about the file to the operating system",
-        "Example Studenttxt Employdat Data structure of a file is defined as FILE in the library of standard IO function definitions",
-        "Therefore all files should be declared as type FILE before they are used",
-        "FILE is a defined data type",
-        "For example we may write data to the file or read the already existing data",
-        "Following is the general format for declaring and opening a file FILE fp fp fopen ( filenamemode ) the first statement declares the variable fp as a pointer to the data type FILE",
-        "The second statement opens the file named filename and assigns an identifier to the FILE type pointer fp"
-    ],
-    "88": [
-        "This pointer which contains all the information about the file is subsequently used as a communication link between the system and the program",
-        "It take a FILE pointer as its only argument and returns a nonzero integer value if all the data from the specified file has been read and return a nonzero integer value if all of the data form the specified file has been read and return zero otherwise",
-        "It fp is a pointer to file that has just been opened for reading then the statement",
-        "This means that n bytes have already been read ( or written )"
-    ],
-    "38": [
-        "File opening Modes The different types of file opening modes are r This mode open file for reading only",
-        "w This mode open file for writing only",
-        "a This mode open file for appending ( or adding ) data to it",
-        "When the file is opened in this mode the file is opened with the current content safe",
-        "r This mode opens the file for reading existing content writing new contents and modifying existing content of the file",
-        "w This mode opens the file for writing new content reading them back and modifying the existing content of the file",
-        "a This mode opens the file for appending new content to the end of file reading existing content from the file But can not modify existing contents",
-        "Attempting to write a writeprotected file"
-    ],
-    "59": [
-        "In this mode FILE pointer points to the starting of bite of file",
-        "Random access to files This can be achieved with the help of the function fseek ftell and rewind available in IO library",
-        "Rewind takes a file pointer and resets the position to the start of the file",
-        "rewind nd ( fp ) nfte ( fp ) Would assign to n because the file position has been set to the start of the file be rewind",
-        "Remember the first byte in the file is numbered as second as and so on",
-        "Remember that whenever a file is opened for reading or writing a rewind is done implicitly"
-    ],
-    "89": [
-        "Error handling during IO operation It is possible that an error may occur during IO operations on a file",
-        "Typical error situation include",
-        "If we fail to check such read and write errors a program may behave abnormally when an error occurs",
-        "An unchecked error may result in premature termination of the program or incorrect output"
-    ],
-    "58": [
-        "We have two statusinquiry library functions feof and ferror that can help up detect IO errors in the file",
-        "The feof function can be used to test for an end of file condition",
-        "if ( feof ( fp ) ) printf ( End of data ) would display the message End of data on reaching the end of file condition",
-        "The ferror function report the status of the file indicated",
-        "It also takes a FILE pointer as its argument and returns a nonzero integer if an error has been detected up to that point during processing",
-        "The statement if ( ferror ( fp ) ) printf ( An error has occurred ) Would print the error message if the reading is no successful"
-    ],
-    "39": [
-        "ftell takes a file pointer and return a number of type long that corresponds to the current position",
-        "This function is useful in saving the current position of a file which can be used later in the program",
-        "It takes the following form N fte ( fp ) n would give the relative offset ( in bytes ) if the current position",
-        "This function helps us in reading a file more than once without having to close and open the file",
-        "fseek function is used to move the file position to a desired location within the file",
-        "It takes the following form fseek ( file_ptroffsetposition ) file_ptr is a pointer to the file concerned offset is a number or variable of type long and position is an integer number",
-        "the offset specifies the number of position ( byte ) to be moved from the location specified by position",
-        "The position can take one of the following three values value meaning Beginning of file Current position End of file Example fseek ( fpL ) meaning go to begining refer to class note for example FORTAN character set The following is the set of character used in FORTRAN"
-    ],
-    "11": [
-        "Number are called numeric constant",
-        "etc are some numeric constants",
-        "There are two types of Numeric Constant",
-        "Real Constant INTEGER Constant Integer written without decimal point is called fixed point constant or integer constants",
-        "No other character should occur in fixed point constant",
-        "Real Constant Any number written with one decimal point is called a floating point constant of real constant",
-        "A real constant can be expressed in any one of the following two forms i ) Fractional form ii ) Exponential form The following rules apply for the real constant in fractional form",
-        "A real constant is written in the decimal form with the digitals and the decimal point",
-        "No special symbols such as etc are allowed in a real constant",
-        "The general form of the exponential floating point constant is Mantissa E exponent",
-        "The mantissa must be valid real constant in fractional form",
-        "All the rules of the fractional form applied to the mantissa"
-    ],
-    "45": [
-        "The general form is GO TO n where n is the statement number to which the control must be transferred",
-        "The blank between GO and TO is optional",
-        "GO TO In the GO TO statement the number referenced can not be a variable example GO TO I is not valid",
-        "Computed GO TO statement The computed GO TO statement cause the transfer of control depending upon value of an integer variable",
-        "the destination ( where to go ) is decided by the value in the integer variable",
-        "the general form is GO TO ( nnnk ) i where i is the integer variable nnnk are statement numbers",
-        "If the value is negative the control goes to statement number n if it is zero it goes to n and if it is positive it goes to n"
-    ],
-    "53": [
-        "CHARACTER statement Practice Write a program to find the range from the list of element using array in FORTRAN",
-        "C RANGE OF MATRIX INTEGER A ( ) LS PRINT ENTER THE ELEMENT TO ARRAY DO I READ A ( I ) CONTINUE LA ( ) SA ( ) DO I IF ( LLTA ( I ) ) THEN LA ( I ) ENDIF IF ( SGTA ( I ) ) THEN SA ( I ) ENDIF CONTINUE PRINT LAGREST ELEMENTL PRINT SMALEST ELEMENTS PRINT RANGELS STOP END IMPLIED DO loop Suppose we want to read all the entries of a one dimensional array A with array length",
-        "INTEGER A ( ) DO I READ A ( I ) CONTINUE FORTRAN also has the facility of reading or writing the entire array with one statement",
-        "READ ( ) ( A ( I ) I ) Similarly the following is the implied DO loop to print the elements of the array",
-        "C ASCENDING ORDER OF MATRIX INTEGER A ( ) TEMP PRINT ENTER THE ELEMENT TO ARRAY READ ( ) ( A ( I ) I ) DO I DO JI IF ( A ( I ) GTA ( J ) ) THEN TEMPA ( I ) A ( I ) A ( J ) A ( J ) TEMP ENDIF CONTINUE PRINT THE ELEMENT TO ARRAY WRITE ( ) ( A ( I ) I ) STOP END Implied DO loop for multidimensional array The implied DO loop can also be used for multidimensional arrays",
-        "INTEGER A ( ) DO I DO J READ A ( IJ ) CONTINUE But we can use the implied DO loop and write this as a single statements as follows",
-        "READ ( ) ( ( A ( IJ ) J ) I ) Notice that the outer loop has I as running variable and the inner loop has J"
+    "25": [
+        "The message is divided into bit words",
+        "The message ( including checksum ) is divided into bit words",
+        "The text needs to be divided into byte ( bit ) words",
+        "We use ASCII ( see Appendix A ) to change each byte to a digit hexadecimal number"
     ]
 }

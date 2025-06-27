@@ -1,0 +1,32 @@
+[
+    {
+        "key": "file1_topic_11",
+        "label": "blocks, redundant, add, make, nbit",
+        "input": "<task:clean> <sos>\nWe add r redundant bits to each block to make the length n k r The resulting nbit blocks are called codewords\nIn block coding we divide our message into blocks each of k bits called datawords\nWe add redundant bits to the bit dataword to make bit codewords\n<eos>",
+        "output": "We add `r` redundant bits to each block to make its length `n = k + r`. The resulting `n`-bit blocks are called codewords. In block coding, we divide our message into blocks, each of `k` bits, called datawords. We add redundant bits to the `k`-bit dataword to make `n`-bit codewords."
+    },
+    {
+        "key": "file1_topic_12",
+        "label": "set, acceptable, satisfies, condition, relationship",
+        "input": "<task:clean> <sos>\nIn this coding scheme k and n\nThe relationship between m and n in these codes is n m\nCalculate values of k and n that satisfy this requirement\nSolution We need to make k n m greater than or equal to or m m\nIf we set m the result is n and k or which is not acceptable\nIf we set m then n and k which satisfies the condition\n<eos>",
+        "output": "In this coding scheme, k and n are parameters. The relationship between m and n in these codes is expressed as 'n m'. Calculate values of k and n that satisfy this requirement. Solution: We need to ensure that 'k n m' is greater than or equal to 'm' or 'm m'. If we set `m`, the resulting `n` and `k` are found to be unacceptable. If we set `m`, the resulting `n` and `k` satisfy the condition."
+    },
+    {
+        "key": "file1_topic_13",
+        "label": "dataword, flipping, changing, derive, wrong",
+        "input": "<task:clean> <sos>\nAs we saw we have k datawords and n codewords\nLater we will see how to derive a codeword from a dataword\nAssume the dataword is\nThe dataword becomes the codeword\nAfter flipping b ( changing the to ) the final dataword is\nAfter flipping b we get the wrong dataword\n<eos>",
+        "output": "As we saw, we have k datawords and n codewords.\nLater, we will see how to derive a codeword from a dataword.\nAssume the dataword is.\nThe dataword becomes the codeword.\nAfter flipping b (changing its value), the final dataword is.\nAfter flipping b, we get the wrong dataword."
+    },
+    {
+        "key": "file1_topic_14",
+        "label": "column, digit, shows, datawords, process",
+        "input": "<task:clean> <sos>\nTable shows the list of datawords and codewords\nTable shows the datawords and codewords\nWe keep the rightmost digit ( ) and insert the leftmost digit ( ) as the carry in the second column\nThe process is repeated for each column\n<eos>",
+        "output": "<task:clean> <sos>\nThe table shows the datawords and codewords. We keep the rightmost digit ( ) and insert the leftmost digit ( ) as the carry in the second column. The process is repeated for each column.\n<eos>"
+    },
+    {
+        "key": "file1_topic_15",
+        "label": "continued, example, follows, examine, procedure",
+        "input": "<task:clean> <sos>\nExample ( continued )\nWe examine five cases\nIt should have at least two terms\nExample ( continued ) The receiver follows the same procedure as the sender\nWe leave this an exercise\n<eos>",
+        "output": "Example (continued): We examine five cases. It should have at least two terms. Example (continued): The receiver follows the same procedure as the sender. We leave this an exercise."
+    }
+]
