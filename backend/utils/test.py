@@ -1,4 +1,10 @@
-import clustering
+import tensorflow as tf
+print("Num GPUs Available: ", len(tf.config.list_physical_devices('GPU')))
 
-grouped1, topic_labels1 = clustering.group_sentences("docu2.pdf", contains_header=True, contains_footer=True, output_prefix="test1")
-print(grouped1)
+print("Testing GPU acceleration...")
+with tf.device('/GPU:0'):
+    a = tf.random.normal([10000, 10000])
+    b = tf.random.normal([10000, 10000])
+    c = tf.matmul(a, b)
+
+print("Done")

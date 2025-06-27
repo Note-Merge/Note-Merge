@@ -1,6 +1,6 @@
-from keras.models import Model
-from keras.layers import Input,Embedding,LSTM, Dense, Bidirectional,Concatenate,Dropout,LayerNormalization,Attention,TimeDistributed
-from keras.optimizers import Adam
+from tensorflow.keras.models import Model
+from tensorflow.keras.layers import Input,Embedding,LSTM, Dense, Bidirectional,Concatenate,Dropout,LayerNormalization,Attention,TimeDistributed
+from tensorflow.keras.optimizers import Adam
 
 
 # Function to create a BiLSTM model for sequence-to-sequence tasks
@@ -8,9 +8,9 @@ def build_model (
     vocab_size_input,
     vocab_size_output,
     embedding_dim=256,         #word vector size
-    lstm_units=512,             #lstm memory capacity
-    max_input_len=450,          
-    max_output_len=550,
+    lstm_units=256,             #lstm memory capacity
+    max_input_len=350,          
+    max_output_len=400,
     dropout_rate=0.3,           #regularization strength for randomly droping connections during training
     ):      
     
@@ -46,23 +46,27 @@ def build_model (
     
     #combine forward and backward final states
     #Concatenating forward and backward states
-    state_h = Dense(
-        lstm_units,
-        activation='tanh',
-        name="state_h_combiner"
-        )(Concatenate()([forward_h,backward_h]))
+    # state_h = Dense(
+    #     lstm_units,
+    #     activation='tanh',
+    #     name="state_h_combiner"
+    #     )(Concatenate()([forward_h,backward_h]))
     
-    state_c = Dense(
-        lstm_units,
-        activation='tanh',
-        name="state_c_combiner"
-    )(Concatenate()([forward_c,backward_c]))
+    # state_c = Dense(
+    #     lstm_units,
+    #     activation='tanh',
+    #     name="state_c_combiner"
+    # )(Concatenate()([forward_c,backward_c]))
     
-    encoder_outputs_proj = TimeDistributed(Dense(lstm_units))(encoder_outputs)
-
+    # encoder_outputs_proj = TimeDistributed(Dense(lstm_units))(encoder_outputs)
+    state_h =Concatenate()([forward_h, backward_h])
+    state_c =Concatenate()([forward_c, backward_c])
+    encoder_final_state_h =Dense(lstm_units, activation='tanh', name="encoder_state_h_combiner")(state_h)
+    encoder_final_state_c =Dense(lstm_units, activation='tanh', name="encoder_state_c_combiner")(state_c)
+    encoder_final_states=[encoder_final_state_h,encoder_final_state_c]
     
-    #Decoder:
-    decoder_inputs = Input(shape =(max_output_len,),name="decoder_input")
+    #Decoder: using shape none makes model more flexible for inference
+    decoder_inputs = Input(shape=(max_output_len,),name="decoder_input")
     
     #Embedding layer for decoder
     dec_embedding = Embedding(
@@ -86,23 +90,30 @@ def build_model (
     #initialize decoder with encoder's understanding
     decoder_outputs, decoder_h, decoder_c = decoder_lstm(
         dec_embedding,
-        initial_state=[state_h,state_c]
+        initial_state=encoder_final_states
     )
+    
+    #project encoder outputs to match decoder's output dimension. 1024 to 512
+    encoder_outputs_projected = TimeDistributed(
+        Dense(
+            lstm_units,
+            name="encoder_output_projection"
+        )
+    )(encoder_outputs)
     
     #Attention Mechanism- Connecing decoder to encoder outputs
     attention_layer= Attention(
-        name="attention_mechanism",
-        use_scale=True
+        use_scale=True,  # Use scaled dot-product attention
+        name="attention_mechanism"
     )
-     
+    
+    #The attention layer uses the decoder's output sequence as the "query" and the
+    # encoder's full output sequence as the "value" and "key".
     #computing attention context vector ( decoder focusinhg and encoder output)
-    context_vector = attention_layer([decoder_outputs, encoder_outputs_proj])
+    context_vector,_ = attention_layer([decoder_outputs, encoder_outputs_projected],return_attention_scores=True)
     
     #Concatenating context vector with decoder outputs
-    decoder_combined = Concatenate(
-        axis=-1,
-        name="decoder_attention_concatenation"
-    )([
+    decoder_combined = Concatenate()([
         decoder_outputs,
         context_vector
     ])
@@ -124,18 +135,18 @@ def build_model (
         name="output_dense"
     )
     
-    decoder_outputs = decoder_dense(decoder_dropout)
+    final_outputs = decoder_dense(decoder_dropout)
     
     #defining the model
     model = Model(
         inputs=[encoder_inputs, decoder_inputs],
-        outputs=decoder_outputs,
+        outputs=final_outputs,
         name="BiLSTM_Seq2Seq_Attention_Model"
         )
     
     #optimizer and loss function
     optimizer = Adam(
-        learning_rate=0.001,  # You can adjust the learning rate as needed
+        learning_rate=0.001,  #adjust the learning rate as needed
         beta_1=0.9,
         beta_2=0.999,
         epsilon=1e-8,
