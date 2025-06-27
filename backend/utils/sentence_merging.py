@@ -138,8 +138,15 @@ from collections import defaultdict
 #initialize model
 model = SentenceTransformer('all-mpnet-base-v2')
 
-grouped1, topic_labels1 = group_sentences("docu.pdf",contains_header= True,contains_footer=True,output_prefix="output1")
-grouped2, topic_labels2 = group_sentences("docu2.pdf",contains_header = True,contains_footer = False,output_prefix="output2")
+#grouped1, topic_labels1 = group_sentences("files/datamining5.pdf",contains_header= True,contains_footer=True,output_prefix="output1")
+#grouped2, topic_labels2 = group_sentences("files/datamining5i.pdf",contains_header = True,contains_footer = True,output_prefix="output2")
+print("Processing Document 1...")
+grouped1, topic_labels1 = group_sentences("comp1.pdf",contains_header= True,contains_footer=True,output_prefix="output1")
+print(" Topic Labels from Document 1:", topic_labels1) 
+print("Processing Document 2...")
+grouped2, topic_labels2 = group_sentences("comp2.pdf",contains_header = True,contains_footer = True,output_prefix="output2")
+print(" Topic Labels from Document 1:", topic_labels2) 
+
 
 def get_topic_embeddings(grouped):
     topic_embeddings= {}
@@ -182,11 +189,19 @@ for id1, id2, score in matches:
     
     merged_para= grouped1[id1]+["++++"]+ grouped2[id2]  
     # ++++ seperates paragraphs from different files
-    label1 = topic_labels1.get(id1, f"Topic {id1}")
-    label2 = topic_labels2.get(id2, f"Topic {id2}")
-    merged_label = f"{label1} /  {label2}"      
-    # / separates labels from different files
     
+    label1 = topic_labels1.get(id1, "")
+    label2 = topic_labels2.get(id2, "")
+    
+    label1_keywords = [kw.strip() for kw in label1.split(',') if kw.strip()]
+    label2_keywords = [kw.strip() for kw in label2.split(',') if kw.strip()]
+    
+    all_keywords = label1_keywords + label2_keywords
+    unique_keywords = list(dict.fromkeys(all_keywords))
+    merged_label = ", ".join(unique_keywords)
+       
+    # / separates labels from different files
+
     merged_topics[topic_id]["label"]= merged_label
     merged_topics[topic_id]["paragraphs"] = merged_para
     
@@ -228,32 +243,32 @@ def export_pdf_json(merged_topics, output_folder="generated",base_filename ="mer
             pdf = FPDF()
             pdf.set_auto_page_break(auto=True, margin=5)
             pdf.add_page()
-            pdf.add_font('TiemposTextRegular', '', 'fonts/TiemposTextRegular.ttf')
-            pdf.set_font("TiemposTextRegular", size=12)
+            pdf.add_font('DejaVu', '', 'fonts/DejaVuSans.ttf')
+            pdf.set_font("DejaVu", size=12)
 
             for topic_id, content in merged_topics.items():
                 label = content.get("label", f"Topic {topic_id}")
                 paragraphs = content.get("paragraphs", [])
 
-                pdf.set_font("TiemposTextRegular", size=14)
+                pdf.set_font("DejaVu", size=14)
                 pdf.multi_cell(0, 10, f"{topic_id}: {label}\n")
 
-                pdf.set_font("TiemposTextRegular", size=12)
+                pdf.set_font("DejaVu", size=12)
                 for para in paragraphs:
                     try:
                         if isinstance(para, str) and para.strip():
                             # Skip if it's a long word with no spaces
                             if len(para) > 100 and ' ' not in para:
-                                print(f"⚠️ Skipping unbreakable line: {para[:30]}...")
+                                print(f" Skipping unbreakable line: {para[:30]}...")
                                 continue
                             # Use multi_cell directly; it wraps text automatically
                             pdf.multi_cell(0, 8, f"- {para}", new_x="LEFT", new_y="NEXT")
                     except Exception as e:
-                        print(f"⚠️ Skipped a paragraph due to FPDF error: {e}")
+                        print(f" Skipped a paragraph due to FPDF error: {e}")
                 pdf.ln(5)
 
             pdf.output(f"{pdf_path}.pdf")
-            print(f"✅ Exported: \nPDF: {pdf_path}\nJSON: {json_path}")
+            print(f" Exported: \nPDF: {pdf_path}\nJSON: {json_path}")
         finally:
             print("Closing PDF file...")
             

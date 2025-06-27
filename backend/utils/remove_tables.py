@@ -17,7 +17,7 @@ def remove_and_extract_tables(path):
     table_data = []
     dict_tables = {}
 
-    print(f"#########################################TABLES OF pdf {globals.count}")
+    print(f"######TABLES OF pdf {globals.count}")
 
     try:
         for i in range(1, len(pdf)):

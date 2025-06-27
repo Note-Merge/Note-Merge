@@ -1,7 +1,4 @@
-import camelot
-import fitz
+import clustering
 
-path = 'no_header_footer_1.pdf'
-
-tables = camelot.read_pdf(path,pages='all')
-print(tables[0])
+grouped1, topic_labels1 = clustering.group_sentences("docu2.pdf", contains_header=True, contains_footer=True, output_prefix="test1")
+print(grouped1)

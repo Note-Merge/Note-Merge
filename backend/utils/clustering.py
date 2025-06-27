@@ -225,8 +225,6 @@ import json
 import fitz 
 from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
 
-
-from fpdf import FPDF
 from hdbscan import HDBSCAN
 from bertopic import BERTopic
 from umap import UMAP
@@ -266,7 +264,9 @@ def remove_header_footer_from_pdf(doc_path, header=True, footer=True):
                 if header: top = 60
                 if footer: bottom = 80
             else:
-                print(f"Unknown page height: {height}, skipping crop.")
+                print(f"Unknown page height: {height}, applying proportional crop.")
+                if header: top = int(height * 0.08)  # Crop top 8%
+                if footer: bottom = int(height * 0.10) # Crop bottom 10%
 
 
             #page.add_redact_annot(footer_area, fill=(1, 1, 1))  # white fill
@@ -292,59 +292,110 @@ def remove_header_footer_from_pdf(doc_path, header=True, footer=True):
     
 def extract_text_from_pdf(doc_path,contains_header,contains_footer):
         new_path = remove_header_footer_from_pdf(doc_path,contains_header,contains_footer)
-        sentences_all = []
-        print(new_path)
+        full_text = ""
     
         pdf = fitz.open(new_path)
-        for page in pdf:
-            text = page.get_text()
-            # print(f"Raw text from page {page.number}: {repr(text[:200])}") 
-            if text:
-                lines = text.split("\n")
-                # Clean and filter lines
-                clean_lines = []
+        
+        for page_num,page in enumerate(pdf):
+            blocks  = page.get_text("blocks")
+            blocks.sort(key = lambda b: b[1]) #sorting by horizotal position
             
-                for line in lines:
-                    line = line.strip()
+            page_text =[]
+            
+            for b in blocks:
+                text = b[4]
                 
-                    if not line or len(line) < 5:
-                        continue  # skip short lines
-                    
-                    # Remove known noise patterns
-                    if re.match(r"^[-–—•●]?\s*\d+[.)]?$", line):  # items like '1.', 'b)', '2)'
-                        continue
-                    
-                    if re.search(r"(table\s+\d+|exercise\s+\d+|figure\s+\d+|fill the blanks|^\(\w+\)$|^\-+\s*\d+\s*\-+)", line.lower()):
-                        continue
-                    
-                    # Skip headers/footers with specific patterns
-                    if re.search(r"(^ENVE\s+\d+|^\-\s*\d+\s*\-|page\s+\d+)", line, re.IGNORECASE):
-                        continue
-                    
-                    if re.fullmatch(r"[a-zA-Z]\.?", line.strip()):
-                        continue
-
-                    # Skip lines that are mostly symbols
-                    if len(re.sub(r'[^\w\s]', '', line)) < len(line) * 0.5:
-                        continue
-                    
-                    if line.strip() in ['a.', 'b.', 'c.', 'd.', 'e.', 'f.', 'g.', 'h.', 'i.', 'j.']:
-                        continue
-                    
-                    if line.strip() in ['1.', '2.', '3.', '4.', '5.', '6.', '7.', '8.', '9.']:
-                        continue
-                    
-                    if any(x in line.lower() for x in ["chapter", "table of contents", "page", "figure", "university", "author", "copyright"]):
-                        continue
-                    
-                    clean_lines.append(line)
+                #cleaning up common PDF noises artifacts
+                text = text.replace("-\n","").replace("\n", " ").strip()
+                text = re.sub(r'\s+',' ', text)
+                url_pattern = r'https?://\S+|www\.\S+'
+                text =re.sub(url_pattern, '', text)
+                
+                page_text.append(text)
             
-                if clean_lines: 
-                    page_text = " ".join(clean_lines)
-                    sentences1 = preprocessing.TextPreprocessor.sentence_tokenize(page_text)
-                    sentences_all.extend(sentences1)
-        pdf.close()             
-        return sentences_all
+            full_text += " ".join(page_text) + " "
+        
+        pdf.close()
+        
+        #tokenize the full,cleaned text into sentences
+        sentences_all = preprocessing.TextPreprocessor.sentence_tokenize(full_text)
+        
+        #cleaning rules
+        clean_sentetences = []
+        for sent in sentences_all:
+            sent = sent.strip()
+            if not sent or len(sent) < 5:
+                continue
+            if any(x in sent.lower() for x in ["chapter", "table of contents", "page", "figure", "university", "author", "copyright"]):
+                continue
+            if re.search(r"(^ENVE\s+\d+|^\-\s*\d+\s*\-)", sent, re.IGNORECASE):
+                continue
+            if sent.endswith(" are a") or sent.endswith(" is a"):
+                continue
+            # RULE 3: Skip lines that are just table/figure captions
+            if re.match(r'^(Table|Figure|Box)\s+\d*:', sent):
+                continue
+            
+            if re.fullmatch(r'\([\w\s,.]+\)', sent):
+                continue
+            
+            clean_sentetences.append(sent)
+            
+        return clean_sentetences
+        
+        
+        
+        
+        
+        # for page in pdf:
+        #     text = page.get_text()
+        #     print(f"Raw text from page {page.number}: {repr(text[:1000])}") 
+        #     if text:
+        #         lines = text.split("\n")
+        #         # Clean and filter lines
+        #         clean_lines = []
+            
+        #         for line in lines:
+        #             line = line.strip()
+                
+        #             if not line or len(line) < 5:
+        #                 continue  # skip short lines
+                    
+        #             # Remove known noise patterns
+        #             if re.match(r"^[-–—•●]?\s*\d+[.)]?$", line):  # items like '1.', 'b)', '2)'
+        #                 continue
+                    
+        #             if re.search(r"(table\s+\d+|exercise\s+\d+|figure\s+\d+|fill the blanks|^\(\w+\)$|^\-+\s*\d+\s*\-+)", line.lower()):
+        #                 continue
+                    
+        #             # Skip headers/footers with specific patterns
+        #             if re.search(r"(^ENVE\s+\d+|^\-\s*\d+\s*\-|page\s+\d+)", line, re.IGNORECASE):
+        #                 continue
+                    
+        #             if re.fullmatch(r"[a-zA-Z]\.?", line.strip()):
+        #                 continue
+
+        #             # Skip lines that are mostly symbols
+        #             if len(re.sub(r'[^\w\s]', '', line)) < len(line) * 0.5:
+        #                 continue
+                    
+        #             if line.strip() in ['a.', 'b.', 'c.', 'd.', 'e.', 'f.', 'g.', 'h.', 'i.', 'j.']:
+        #                 continue
+                    
+        #             if line.strip() in ['1.', '2.', '3.', '4.', '5.', '6.', '7.', '8.', '9.']:
+        #                 continue
+                    
+        #             if any(x in line.lower() for x in ["chapter", "table of contents", "page", "figure", "university", "author", "copyright"]):
+        #                 continue
+                    
+        #             clean_lines.append(line)
+            
+        #         if clean_lines: 
+        #             page_text = " ".join(clean_lines)
+        #             sentences1 = preprocessing.TextPreprocessor.sentence_tokenize(page_text)
+        #             sentences_all.extend(sentences1)
+        # pdf.close()             
+        # return sentences_all
     
     
 def group_sentences(file_path,contains_header,contains_footer,output_prefix="output"):
@@ -411,31 +462,5 @@ def group_sentences(file_path,contains_header,contains_footer,output_prefix="out
     with open(f"{output_prefix}_topic_labels.json", "w", encoding="utf-8") as f:
         json.dump(topic_labels, f, ensure_ascii=False, indent=4)
             
-    #store in pdf file:
-    # pdf= FPDF()
-    # pdf.set_auto_page_break(auto=True, margin=5)
-    # pdf.add_page()
-    # pdf.add_font('TiemposTextRegular','','fonts/TiemposTextRegular.ttf',uni=True)
-    # pdf.set_font("TiemposTextRegular", size=12)
-    # for topic_id, sents in grouped.items():
-    #     label = topic_labels.get(topic_id, f"Topic {topic_id}")
-            
-    #     if topic_id == -1:
-    #         continue
-            
-    #     pdf.set_font("TiemposTextRegular", size=14)
-    #     pdf.multi_cell(0, 10, f"Topic {topic_id}: {label} \n")
-            
-    #     pdf.set_font("TiemposTextRegular", size=12)
-    #     for sent in sents:
-    #         # 
-    #         try:
-    #             # Try breaking very long unbreakable words
-    #             safe_sent = " ".join(wrap(sent, max_line_len, break_long_words=True, break_on_hyphens=False))
-    #             pdf.multi_cell(0, 8, f"- {safe_sent}")
-    #         except Exception as e:
-    #             print(f"⚠️ Skipping a line due to FPDF error: {e}")
-    #     pdf.ln(5) 
-    # pdf.output(f"{output_prefix}_{file_path}.pdf") 
         
     return grouped, topic_labels

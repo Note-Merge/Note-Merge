@@ -1,140 +1,1173 @@
 {
-    "3": [
-        "INTRODUCTION Profession Profession is an occupation that requires advanced training in the liberal arts or sciences and mental rather than manual work ( Davis and Cornwell )",
-        "The professionalism is defined by following seven characteristics Professional decisions are made by means of general principles theories or propositions that are independent of the particular case under consideration",
-        "Professional decisions imply knowledge in a specific area in which the person is expert",
-        "The professional is an expert only in his or her profession and not as expert at everything",
-        "The professionals relations with his or her clients are objective and independent of particular sentiments about them",
-        "A professional achieves status and financial reward by accomplishment not by inherent qualities such as birth order race religion sex or age or by membership in a union",
-        "A professionals decisions are assumed to be on behalf of the client and to be independent of selfinterest",
-        "The professional relates to a voluntary association of professionals",
-        "A professional is someone who knows better what is good for clients than do the clients",
-        "The professionals expertise puts the client into a very vulnerable position",
-        "This vulnerability has necessitated the development of strong professional codes and ethics which serve to protect the client",
-        "Such codes are enforced through colleague peer group"
+    "7": [
+        "Problem is defined as the difference between an existing situation and a desired situation that is in accordance with calculation a problem is numerical situation and has complex form",
+        "If a problem is solved by computing using machine called computer then such process is called Problem Solving using Computer",
+        "Problem Analysis If you have studied a problem statement then you must analyse the problem and determine how to solve it",
+        "First you should know the type of problem that is nature of problem",
+        "At first you try to solve manually",
+        "If it is solvable manually by using your idea and knowledge then you can use such idea and principle in programming and solve the problem by using computer",
+        "So you must have well knowledge about a problem",
+        "In order to get exact solution you must analyse the problem",
+        "To analyse means you should try to know the steps that lead you to have an exact solution",
+        "Suppose you are asked by your father to solve an arithmetic problem and you are not familiar with the steps involved in solving that problem",
+        "In such a situation you will not be able to solve the problem",
+        "Suppose you know the steps to be followed for solving the given problem but while solving the problem you forget to apply some steps or you apply the calculation steps in the wrong sequences",
+        "What is a Problem",
+        "Why do we need documentation and testing for problem solving",
+        "Generally a difficult problem is divided into sub problems and then solved",
+        "The solution of the problem is built on the results from the smaller versions",
+        "They are Problem could be written or defined in terms of its previous result"
     ],
-    "9": [
-        "Engineering Engineering is a profession that applies mathematics and science to utilize the properties of matter and sources of energy to create useful structures machines products systems and processes ( Davis and Cornwell )",
-        "Engineering may be defined as the application under constraints of scientific principles to the planning design construction and operation of structures equipment and systems for the benefit of society ( Sincero and Sincero )",
-        "Engineering is the profession in which a knowledge of the mathematical and natural sciences gained by study experience and practice is applied with judgment to develop ways to utilize economically the materials and forces of nature for the benefit of human society",
-        "In other words Engineering may be defined as the application under constraints of scientific principles to the planning design construction and operation of structures equipment and systems for the benefit of the society",
-        "Scientist discover things Engineers make them work"
+    "87": [
+        "In programming point of view the problem must be computing",
+        "Obviously you will get a wrong answer",
+        "Similarly while writing a computer program if the programmer leaves out some of the instructions for the computer or writes the instructions in the wrong sequences then the computer will calculate a wrong answer",
+        "Generally programmers commit three types of errorsThey are",
+        "Runtime errors Syntax errors are those errors which are arised from violating the rules of programming languageOn encountering these errors a computer displays error messageIt is easy to debugLogic errors are those which arised when programmers proceed the logic process in wrong way or miss the some statementsIt is difficult to debug such errors because the computer does not display themRuntime errors are those which occur when programmers attempt to run ambiguous instructionsThey occur due to infinte loop statementdevice errorssofware errors etcThe computer will print the error message Some of runtime errors are Divide by zero Null pointer assignment Data over flow Testing is the process of reviewing and executing a program with the intent of detecting errors",
+        "The purpose of this material is to introduce certain basic concept and to provide some necessary definitions"
     ],
-    "6": [
-        "If the tasks performed by environmental engineers were examined it would be found that the engineers deal with the structures equipment and systems that are designed to protect and enhance the quality of the environment and to protect and enhance public health and welfare",
-        "Traditionally engineers were able to practice their profession without having to address environmental ethics to the same depth that is now required",
-        "Environmental Engineering Environmental Engineering is defined as the application of engineering principles under constraint to the protection and enhancement of the quality of the environment and to the enhancement and protection of public health and welfare ( Sincero and Sincero )",
-        "Environmental Engineering is manifest by sound engineering thought and practice in the solution of problems of environmental sanitation notably in the provision of safe palatable ( tastes pleasant ) and ample public water supplies the proper disposal of or recycle of wastewater and solid wastes the adequate drainage of urban and rural areas for proper sanitation and the control of water soil and atmospheric pollution and the social and environmental impact of these solutions",
-        "Traditionally the environmental engineering has been the province of the civil engineering profession",
-        "Around the name sanitary engineering or public health engineering was changed to environmental engineering",
-        "To carry out environmental assessment of projects and products To provide inputs in decision making regarding the environmental issues of development sector and welfare of public To predict the level of pollution and design control mechanisms and products One aspect of the profession of environmental engineering is that environmental engineer is engaged in a truly worthwhile mission",
-        "The environmental engineer is the epitome of the solution as opposed to the problem",
-        "Our client in the broadest sense is the environment itself and out objective is to preserve and protect our global home for the sake of our progeny as well as Mother Earth herself"
+    "26": [
+        "The same principle applies to writing computer program also",
+        "A programmer can not write the instruction to be followed by a computer unless the programmer knows how to solve the problem manually",
+        "Thus to produce an effective computer program it is necessary that the programmers write each and every instruction in the proper sequence",
+        "However the instruction sequence ( logic ) of a computer program can be very complex",
+        "Hence in order to ensure that the program instructions are appropriate for the problem and are in correct sequence program must be planned before they are written",
+        "Coding In order to make a program in any programming language what we have written is known as code",
+        "The act of writing code in a computer language is known as coding",
+        "In other words code is a set of instruction that a computer can understand",
+        "Compilation Execution The process by which source codes of a computer ( programming ) language are translated into machine codes is known as compilation",
+        "A programming language is designed to help process certain kinds of data consisting of numbers characters and strings and to provide useful output known as information",
+        "The task of programming of data is accomplished by executing a sequence of precise instruction called a program",
+        "Normally however this is not done as it is considered a poor programming practice"
+    ],
+    "102": [
+        "Algorithm Development Flowcharting The term algorithm may be formally defined as a sequence of instructions designed in such a way that if the instructions are executed in the specified sequence the desired result will be obtained",
+        "An algorithm must posses the following characteristics",
+        "Normally an algorithm is first represented in the form of a flowchart and the flowchart is then expressed in some programming language to prepare a computer program",
+        "Define algorithm and flowchart",
+        "Differentiate between the flow chart and algorithm with the example"
+    ],
+    "121": [
+        "Each and every instruction should be precise and unambiguous",
+        "Each instruction should be such that it can be performed in a finite time",
+        "One or more instruction should not be repeated infinitely",
+        "It may also be noted that in order to solve a given problem each and every instruction must be strictly carried out in a particular sequence"
+    ],
+    "72": [
+        "This ensures that the algorithm will ultimately terminate",
+        "So a loop may be defined as a block of statements which are repeatedly executed for a certain number of times or until a particular condition is satisfied",
+        "The control statement in loop decides whether the body is to be executed or not",
+        "After the execution again the condition is checked and if it is found to be true then again the statements in the body of loop are executed",
+        "The body of this loop may contain a single statement or a block of statements",
+        "If the condition is true then again the loop body is executed and this process continues until the condition becomes false",
+        "Instead the remaining loop statements are skipped and the computation proceeds directly to the next pass through the loop"
+    ],
+    "47": [
+        "After performing the instructions that is after the algorithm terminates the desired results must be obtained",
+        "Step Stop ( End ) The above mentioned example is simpler one but development of an algorithm of a complex problem is very difficult",
+        "Sometimes it becomes necessary to come out of the loop even before the loop condition becomes false",
+        "In such a situation break statement is used to terminate the loop",
+        "This statement causes an immediate exit from that loop in which this statement appears",
+        "The loop does not terminate when a continue statement is encountered",
+        "Jumping completely out of the loop under certain conditions terminating the execution of a loop",
+        "Problem statement must include a stopping condition ie",
+        "The problem can be solved in this manner for any value of n greater than ( n represents a stopping condition )"
+    ],
+    "45": [
+        "Problem There are students in a class who appeared in their final examination",
+        "Their mark sheets have been given to you",
+        "Problem A student appears in an examination that consists of total subjects each subject having maximum marks of",
+        "The roll number of the students his name and the marks obtained by him in various subjects is supplied as input data",
+        "Draw a flowchart for the algorithm to calculate the percentage marks obtained by the student in this examination and then to print it along with his roll number and name",
+        "Display the name and roll no of those students mark is greater than",
+        "Write a program to read several different names roll address percentage and display name who has score the rd highest",
+        "Feed the marks obtained by three students in each subjects and calculate the total of each student",
+        "Write a program to enter name roll and mark of students and store them in the file",
+        "( PU ) Write a program to create a data files containing record roll number and students name and total marks"
+    ],
+    "73": [
+        "Write an algorithm to calculate and print the total number of students who passed in first division",
+        "Algorithm Step Initialize Total First Division and Total Mark sheet checked to zero ie",
+        "total_first_div total_marksheet_chkd Step Take the mark sheet of the next student",
+        "Step Check the division column of the mark sheet to see if it is I if no go to step",
+        "Step Add to Total First Division ie",
+        "total_first_div Step Add to Total Mark sheets checked ie",
+        "total_marksheet_chkd Step Is Total Mark sheets checked if no go to step Step Print Total First Division"
+    ],
+    "15": [
+        "Flowchart A flowchart is a pictorial representation of an algorithm that uses boxes of different shapes to denote different types of instructions",
+        "The main advantage of this two steps approach in program writing is that while drawing a flowchart one is not concerned with the details of the elements of programming language",
+        "Since a flowchart shows the flow of operations in pictorial form any error in the logic of the procedure can be detected more easily than in the case of a program",
+        "Once the flowchart is ready the programmer can forget about the logic and can concentrate only on coding the operations in each box of the flowchart in terms of the statements of the programming language",
+        "A flowchart therefore is a picture of the logic to be included in the computer program",
+        "Experienced programmers sometimes write programs without drawing the flowchart",
+        "However for a beginner it is recommended that a flowchart be drawn first in order to reduce the number of errors and omissions in the program",
+        "It is a good practice to have a flowchart along with a computer program because a flowchart is very helpful during the testing of the program as well as while incorporating further modifications in the program",
+        "The communication of program logic through flowcharts is made easier through the use of symbols that have standardized meanings",
+        "The normal flow of flowchart is from top to bottom and left to right",
+        "Connector If a flowchart becomes very long the flowlines start crisscross at many places that causes confusion and reduces understandability of the flowchart",
+        "What is flow charting describe its importance",
+        "What is a flowchart"
+    ],
+    "104": [
+        "It is simply a method of assisting the program to lay out in a visual two dimensional format ideas on how to organize a sequence of steps necessary to solve a problem by a computer",
+        "It is basically the plan to be followed when a program is written",
+        "It acts like a road map for a programmer and guides himher how to go from starting point to the final point while writing a computer program",
+        "It displays the dynamics of a program and allows us to examine and compare the information at various points",
+        "Its instructions consists of terms that resemble algebraic expression augmented by certain English keywords such as if else for do and while etc"
+    ],
+    "58": [
+        "Flowchart Symbols A flowchart uses boxes of different shapes to denote different types of instructions",
+        "Only a few symbols are needed to indicate the necessary operations in a flowchart",
+        "Flowlines Flowlines with arrowheads are used to indicate the flow of operations that is the exact sequence in which the instructions are to be executed",
+        "Arrowheads are required only when the normal top to bottom flow is not to be followed",
+        "However as a good practice and in order to avoid ambiguity flowlines are usually drawn with an arrowhead at the point of entry to a symbol",
+        "Good practice also dictates that flowlines should not cross each other and that such intersections should be avoided whenever possible",
+        "What are the various symbols used to a flowchart",
+        "List the various commonly used flowchart symbols"
+    ],
+    "122": [
+        "For example a diamond always means a decision",
+        "it causes an expression that is originally true to become false and viceversa",
+        "The result of a logic and operation will be true only if both operands are true where as the result of a logic or operation will be true if either operand is true or if both operands are true",
+        "In other word the result of a logic or operation will be false only if both operands are false"
     ],
     "10": [
-        "Any engineering project large or small a product being designed or a services to be provided encompasses within its implementation a series of decisions made by engineers",
-        "In engineering there seldom is one best way to design a project or a product",
-        "This exercise ultimately leads to make a decision about the development of a project or an activity",
-        "Engineering decisions are also based on the environmental impacts caused by the project activities which could be in planning implementation or operation phase",
-        "While carrying out an environmental impact assessment ( EIA ) of a potential project a noproject scenario is referred against the various alternatives which helps to identify the environmental impacts and engineering or social mitigation measures"
+        "These symbols are listed below Terminal InputOutput Processing Terminal The terminal symbol as the name implies is used to indicate the beginning ( START ) ending ( STOP ) and pauses ( HALT ) in the program logic flow",
+        "InputOutput The inputoutput symbol is used to denote any function of an inputoutput device in the program",
+        "If there is a program instruction to input data from a disk tape cardreader terminal or any other type of input device that step will be indicated in the flowchart with an inputoutput symbol",
+        "Similarly all output instructions whether it is output on a printer magnetic tape magnetic disk terminal screen or any output device are indicated in the flowchart with an inputoutput symbol",
+        "The data that is given to a program is known as input data",
+        "Similarly the data that is provided by a program is known as output data",
+        "Generally input data is given to a program from a keyboard ( a standard input device ) or a file",
+        "The program then proceeds the input data and the result is displayed on the screen ( monitor a standard output device ) or a file",
+        "Reading input data from keyboard and displaying the output data on screen such input output system is considered as conio input out",
+        "Input Output Fig Input Output To perform inputoutput operation in console mode C has a number of input and output functions",
+        "When a program needs data it takes the data through the input functions and sends the results to output devices through the output functions",
+        "Thus the inputoutput functions are the link between the user and the terminal",
+        "As keyboard is a standard input device the input functions used to read data from keyboard are called standard input functions",
+        "So its work is merely to hold the output screen until a key is pressed",
+        "Describe any two file handling inputoutput function"
     ],
-    "1": [
-        "Sometimes these decisions turn out to be poor and or not appropriate",
-        "Yet when a decision turns out to be wrong the results are often catastrophic",
-        "Risk management on the other hand is the process of reducing risks that are deemed unacceptable",
-        "In our private lives we are continually doing both",
-        "Smoking cigarettes is a risk to our health and it is possible to calculate the potential effect of smoking",
-        "Quitting smoking is a method of risk management because the effect is to reduce the risk of dying of certain diseases",
-        "Some risks we choose to accept while other risks are imposed upon us from outside",
-        "We choose for example to drink alcohol drive cars or fly in airplanes",
-        "Each of these activities has a calculated risk because people die every year as a result of alcohol abuse traffic accidents and airplane crashes",
-        "Some risks are imposed from outside and we can do little about them",
-        "We can do little about this risk and it is this type of risk that people resent the most",
-        "In fact studies have shown that the acceptability of an involuntary risk is on the order of times less than our acceptability of a voluntary risk",
-        "Such human behavior can explain why people who smoke cigarettes still get upset about air quality or why people driving recklessly complain about the bad road conditions",
-        "Thus for externally imposed risks it is essential to decide what levels of risks are acceptable"
+    "105": [
+        "When more than one arithmetic and data movement instructions are to be executed consecutively they are normally placed in the same processing box and they are assumed to be executed in the order of their appearance",
+        "In the absence of control statements the instruction or statements are executed in the same order in which they appear in the program",
+        "So control statements enable use to specify the order in which various instruction in the program are to be executed",
+        "This process is used for repetitive computations in which each action is stated in term of previous result",
+        ") Increasing the execution speed as they refer address"
     ],
-    "2": [
-        "A far greater number of decisions however made hundred of times a day by hundreds of thousands of engineers are correct and improve a lot of the human civilization protect the global environment and enhance the integrity of the profession",
-        "Because so few engineering decisions turn out poorly engineering decision making is a littleknown and rarely discussed process",
-        "Often Engineers and Doctors are put on the same footing by the career choosers however a doctor can harm only one person at a time while engineer have potential to harm thousands at a time thorough incorrectly designed systems ( Vesilind and Morgan )",
-        "Technical decisions are quantifiable and can be evaluated and checked by other competent professional engineers",
-        "If there ever was a best way then engineering would become stagnant innovation would cease and technical paralysis would set in",
-        "The undergraduate engineering student is often taught during early years of an engineering education that each homework assignment and test question has a single right answer and that all other answers are wrong",
-        "But in engineering practice many technical decision may be right in that a problem may have several equally correct technical solutions",
-        "When carrying out technical analysis we often do not have all the information we need to make decisions",
-        "These assumptions of course must be made using the best available data with a ( sometimes liberal ) sprinkling of good judgment",
-        "The methods of decisions making available to engineers stretch from the most objective ( technical ) to the most subjective ( ethical )",
-        "The inherent method of decision making is the same in all cases",
-        "When all the numbers are in and the variables are evaluated the information is synthesized into a solution ( Vesilind and Morgan )"
+    "127": [
+        "Testing can be done manually and computer based testing",
+        "Manual Testing is an effecting errordetection process and is done before the computer based testing begins",
+        "Manual testing includes code inspection by the programmer code inspection by a test group and a review by a peer group",
+        "Computer based testing is done by computer with the help of compiler ( a program that changes source codes into machine codes word by word )"
+    ],
+    "46": [
+        "Program Documentation Program Documentation refers to the details that describe a programWhile writng programs it is good programming practice to make a brief explanatory note on the programor program segmentThis explanatory note is called commentIt explains how the program works and interact with itThus it helps other programmers to understand the programThere are two types of documentation Internal documentation Some details may be builtin as an integral part of the program",
+        "These are known as internal documentation",
+        "Two important aspects of internal documentation are selection of meaningful variable names and the use of comments",
+        "For example Area Breadth Length is more meaningful than A B L And comments are used to describe actions parts and identification in a program",
+        "External documentation is an executable statement in a programIt may be message to the user to respond to the program requirementThis is accomplished using output statements It makes a program more attractive and interactiveSome examples are print Input the number one by one print Do you want to continue Some Important Questions",
+        "This section consists two parts declaration part and executable part",
+        "For example define TAXRATE define PI define TRUE define FALSE define FRIEND Susan area PI radius radius is equivalent to Some Important Questions",
+        "It can also be defined as a section of a program performing a specific task",
+        "It may be auto static extern and register It is optional"
+    ],
+    "35": [
+        "C contains additional features that allow it to be used at a lower level thus bridging the gap between machine language and the more conventional high level language",
+        "This flexibility allows C to be used for system programming ( eg",
+        "The new language was named C Since it was developed along with the UNIX operating system it is strongly associated with UNIX",
+        "This operating system was developed at Bell Laboratories and was coded almost entirely in C C was used mainly in academic environments for many years but eventually with the release of C compiler for commercial use and the increasing popularity of UNIX it began to gain widespread support among compiler professionals",
+        "Today C is running under a number of operating systems including MsDOS",
+        "In fact many of the C compilers available in the market are written in C Programs written in C are efficient and fast",
+        "C is highly portable",
+        "This means that C programs written for one computer can be seen on another with little or no modification",
+        "Portability is important if we plan to use a new computer with a different operating system",
+        "Another important feature of C is its ability to extend itself",
+        "These computers often have small amounts of storage within the CPU itself where data can be stored and accessed quickly"
+    ],
+    "99": [
+        "It also resembles other high level structure programming language such as Pascal and Fortran",
+        "B language was modified by Dennis Ritchie and was implemented at Bell Laboratories in",
+        "It is a robust language whose rich set of builtin functions and operators can be used of builtin functions and operators can be used to write any complex program",
+        "The C compiler combines the capabilities of an assemble language with the features of a highlevel language and therefore it well suited for writing both system software and business packages",
+        "It is many times faster than BASIC ( Beginners All Purpose Symbolic Instruction Code a high level programming language )",
+        "C Language is well suited for structure programming thus requiring the user to think of a problem in terms of function modules or blocks"
+    ],
+    "37": [
+        "A proper collection of these modules would make a complete program",
+        "A C program is basically a collection of functions that are supported by the C library",
+        "With the availability of a large number of functions the programming task becomes simple",
+        "Basic Structure of C programs Every C program consists one or more modules called function",
+        "Every C program can be though of as a collection of these functions",
+        "Each program has one or more functions",
+        "A program can be divided into functions each of which performs some specific task",
+        "So the use of C functions modularizes and divides the work of a program",
+        "Types of Functions C program has two types of functions",
+        "A complex C program can be divided into a number of user defined functions"
+    ],
+    "13": [
+        "One of the function must be called main ( ) A function is a subroutine that may include one or more statements designed to perform a specific task",
+        "Every C program must have one main ( ) function section",
+        "The subprogram section contains all the userdefined functions that are called in the main ( ) function",
+        "Userdefined functions are generally placed immediately after the main ( ) function although they may appear in any order",
+        "All section except the main ( ) function section may be absent when they are not required",
+        "The function main ( ) is always present in each program which is executed first and other functions are optional",
+        "The function main ( ) is an user defined function except that the name of function is defined or fixed by the language",
+        "This function is executed first when the program starts execution",
+        "Function Declaration or Prototype The function declaration or prototype is model or blueprint of the function",
+        "If functions are used before they are defined then function declaration or prototype is necessary",
+        "Many programmers prefer a topdown approach in which main appears ahead of the programmer defined function definition",
+        "Function prototypes are usually written at the beginning of a program ahead of any userdefined function including main ( )",
+        "Function prototypes provide the following information to the compiler",
+        "In bottomup approach where userdefined functions are defined ahead of main ( ) function there is no need of function prototypes"
+    ],
+    "49": [
+        "The definition defines all the symbolic constants",
+        "They are often referred to collectively as numeric _ type constants",
+        "Symbolic Constants A symbolic constant is a name that substitutes for a sequence of characters",
+        "Thus a symbolic constant allows a name to appear in place of a numeric constant a character constant or a string",
+        "When a program is compiled each occurrence of a symbolic constant is replaced by its corresponding character sequence",
+        "Symbolic constants are usually defined at the beginning of a program",
+        "The symbolic constants may then appear later in the program in place of the numeric constants character constant etc that the symbolic constants represent",
+        "A symbolic constant is defined by writing define name text where name represents a symbolic name typically written in uppercase letters and text represents the sequence of characters that is associated with the symbolic name",
+        "What is Symbolic constant differentiate between keywords and identifier"
+    ],
+    "55": [
+        "There are some variables that are used in more than one function",
+        "When some specific code is to be used more than once and at different places in the program the use of function avoids repetition of that code",
+        "In function we can pass a variable by two ways",
+        "Pass by value ( or call by value )",
+        "Pass by reference ( or call by reference ) Function call by value In this the value of actual parameter is passed to formal parameter when we call the function",
+        "its value persists between different function calls",
+        "When we pass array that pass as a call by reference because the array name is address for that array",
+        "As address is passed in this case this mechanism is also ka call by address or call by reference",
+        "As address of variable is passed in this mechanism if value in the passed address is changed within function the value of actual variable also changed"
+    ],
+    "80": [
+        "Such variables are called global variables and are declared in global declaration section that is outside of all the function",
+        "The local variables are created when the function is called and destroyed automatically when the function is exited",
+        "Life time The period of time during which memory is associated with a variable is called the Program to illustrate local variable long int fact ( int n ) int i long int f for ( i in i ) f i return ( f ) main ( ) int num clrscr ( ) printf ( Enter a number ) scamf ( d num ) printf ( The factorial of d is ld num fact ( num ) ) Output Enter a number The factorial of is Global Variables ( External ) The variables that are defined outside any function are called global variables",
+        "All functions in the program can access and modify global variables",
+        "IT is useful to declare a variable global if it is to be used by many functions in the program",
+        "The life time is as long as the programs execution does not come to an end",
+        "What are local and global variables"
+    ],
+    "67": [
+        "The declaration part declares all the variables used in the executable part",
+        "All the statements in the declaration and executable parts ends with a semicolon",
+        "The type declaration will apply throughout the program",
+        "Declarations A declaration associates a group of variables with a specific data type",
+        "All variables must be declared before they can appear in executable statements",
+        "A declaration consists of a data type followed by one or more variable names ending with a semicolon",
+        "The userdefined data type identifier can later be used to declare variables",
+        "It doesnt require semicolon"
+    ],
+    "124": [
+        "These two parts must appear between the opening and the closing braces",
+        "The program execution begins at the opening braces and ends at the closing brace",
+        "This is a logical unit composed of a number of statements grouped into a single unit",
+        "It is a block of statements surrounded by braces"
+    ],
+    "101": [
+        "The closing brace of the main ( ) function section is the logical end of the program",
+        "Exit ( ) function We have already known that we can jump out of a loop using either the break statement or goto statement",
+        "In a similar way we can jump out of a program by using the library function exit ( )",
+        "The general syntax is if ( condition ) exit ( ) The exit ( ) function takes an integer value as its argument",
+        "The use of exit ( ) function requires the inclusion of the header file",
+        "Program to demonstrate exit ( ) include include main ( ) int choice clrscr ( ) while ( ) printf ("
+    ],
+    "109": [
+        "The file name should end with the characters c like program c labc etc",
+        "This provides the operating system the name of the file and the mode in which the file is to be opened",
+        "The process of establishing a connection between the program and file is called opening the file",
+        "In other word it specifies the purpose of opening a file",
+        "Explain in brief the steps involved in opening a file"
     ],
     "11": [
-        "Engineering decisions Engineering decisions could be based on ( ) technical analysis ( ) cost effectiveness analysis ( ) cost benefit analysis ( ) risk analysis ( ) environmental impact analysis and ( ) ethical analysis",
-        "While technical calculations can answer technical questions questions of cost require a different form of engineering decision making ie",
-        "Engineering typically find themselves working for an employer or client who requires that various alternatives for solving an engineering problem be analysed on the basis of the cost",
-        "For example if a municipal engineer is considering purchasing refuse collection vehicles and finds that he or she can buy either expensive trucks that achieve great compaction of the refuse thereby making efficient trips to the landfill or inexpensive trucks that require more trips to the landfill how does the engineer know which is less expensive for the community"
+        "Character Set C uses the uppercase letters A to Z the lowercase letters a to z the digits to and certain special characters as building blocks to form basic program elements ( eg",
+        "Several character constants are shown below A X Character constants have integer values that are determined by the computers particular character set",
+        "Thus the value of a character constant may vary from one computer to another",
+        "The constants themselves however are independent of the character set",
+        "This feature eliminates the dependence of a C program on a particular character set",
+        "American Standard Code for Information Interchange ) character set in which each individual character is numerically encoded with its own unique bit combination ( hence a total of difference characters )",
+        "Several character constant and their corresponding values as defined by ASCII Constant Value A X These values will be the same for all computer that utilize the ASCII character set",
+        "String Constants A string consists of any number of consecutive characters ( including none ) enclosed in ( double ) quotation marks",
+        "A character constant ( eg",
+        "A ) and the corresponding singlecharacter string constant ( A ) are not equivalent",
+        "A character constant has an equivalent integer value whereas a single character string constant does not have an equivalent integer value and in fact consists of two characters the specified character followed by the null character ( o )",
+        "The null character constant is not equivalent to the character constant",
+        "The characters may represent numeric constant a character constant or a string constant",
+        "What do you mean by Character set in C",
+        "A symbolic constant NULL is defined in stdioh which denotes the value zero"
     ],
-    "0": [
-        "Just as we recognize there is no single perfect work of art such as painting or a fashion design there is no perfect road or a water treatment plant",
-        "If there were a perfect plant painting or a road all future water treatment plants or roads ( not the alignment but the structure )",
-        "For example teaching aid in the a class could be chalk and a duster white board marker or a LCD projector",
-        "Similarly a sewer can be constructed with a concrete cast iron steel aluminum plastic or clay materials",
-        "With correct engineering design procedures such a sewer would carry the design flow and thus would be technically correct ( Vesilind and Morgan )",
-        "Based on the these values calculation of acceptable levels of pollution is also possible",
-        "Similarly life cycle assessment ( LCA ) of products is increasingly used in identifying the environmental impacts caused by the manufacturing process and use of the products",
-        "Furthermore it is concerned with engineering problems in the field of public health the elimination of industrial health hazards and the provision of adequate sanitation in urban rural and recreational areas and the effect of technological advances on the environment ( ASCE )",
-        "Support the government to develop adopt and implement policies and strategies for overall development of sanitary and environmental conditions of the country",
-        "Provide technical counseling and awareness to public for any critical environmental issues emerged due to natural or human activities",
-        "Source SOPHEN ( ) In general Environmental engineering is focused on Provisions of safe palatable and ample public water supplies Proper disposal of or recycling of wastewater and solid wastes Control of water soil and atmospheric pollution including noise pollution Environmental engineers have the responsibility To plan design construct and operate sewage treatment plants to prevent the pollution of receiving streams",
-        "To build and operate water treatment plants",
-        "To build and operate solid waste collection transportation and disposal systems To plan design construct and operate air pollution control equipment",
-        "To design reservoirs and to control groundwater contamination",
-        "Additional Reading References ASCE ( ) Official Record Environmental Engineering Division Statement of Purpose American Society of Civil Engineers New York Davis M L and Cornwell D A",
-        "( ) Introduction to Environmental Engineering Fourth ed Tata McGraw Hill Education Private Limited New Delhi India Sincereo A P and Sincero G A",
-        "( ) Environmental Engineering A Design Approach Prentice Hall of India Reprinted New Delhi India Society of Public Health Engineers Nepal ( SOPHEN ) ( ) Official introduction Website of SOPHEN httpsophenorgnpwho_we_aresophenphp ( Downloaded on March ) Vesilind P A and Morgan S M ( ) Introduction to Environmental Engineering Thomson Brooks Cole"
+    "41": [
+        "( Blank space ) ( Horizontal tab ) ( White Space ) Most versions of the language also allow certain other characters such as and to be included with strings comments",
+        "Must not contain white space",
+        "The control string consists of individual groups of characters with one character group for each input data item",
+        "Within the control string multiple character groups can be contiguous or they can be separated by whitespace ( ie",
+        "blankspace ) tabs or newline characters",
+        "If whitespace characters are used to separate multiple character groups in the control string then all consecutive whitespace characters in the input data will be read but ignored",
+        "The use of blank spaces as character group separators is very common",
+        "The consecutive nonwhitespace characters that define a field",
+        "Multiple character group can be contiguous or they can be separated by other characters including whitespace character",
+        "The use of blank spaces are character group separators is particularly common"
     ],
-    "8": [
-        "look alike ( Vesilind and Morgan )",
-        "Ethics provide a systematized framework for making decisions where values conflict",
-        "Ethical analysis involves values rather than cost or environmental data",
-        "There are two theories leading to the ethical analysis utilitarianism and deontological",
-        "A detail on these two theories can be found elsewhere",
-        "An ethical perspective focuses on the attitude of people towards other living things and towards the natural environment"
+    "107": [
+        "Identifiers Keywords C Tokens In a passage of text individual words and punctuation marks are called tokens",
+        "Similarly in a C program the smallest individual units are also known as C tokens",
+        "C has six types of tokens",
+        "For example a linefeed ( LF ) which is referred to as a newline in C can be represented as n",
+        "What are the token of C language"
+    ],
+    "89": [
+        "int float for while",
+        "Stop Counter Initialization Test Condition False True Body of Loop Update expression Out of Loop For example Calculate the factorial of a number factorialc include main ( ) int num i long fact clrscr ( ) printf ( n Enter a number whose factorial is to be calculated ) scanf ( d num ) for ( i inum i ) fact i fact facti printf ( n The factorial is d fact ) getch ( ) Output Enter a number whose factorial is to be calculated The factorial is While Loop The while statement can be written as while ( condition ) while ( condition ) statement statement body of the loop statement First the condition is evaluated if it is true then the statements in the body of loop are executed",
+        "fig Flowchart of while loop Program to print the sum of digits of any num while condition Body of Loop Next statement out of loop include main ( ) int n sum rem clrscr ( ) printf ( Enter the number ) scanf ( d n ) while ( n ) rem n taking last digit of number sum rem sum sum rem n n n skipping last digit end of while printf ( Sum of digits d n sum ) getch ( ) Output Enter the number Sum of digits dowhile loop The dowhile statement is also used for looping",
+        "program to print the number from to using do while include main ( ) int i clrscr ( ) do printf ( dt i ) i while ( i ) printf ( n ) getch ( ) Output Body of Loop False Condition Next statement out of loop True Differences between while loop and do while loop Nesting of loops When a loop is written inside the body of another loop then it is known as nesting of loops",
+        "The general syntax continue fig flowchart of continue control statemen Program to demonstrate continue statement include main ( ) int i num clrscr ( ) printf ( n Enter a number ) scanf ( d num ) printf ( n The even numbers from to d are n num ) for ( i inum i ) if ( i ) continue printf ( td i ) end of for loop getch ( ) end of main ( ) Output Enter a number The even numbers from to are Loop statements before continue Next iteration of loop condition continue statements True false Loop statements after continue goto statement The goto statement is used to alter the normal sequence of program execution by unconditionally transferring control to some other part of the program",
+        "t ) scanf ( d n ) printf ( n Enter d numbers n n ) for ( i inumj ) temp numi numi numj numj temp end of if end of inner loop end of outer loop printf ( n The numbers in ascending order n ) for ( i in i ) printf ( td numi ) getch ( ) end of main Output How many numbers are there"
+    ],
+    "25": [
+        "Identifiers consisted of letters and digits in any order except that first character must be a letter",
+        "Both upper and lower case letters are permitted though common usage favors the use of lowercase letters for most type of identifiers",
+        "Upper and lowercase letters are not interchangeable ( ie",
+        "an uppercase letter is not equivalent to the corresponding lowercase letters )",
+        "Must consist of only letters digits or underscore",
+        "Only first characters are significant",
+        "Since upper and lowercase characters are not equivalent it is possible to utilize an uppercase keyword as an identifier",
+        "It can then be followed by any combination of digits taken from the sets through and a through f ( either upper or lower case )",
+        "The letters may be written in either upper or lowercase",
+        "Since the first lowercase letter ( in this case a ) would be interpreted as the first character beyond the string",
+        "Write a program to convert a lowercase character string into uppercase using array",
+        "For example fclose ( fp ) fclose ( fp )"
+    ],
+    "100": [
+        "The underscore ( _ ) can also be included and considered to be a letter",
+        "An underscore is often used in middle of an identifier",
+        "An identifier may also begin with an underscore",
+        "To do so the sign within the appropriate control group is followed by an asterisk ( )",
+        "It must start with a period ( )",
+        "The dot ( )"
+    ],
+    "81": [
+        "First character must be an alphabet ( or Underscore )",
+        "Illegal character ( blank space ) Illegal character ( ) the first digit can not be zero",
+        "Illegal character ( ) Illegal character ( )",
+        "xbff Illegal character ( )",
+        "Either a decimal point or an exponent must be present",
+        "Illegal character ( ) E The exponent must be an integer ( it can not contain a decimal point ) E Illegal character ( blank space ) in the exponent",
+        "However will not be assigned partno because of asterisk which is interpreted as an assignment suppression character"
+    ],
+    "70": [
+        "The standard keywords are auto break case char const continue default do double else enum extern float for goto if int long register return short signed sizeof static struct switch typedef union unsigned void volatile while The keywords are all lowercase",
+        "A C program contains the following lines char d a b c a b d a a b c a b d w The first two lines are not type declaration which state that a b and c are integer variables and that d is a character type",
+        "A C program contains the following type declarations int a b c float root root char flag text Thus a b and c are declared to be integer variables root and root are floating variables flag is a chartype variable and text is an element chartype array",
+        "These declarations could also have been written as follows int a int b int c float root float root char flag char text A C program contains the following type declarations short int a b c long int r s t int p q Also written as short a b c long r s t int p q short and short int are equivalent as are long and long int",
+        "A C program contains the following type declarations float c c c double root root also written as long float root root A C program contains the following type declarations",
+        "int c char star float sum Thus c is an integer variable whose initial value is star is a char type variable initially assigned the character sum is a floating point variable whose initial value is and factor is double precision variable whose initial value is",
+        "A C program contains the following type declarations"
+    ],
+    "114": [
+        "Data Types C language is rich in its data types",
+        "C supports several different types of data each of which may be represented differently within the computer memory",
+        "Typical memory requirements are also given Data Types Description Typical Memory Requirement char single character byte int integer quantity bytes float floatingpoint number bytes ( word ) double doubleprecision floating point number bytes ( word ) In order to provide some control over the range of numbers and storage space C has following classes signed unsigned short long",
+        "Types Size char or signed char byte unsigned char byte int bytes short int byte unsigned short int byte signed int bytes unsigned int bytes long int bytes signed long int bytes unsigned long int bytes float bytes double bytes long double bytes void is also a builtin data type used to specify the type of function",
+        "Because I needs bytes f needs bytes and c needs byte bytes is highest in these"
+    ],
+    "34": [
+        "structure union enum The basic data types are also known as built in data types",
+        "is i Multiplication is i Union and its important Union is similar to structure data type but union store value of different types in a single location",
+        "Union will contain many different type of values but only one is stored at a time",
+        "The declaration of union is same as the structure",
+        "Only difference is in place of struct keyword the union keyword is used",
+        "The accessing of union member is also same like structure member",
+        "For example Union data int a float b The union variable are declared like structure variable",
+        "For example Union data d d If we write the statement da Then that means the field a is valid but we want to print the value of b after above assignment the value is wrong because a is valid only",
+        "Space Created for Union We know that union store one value at a time so the question is now much space is created for union",
+        "For example Union A int i float f char c union A a The space is created for a is byte",
+        "Distinguish between Structure and union"
+    ],
+    "126": [
+        "Integer and floating point constants represent numbers",
+        "Integer Constants An integer constant is an integervalued number",
+        "Integer ( number ) constants can be written in three different number systems decimal ( base ) octal ( base ) and hexadecimal ( base )",
+        "Beginning programmers rarely however use anything other than decimal integer constants"
+    ],
+    "110": [
+        "Thus it consists of a sequence of digits",
+        "A decimal integer constant can consists of any combination of digits taken from the set through",
+        "An octal integer constant can consist of any combination of digits taken from the set through",
+        "However the first digit must be in order to identify the constant as an octal number",
+        "The general form represents an octal digit ( through )"
+    ],
+    "132": [
+        "Several valid decimal integer constants are shown below The following decimal integer constants are written incorrectly for reason stated Illegal character ( ) Illegal character ( )",
+        "Several valid hexadecimal integer constants are shown below x X XFFF xabcd The following hexadecimal integer constants are written incorrectly for the reason stated X Illegal character ( )",
+        "XDEFG Illegal character ( G ) Unsigned and Long Integer Constants Unsigned integer constants may exceed the magnitude of ordinary integer constants by approximately a factor of l though they may not be negative",
+        "The constants following the case keywords should be of integer or character type"
+    ],
+    "66": [
+        "An unsigned integer constant can be identified by appending the letter ( ) ( either upper or lowercase ) to the end of the constant",
+        "Long integer constants may exceed the magnitude of ordinary integer constants but require more memory within the computer",
+        "A long integer constant can be identified by appending the letter L ( either upper or lowercase ) to the end of the constant",
+        "An unsigned long integer may be specified by appending the letters UL to the end of the constant",
+        "However the U must preced the L Several unsigned and long integer constants are shown below Constant Number System U decimal ( unsigned ) L decimal ( long ) UL decimal ( unsigned long ) L octal ( long ) U octal ( unsigned ) XFFFFFUL hexadecimal ( unsigned long ) Floating Point Constants A floating point constant is a base number that contains either a decimal point or an exponent ( or both )",
+        "Several valid floating point constants",
+        "E e e The following are not valid floating point constants for the reason stated",
+        "The quantity can be represented in C by any of the following floating point constants"
+    ],
+    "76": [
+        "Thus the string would be displayed as Line Line Line The compiler automatically places a null character ( ) at the end of every string constant as the last character within the string ( before the closing double quotation mark )",
+        "Normally zero is used to indicate normal termination and non zero value to indicate termination due to some error or abnormal condition",
+        "In other words we can say that a string is a sequence of contiguous character in memory terminated by the null character",
+        "The terminating null character is important because it is the only way the string handling functions can know there the string ends",
+        "The second dimension tells the maximum length of each string",
+        "In above declaration we can store strings each can store maximum characters last th space is for null terminator in each string",
+        "The length of string is the number of characters present in it excluding the terminating null character"
+    ],
+    "125": [
+        "Thus a b and c will each represent an integervalued quantity and d will represent a single character",
+        "all integers all characters )",
+        "For example integer number ie",
+        "It can be value of any integer or character variable or a function call returning on integer or an arithmetic logical relational bitwise expression yielding integer value"
+    ],
+    "56": [
+        "The next four lines cause the following things to happen the integer quantity is assigned to a is assigned to b and the quantity represented by the sum ab ( e",
+        ") is assigned to c The character a is assigned then assigned to d In the third line within this group the values of the variables a and b are accessed simply by writing the variables on the righthand side of the equal sign",
+        "The last four lines redefine the values assigned to the variables as the integer quantity is assigned to a replacing the earlier value then is assigned to b replacing the earlier value The difference between a and b ( ie",
+        "A comma linked list of expression are evaluated left to right and the value of rightmost expression is value ( x y x y ) Here is assigned to x and is assigned to y and so expression xy is evaluated as ( ) ie",
+        "a b In this example x will be assigned the value of b",
+        "int subject char sex M F float marks int element In example ( ) elements are five but we are assigning only three values",
+        "int ) The value is assigned like follow a a a a a a int a In above example the two value in the first inner pair of braces are assigned to the array element in the first row the values in the second pair of braces are assigned to the array element in the second row and so on",
+        "The value assign like follow a a a a a a In above example the value zero is assigned to a and a because no value assigned to these",
+        "In above example value assign like follow a a a a a a int a int a would never work"
+    ],
+    "85": [
+        "Each array variable must be followed by a pair of square brackets containing a positive integer which specifies the size ( ie",
+        "the number of elements ) of the array",
+        "The size of this array will be equal to the value of argc",
+        "size of the array is the number of elements in the array",
+        "For example define size a size The size of the array must be specified ie",
+        "For example char str The first dimension ( size ) tells how many strings are in the array"
+    ],
+    "44": [
+        "Square brackets enclosing the size specification for text",
+        "auto register static or extern ) Single and Multidimension arrays One or single dimensional array There are several forms of an array in Cone dimensional and multidimensional array",
+        "In one dimensional array there is a single subscript or index whose value refers to the individual array element which ranges form to n where n is the size of the array",
+        "Examples of single dimensional array Program that reads integers from keyboard and displays entered numbers in the screen include main ( ) int a i clrscr ( ) printf ( Enter numbers t ) for ( i i main ( ) float a int i clrscr ( ) printf ( The continuous memory locations are n ) printf ( tu ai ) address of array element getch ( ) Output The continuous memory locations are Program to sort n numbers in ascending order main ( ) int num i j n temp clrscr ( ) printf ( How many numbers are there",
+        "Enter numbers The numbers in ascending order Multidimensional arrays An array of arrays is called multidimensional array",
+        "For example a one dimensional array of one dimensional array is called two dimensional array",
+        "A one dimensional array of two dimensional arrays is called three dimensional arrays etc",
+        "Declaration of two dimensional array Multidimensional arrays are declared in the same manner as one dimensional array except that a separate pair of square brackets are required for each subscript ie",
+        "two dimensional array requires two pair of square bracket three dimensional array requires three pairs of square brackets four dimensional array require four pair of square brackets etc",
+        "For example int n float a static char line double add Initialization of multidimensional array Similar to one dimensional array multidimensional array can also be initialized"
+    ],
+    "130": [
+        "char text California This declaration will cause text to be an element character array",
+        "The first elements will represent the characters within the word California and the th element will represent the null character ( ) which automatically added at the end of the string",
+        "char text California the character at the end of the string ( in this case the null character ) will be lost",
+        "char text California the extra array elements may be assigned zeros or they may be filled with meaningless characters"
+    ],
+    "84": [
+        "The data items must all be of the same type ( eg",
+        "For example consider the following data",
+        "In such situation where we have multiple data items of same type to be stored we can use array",
+        "The individual data items can be characters integers floating point numbers etc",
+        "However they must all be of the same type and the same storage class ( ie",
+        "The data item can be different type some can be int some can be float some can be char and so on"
+    ],
+    "39": [
+        "An escape sequence always begins with a backslash and is followed by one or more special characters",
+        "Such escape sequences always represent single characters even though they are written in terms of two or more characters",
+        "The commonly used escape sequences are listed below Character Escape Sequence ASCII Value bell ( alert ) a backspace b horizontal tab t vertical tab v newline ( line feed ) n form feed f carriage return r quotation mark ( ) apostrophe ( ) question mark ( )",
+        "Escape Sequence represents the null character ( ASCII ) which is used to indicate the end of a string",
+        "The general form of a hexadecimal escape sequence is xhh where each h represents a hexadecimal digit ( through and a through f )",
+        "What is Escape Sequence",
+        "Write any four escape sequence with meaning and symbols",
+        "List out any threeescape sequence with their uses",
+        "If the character within the brackets is simply the circumflex followed by a newline character then string entered from the standard input device can contain any ASCII characters except the newline characters ( line feed )",
+        "The Enter Key will issue the newline character thus signifying the end of the string"
+    ],
+    "117": [
+        "Typedef Statement C supports a feature known as type definition that allows users to define an identifier that would represent an existing data type",
+        "It takes the general form typedef type identifier where type refers to an existing data type and identifier refers to the new name given to the data type",
+        "typedef can not create a new type",
+        "Some examples of type definition are typedef int units typedef float marks where units represent int and marks represents float",
+        "The main advantage of typedef is that we can create meaningful data type names for increasing the readability of the program"
+    ],
+    "111": [
+        "Describe different data types are used in cprogram",
+        "Write down the various types of it in Cprogram",
+        "a include include void main ( ) char name clrscr ( ) printf ( Enter your name ) gets ( name ) printf ( your name is ) puts ( name ) getch ( ) output Enter your name Ram Kumar Your name is Ram Kumar Some Important Questions Write a general form of inputoutput statement of Cprogramming",
+        "CPROGRAM X_FILE Y_FILE ) is passed on to the program through these arguments when main ( ) is called up by the system",
+        "How and when the they declared in Cprogram"
+    ],
+    "19": [
+        "C includes a number of operators which fall into several different categories such as arithmetic operators unary operators rational and logical operators assignment operators and the conditional operators bitwise operator",
+        "Operators Arithmetic Operators There are five arithmetic operators in C They are Operators Purposes Addition Subtraction Multiplication Division remainder after integer division ( also called modulus operator ) There is no exponential operator in C However there is a library function ( pow ) to carry out exponential",
+        "The relational operators in C are listed as Operators Meaning greater than greater than or equal to Equality equal to",
+        "false In addition to the relational and equality operators C also includes the unary operator",
+        "Logical operators C contains three logical operators Operator Meaning and or",
+        "Operator is referred as logic and the operator is referred as logic or",
+        "C contains the following five additional assignment operators and",
+        "a f a shift shift shift g Special Operators C supports some special operators such as comma operator size of operator pointer operator ( and ) and member selection operators",
+        "Write the general form of ternary operator and explain with example",
+        "What are the various types of operators used in C language",
+        "Describe unary binary and ternary operators with examples",
+        "In C any nonzero value is regarded as true while zero is regarded as false"
+    ],
+    "36": [
+        "Some operators require two operands while other act upon only one operand",
+        "Most operators allow the individual operands to be expressions",
+        "A few operators permit only single variable as operand",
+        "The operands acted upon by arithmetic operators must represent numeric values",
+        "The remainder operator ( ) requires that both operands be integers and the second operand be non zero",
+        "Similarly the division operator ( ) requires that the second operand be nonzero",
+        "The operation always result in a truncated quotient ( ie",
+        "a x y delta sum ab area length width Assignment operator and equality operator are distinctly different",
+        "These operators can not be used in place of one another",
+        "The operand used with each of these operators must be a single variable"
+    ],
+    "113": [
+        "Division of one integer quantity by another is referred to as integer division",
+        "Suppose that i j and k are integer variables whose values are and respectively",
+        "If the first number is greater than second perform multiplication otherwise division",
+        "Note that x and y both are integer type",
+        "Where x and y both are integer type"
+    ],
+    "79": [
+        "the decimal portion of the quotient will be dropped )",
+        "On the other hand if a division operation is carried out with two floatingpoint numbers or one floating point numbers and other integer the result will be a floating point",
+        "Suppose that i is an integer variable whose value is f is a floatingpoint variable whose value is and c is a character variable that represents the character w",
+        "Suppose that i is an integer variable x is a floatingpoint variable d is doubleprecision variable and c is character type variable",
+        "The first be read into a variable int the second into float and the third into char",
+        "The second will be assigned to a long decimal integer variable and the third will be assigned to a double precision variable",
+        "¾ Precision Optional The operation of precision field depends on the types of conversion"
+    ],
+    "54": [
+        "Precedence Associativity Precedence of an operator in C is defined as the order of evaluation",
+        "The operators are grouped hierarchically according to their precedence",
+        "Operations with a high precedence are carried out before operation having a lower precedence",
+        "Within each of the precedence groups described above the associativity is left to right",
+        "Operators not equal to These operators all fall within the same precedence group which is lower than the arithmetic and unary operators",
+        "The associativity of these operators is left to right",
+        "The associativity of size of right to left",
+        "Give a table that shows their precedence and associatively",
+        "The dot operator has precedence and associativity is left to right"
+    ],
+    "78": [
+        "Several relational expressions involving these variables Expressions Interpretation Value i k true ( jk ) ( i ) false k",
+        "not Logical operators are used to compare evaluate logical and relational expressions",
+        "Several complex logical expressions that make use of these variables are shown below Expression Interpretation Value ( i ) ( c w ) true ( i ) ( c ) true ( f ) false ( c",
+        "is known as conditional operator",
+        "Simple conditional operations can be carried out with conditional operator",
+        "An expression that make use of the conditional operator is called a conditional expression",
+        "Make the comparison between them with conditional operator"
+    ],
+    "112": [
+        "that negates the value of a logical expression ie",
+        "p ) ( if ) true",
+        "expression expression When evaluating a conditional expression expression is evaluated first",
+        "If expression is true the value of expression is the value of conditional expression",
+        "If expression is false the value of expression is the value of conditional expression"
+    ],
+    "77": [
+        "If the operator is written before the operand then it is called as prefix unary operator",
+        "If the operator is written after the operand then it is called as postfix unary operator",
+        "When prefix is used the operand will be altered in value before it is utilized for its intended purpose within the program",
+        "Similarly when postfix is used the operand will be altered in value after it is utilized",
+        "It is a compile time operand",
+        "The operand may be a variable a constant or a data type qualifier",
+        "This operator can be read as the address of so sn means address of sn similarly price means address of price"
+    ],
+    "3": [
+        "Suppose the program includes the following three printf statements",
+        "The statements printf ( integer d n size of i ) printf ( float d n size of x ) printf ( double d n size of d ) printf ( character d n size of c ) might generate the following output integer float double character The above statement can also be written as printf ( integer dnsizeof ( int ) ) and so on",
+        "char text Kathmandu printf ( Number of characters dsizeof ( text ) ) will generate the following output Number of characters Conditional Operators The operator",
+        "The printf ( ) is a builtin function which is used to output data from the computer onto a standard output device ie",
+        "The printf ( ) statement provides certain features that can be used to control the alignment and spacing of printouts on the terminals",
+        "The general form of printf ( ) statement is printf ( control string arg arg",
+        "So the output generated will be fastener Example include main ( ) double x y printf ( fffffnn x y xy xy ) printf ( eeee x y xy xy ) The output are e e e Example read and write a line of text include main ( ) char line scanf ( n line ) printf ( s line ) Arun Kumar Arun Kumar Control string The general syntax of control string Flag Field width precision conversion character ¾ Flags Optional T he flag affect the appearance of the output",
+        "int n Format Output l w printf ( d n ) wl printf ( d n ) printf ( d n ) wl printf ( d n ) Format for floating point output The general form wpf wpe where w is the integer width including decimal point p is the precision f and e are conversion characters Example Format Output printf ( d ) printf ( ) printf ( x ) c printf ( f )",
+        "e printf ( e ) printf ( g ) eg",
+        "float x Format Output printf ( f x )",
+        "printf ( f x )",
+        "printf ( f x ) _ printf ( f x ) printf ( f x ) printf ( e x ) e printf ( e x ) e printf ( e x ) e _ Output of Strings The general form of control string is wps where w specifies the field width for display and p instructs that only the first P characters of the string are to be displayed",
+        "Format Output M Y N E P A L printf ( s str ) M Y N E P A L printf ( s str ) M Y N printf ( s str ) M Y N E P printf ( s str ) printf ( s str ) M Y N E P A L Program to demonstrate unformatted function unformatc include include main ( ) clrscr ( ) char gender printf ( Enter gender M or F ) putchar ( gender ) getch ( ) Output Enter gender M or F M Our gender is M Note clrscr ( ) is a console fumction used to clear console ( display ) screen clrscr ( ) is pronoused clearscreengetch ( ) function is used to hold the console screen",
+        "( PU ) Find the output the following program ( PU ) include Main ( ) int abc a b c printf ( dddnabc ) printf ( dddnabc ) Find the output of the following program ( PU ) include include void main ( ) int x float y char z C clrscr ( ) printf ( d f c nxyz ) getch ( ) Write short noteson Formatted inputoutput function",
+        "( PUBack ) b Find the output of the following program",
+        "include include main ( ) int a int P i clrscr ( ) p a printf ( dn ( pi ) ) getch ( ) The output of above program is Because the statement printf ( dn ( pi ) ) exzecute times from i to i",
+        "Similarly other elements are printed",
+        "EOF ) printf ( sf in std"
+    ],
+    "135": [
+        "Bitwise Operators Bitwise Operators are used for manipulating data at bit level",
+        "These operators are used for testing the bits or shifting them right or left",
+        "Bitwise operators can be applied only to Operator Meaning Bitwise AND Bitwise OR Bitwise exclusive OR Right shift Bitwise ones complement operator Consider a and b",
+        "THe binary representation of a and b for bits a b c a b d a b n a e a b For Bitwise Shift Operator Operand Bitwise Shift operator number For eg"
     ],
     "5": [
-        "If a project is planned an estimate of the benefits derived is compared in ratio form to the cost incurred",
-        "Should this ratio be more that the project is clearly worthwhile and the projects with the highest benefitcost rations should be constructed first because these will provide the greatest returns on the investment",
-        "Internal Rate of Return ( IRR ) is an indicator to reflect the profit of the projects",
-        "The IRR is the annualized effective compounded return rate or rate of return that makes the net present value of all cash flows ( both positive and negative ) from a particular investment equal to zero",
-        "In more specific terms the IRR of an investment is the discount rate at which the net present value of costs ( negative cash flows ) of the investment equals the net present value of the benefits ( positive cash flows ) of the investment",
-        "Internal rates of return are commonly used to evaluate the desirability of investments or projects",
-        "The higher a projects internal rate of return the more desirable it is to undertake the project",
-        "Assuming all projects require the same amount of upfront investment the project with the highest IRR would be considered the best and undertaken first",
-        "IRR values of some of the projects Often the benefits of a proposed project are not such simple items as recreational value but the more serious concern for human health or other social aspects",
-        "Refer Box for details"
+        "Size of Operator The size of operator is used with an operand to return the number of bytes it occupies",
+        "Ram The above line contains three types of data and must be read according to its format",
+        "It is assumed that the starting memory location is",
+        "As each integer element requires bytes subsequent element appears after gap of locations",
+        "Normally each character is stored in one byte and successive characters of the string are stored in successive bytes",
+        "The memory in a computer is made up of bytes arranged in a sequential manner",
+        "Each byte has an index number which is called address of that byte",
+        "The address of these bytes start from zero and the address of last byte is one less than the size of memory",
+        "Suppose we have MB of RAM ( Random Access Memory ) then memory will consist of the address of these bytes will be from to",
+        "The address of first byte from the two allocated bytes is ka the address of variable age",
+        "Suppose compiler has reserved bytes numbered and for the storage of variable age then the address of variable age will e",
+        "Memory Address age Now this value will be stored in these bytes in form of binary representation",
+        "The number of bytes allocated will depend on the data type of variable",
+        "For example bytes would have been allocated for a float variable and the address of first byte would be called the address of variable",
+        "Generally bytes are used to store an address ( may vary in different computers ) so the compiler allocates bytes for a pointer variable",
+        "bytes bytes ) is reserved and the address of the first byte of the memory allocated is assigned to the pointer x of type int ( ie",
+        "x refers the first address of allocated memory )"
     ],
-    "7": [
-        "When life and health enter benefitcost calculations the analyses are generally referred as riskbenefitcost analysis to indicate that people or resources are at risk",
-        "They have in the past few years become more widely known as simply risk analyses",
-        "Risk analysis is comprise do risk assessment and risk management",
-        "The former involves a study and analysis of the potential effect of certain hazards on human health",
-        "Using statistical information risk assessment is intended to be a tool for making informed decisions",
-        "For example it has been shown that the life expectancy of people living in a dirty urban atmosphere is considerably shorter than that of people living identical lives but breathing clean air",
-        "In addition to the potential effect to human health and well being environmental impacts also include effects on the natural resources or infrastructures providing socioeconomic services",
-        "Risk analysis calculates the potential damage to the health and environmental impact analysis provides a means for decision making based on longterm effects on resources"
+    "42": [
+        "Write a program to enter two numbers",
+        "For eg Program to check whether the number is ve or ve include main ( ) int num clrscr ( ) printf ( Enter a number to be tested ) scanf ( d num ) if ( num ) printf ( The number is negative ) printf ( value of num is dn num ) getch ( ) Output st run Enter a number to be tested The number is negative Value of num is nd run Enter a number to be tested Value of num is True Condition Statement False Next Statement ifelse statement The ifelse statement is an extension of the simple if statement",
+        "Program to check whether the number is even or odd include main ( ) int num remainder clrscr ( ) printf ( Enter a number ) Condition statement statement Next statement scanf ( d num ) remainder num modular division if ( remainder ) test for even printf ( Number is evenn ) else printf ( Number is oddn ) getch ( ) Output Enter a number Number is odd",
+        "Program to print whether the number is even or odd include main ( ) int n clrscr ( ) printf ( Enter the number ) scanf ( d n ) if ( n ) goto even else goto odd even printf ( Number is even ) goto end odd printf ( Number is odd ) end printf ( n ) getch ( ) Output Enter the number Number is even",
+        "Display all recordsn ) printf ( Enter your choice ) scanf ( d choice ) switch ( choice ) case printf ( datase created nn ) break case printf ( Record inserted nn ) break case printf ( Record modified nn ) break case printf ( Record deleted nn ) break case printf ( Record displayed nn ) break case exit ( ) default printf ( Wrong choicen ) end of switch end of while getch ( ) end of main ( ) s Some Others Programs QWrite a program to check whether the number is prime or not",
+        "progam to check the num is prime or not primec include main ( ) int numic clrscr ( ) scanf ( dnum ) ic while ( iused for math function like sqrt ( ) and fabs ( ) main ( ) Float a b c xxdreal img printf ( n Enter the values of abc in axbx c t ) scanf ( fff a b c ) d b b a c if ( d ) d sqrt ( fabs ( d ) ) saqr used for square root fabs used for absolute value printf ( n The roots are imaginary ) real b ( a ) img d ( a ) printf ( x f i f f real img ) printf ( x f i f f real img ) else d sqrt ( d ) saqr used for square root fabs used for absolute value printf ( n The roots are imaginary ) real ( b d ) ( a ) img ( b d ) ( a ) printf ( x f t x f f real img ) getch ( ) Some Important Questions What is a control statement",
+        "Explain with examples Write a program to check the given number is prime or not",
+        "Write a program to check number is palindrome or not",
+        "A program to read a string and check for palindrome void main ( ) char st int len i pal clrscr ( ) printf ( Enter string of our choice ) gets ( st ) len strlen ( st ) for ( i i ( len ) i ) if ( sti",
+        "stleni ) pal if ( pal ) printf ( n The input string is not palindrome ) else printf ( n the input string is palindrome ) getch ( ) Some Important Questions What is an array"
     ],
-    "4": [
-        "In Nepal Society of Public Health Engineers ( SOPHEN ) is an association working the sector",
-        "Box Introduction to SOPHEN Society of Public Health Engineers Nepal ( SOPHEN ) was registered in Nepal in AD ( BS ) as an independent professional organization by a group of Nepalese Engineers",
-        "At present it has members",
-        "SOPHEN is governed by an executive committee of eleven members elected by the general members of the society",
-        "Some of the major responsibilities of SOPHEN include the enhancement of technical and professional competencies of its members work for the protection of the basic professional rights and support the government and other agencies in the formulation of policies and strategies in related fields",
-        "SOPHEN is committed to carry out various professional activities that are intended to bring qualitative results to improve the sanitary and environmental conditions of the country",
-        "It aims to work in association with other professional bodies in Nepal and aboard",
-        "SOPHEN has been recognized by all the sectors of the society as a leading professional body of Nepal",
-        "Objectives Dissemination of stateofart technologies to practitioners policy makers and beneficiaries",
-        "Establish professional relationship with similar institutions to national and international level sharing ideas and technologies for mutual benefits and interests",
-        "Coordinate with other national and international professional bodies enhancing professional competencies to the implementation of emerging technologies",
-        "Building capacities of its members through various research training and workshop in national and international level"
+    "28": [
+        "The standard input functions are scanf ( ) getchas ( ) getch ( ) gets ( ) etc",
+        "Similarly the output functions which are used to display the result on the screen are called standard output functions",
+        "The standard library stdioh provides functions for input and output",
+        "Types of IO The inputoutput functions are classified into two types i Formatted functions ii",
+        "The input function scanf ( ) and output Program function printf ( ) fall under this category",
+        "This is possible in C using the scanf function",
+        "The input data can be entered into the computer from a standard input device keyboard by means of the C library function scanf",
+        "Several of the more frequently used conversion characters are listed below Table Conversion Charater Table Example inlcude main ( ) char item int partno float cost scanf ( s d f item partno cost ) The following data items could be entered from the standard input device when the program is executed",
+        "Example include main ( ) char line scanf ( n line ) A variation of this feature which is often more useful is to precede the characters within the square brackets by a circumflex ( or caret )",
+        "Several of the more frequently used conversion characters are listed below Table Conversion Charater Table Note l for long int h for signedunsigned short L for double",
+        "For example printf ( ) scanf ( ) sqrt ( ) getch ( ) etc"
+    ],
+    "40": [
+        "Unformatted functions Formatted Functions Formatted functions allow the input read from the keyboard or the output displayed on screen to be formatted according to our requirements",
+        "While displaying a certain data on screen we can specify the number of digits after decimal point number of spaces before the data the position where the output is to be displayed etc using formatted functions",
+        "Formatted Input Formatted input refers to an input data that has been arranged in a particular format",
+        "Formatted Output Formatted output refers to the output of data that has been arranged in a particular format",
+        "screen This function can be used to output any combination of numerical values single character and strings",
+        "argn ) where control string refers to a string that contains formatting information and arg arg argn are arguments that represent the individual output data item",
+        "Format for Integer Output wd where w is the integer number specifying the minimum field width of output data",
+        "The display is right justified For example char str MY NEPAL Unformatted Functions Unformatted functions do not allow the user to read or display data in desired format",
+        "( PUBack ) include include void main ( ) char class country printf ( sclass ) printf ( cclass ) printf ( s rc class class ) getch ( ) Write the various input unformatted function and describe any two",
+        "Write the various output unformatted function and describe any two"
+    ],
+    "38": [
+        "scanf ( ) stands for scan formatted",
+        "The general syntax of scanf function is scanf ( control string arg arg argn ) where control string refers to a string containing certain required formatting information so also known as format string and arg arg argn are arguments that represent the individual input data items",
+        "Example include main ( ) int a b c scanf ( d d d a b c ) Suppose the input data items that are entered as Then the following assignment will result a b c If the data had been entered as Then the assignment would be a b c Now suppose that the data had been entered as Then the assignments would be a b c Finally suppose that the data had been entered as The resulting assignments would now be a b c Example include main ( ) int i float x char c If the data items are entered as T The output would now be The remaining two input characters ( and T ) will be ignored",
+        "Example include main ( ) short ix iy long lx ly double dx dy scanf ( hd ld lf ix ly dx ) The control string in the first scanf function indicates that the first data item will be assigned to a short decimal integer variable",
+        "The control string in the second scanf function indicates that the first data item will have a maximum field width of characters and it will be assigned to short octal integer variable the second data item will have a maximum field width of characters and it will be assigned to a long hexadecimal integer variable and the third data item will have a maximum field width of characters and it will be assigned to double precision variable",
+        "Example include main ( ) int partno float cost scanf ( s d f item partno cost ) If the corresponding data item are input fasterner fasterner is assigned to item and will be assigned to cost",
+        "In contrast to scanf ( ) function the arguments in a printf ( ) function do not represent memory addresses and therefore are not preceded by ampersands",
+        "For example include main ( ) char item int partno float cost printf ( sdf item partno cost ) Suppose fastener and have been assigned to name partno and cost",
+        "It offers an alternative function of scanf ( ) function for reading strings",
+        "Unlike scanf ( ) function it doesnot skip whitespaces"
+    ],
+    "118": [
+        "The function returns the number of data items that have been entered successfully",
+        "When the program receives this signal the file reading function returns EOF which is a constant defined in the file stdioh and its value is",
+        "It returns the integer written to file on success and EOF on error getw ( ) used to read integer value from a file",
+        "It returns the next integer from the ip file on success and EOF on error",
+        "What is the significance of EOF"
+    ],
+    "64": [
+        "Actually the arguments represent pointers that indicate the addresses of the data items within the computers memory",
+        "In fact main can take two arguments called argi and argu and the information contained in the command line ( ie",
+        "The variable argc is an argument counter that the number of arguments on the command line",
+        "The argu is an argument vector and represents an array of character pointers that point to the command line arguments",
+        "For instance for the command line given above argc is three and argu is an array of three pointers to strings as shown below argu PROGRAM argu X_FILE argu Y _FILE In order to access the command line arguments we must declare the main function and its parameters as follows main ( argc argu ) int argc char argu WAP that will receive a filename and a line of text as command line arguments and write the text to the file",
+        "The command line F_ TEXT AAAAAA BBBBBB GGGGGG Each word in the command line is an argument to the main and therefore the total number of argument is",
+        "The argument vector argv points to the string TEXT and therefore the statement",
+        "The argument vector argv contains the entire command line in the memory and therefore the statement printf ( sn is argvi ) prints the argument from the memory"
+    ],
+    "88": [
+        "Thus the user may enter whatever he or she wishes and then presses the Enter Key",
+        "In both cases input accepted as soon as the character typed",
+        "At the same time it is cumbestsome and time consuming to handle large volume of data through keyboard",
+        "It takes a lot of time to enter the entire data",
+        "If the user makes a mistake while entering the data heshe has to start from the beginning again",
+        "If the same data is to be entered again at some later stage again we have to enter the same data"
+    ],
+    "27": [
+        "It is possible to limit the number of such characters by specifying a maximum field width for that data item",
+        "To do so an unsigned integer indicating the field width is placed within the control spring between the The data item may contain fewer characters than the specified filed width",
+        "However the number of characters in the actual data item can not exceed the specified field width",
+        "Any characters that extend beyond the specified filed width will not be read",
+        "Such leftover characters may be incorrectly interpreted as the components of the next data item",
+        "The flags may be blank space or",
+        "Flags Meanings Data item is left justified within the field",
+        "The blank spaces required to fill the TableFlags ¾ Field Width Optional The field width is an integer specifying the minimum output field width",
+        "If the number of characters in the corresponding data item is less than the specified field width then the data item will be preceded by enough leading blanks to fill the specified field",
+        "If the number of characters in the data item exceeds the specified field width then additional space will be allocated to the data item so that the entire data item will be displayed",
+        "If the length of the variable is less than the specified field width then the variable is right justified with leading blanks"
+    ],
+    "134": [
+        "The arguments can be written as constants single variable or array names or more complex expressions",
+        "Parameters ( as many as needed ) Each parameter consists of a data type specifier followed by an identifier like any regular variable declaration",
+        "The different parameters are separated by commas",
+        "These are known as actual parameter"
+    ],
+    "12": [
+        "getchar ( ) and putchar ( ) The getchar ( ) function reads a character from a standard input device",
+        "The general syntax is character_variable getchar ( ) where character_variable is a valid C char type variable",
+        "When this statement is encounted the computer waits until a key is pressed and assign this character to character_variable",
+        "The putchar ( ) function displays a character to the standard output device",
+        "The general syntax of putchar ( ) function is putchar ( character_variable ) where character_variable is a char type variable containing a character",
+        "getch ( ) getche ( ) and putch ( ) The functions getch ( ) and getche ( ) reads a single character the instant it is typed without waiting for the enter key to be hit",
+        "The difference between them is that getch ( ) reads the character typed without echoing it on the screen while getche ( ) reads the character and echoes ( displays ) it on the screen",
+        "The general syntax of getch ( ) character_variable getch ( ) Similarly the syntax of getch ( ) is character_variable getche ( ) The putch ( ) function prints a character onto the screen",
+        "The general syntax is putch ( character_variable ) These three functions are defined under the standard library function conioh and hence we should include this in our program using the instruction include include main ( ) char ch ch clrscr ( ) printf ( Enter first character ) ch getch ( ) printf ( n Enter second character ) ch getche ( ) printf ( n First character ) putch ( ch ) printf ( n Second character ) putch ( ch ) Output Enter first character Enter second character b First character a Second character b Since the first input is taken using getch ( ) function the character a entered is not echoed",
+        "However using getche ( ) function we can see what we have typed",
+        "The last getch ( ) simply takes a character but doesnot store it anywhere",
+        "gets ( ) and puts ( ) The gets ( ) function is used to read a string of text containing whitespaces until a newline character is encountered",
+        "The general syntax of gets ( ) is gets ( string_variable ) The puts ( ) function is used to display the string onto the terminal",
+        "The general syntax of puts ( ) is puts ( string _variable ) This prints the string value of string_variable and then moves the cursor to the beginning of the next line on the screen",
+        "( PU ) Distinguish between getc ( ) a getchar ( )"
+    ],
+    "137": [
+        "There are two types of control statements",
+        "What do you mean by control statements",
+        "What is control statement",
+        "Describe different control statement"
+    ],
+    "120": [
+        "Decisions if ifelse nested ifelse switch Loops Loops are used when we want to execute a part of program or block of statement several times",
+        "Following are decision making statements if statements ifelse statements else if statement Nested ifelse statement switch statement if statement The if statement is a powerful decision making statement and is used to control the flow of execution of statements",
+        "For example if ( condition ) if ( condition ) statementA else statement A Here we have ifelse inside both if block and else block else if ( condition ) statementB else statementB Program to find whether a year is leap or not include main ( ) int year clrscr ( ) printf ( Enter year ) if ( year ) if ( year ) printf ( Leap year n ) else printf ( Not leap yearn ) getch ( ) This can also be written in place of nested if else as if ( ( year year ) year ) printf ( d is a leap yearn year ) else printf ( d is not a leap yearn year ) Program to find largest number from three given number include main ( ) int a b c large clrscr ( ) printf ( Enter three numbers ) scanf ( ddd a b c ) if ( ab ) if ( ac ) large a else large c else if ( bc ) large b else large c printf ( Largest number is dn large ) getch ( ) Output Enter the numbers Largest num is else if statement This is a type of nesting in which there is an ifelse statement in every else part except the last else part",
+        "Statements switch break continue goto Switch Statement This is a multidirectional conditional control statement",
+        "The statements under case can be any valid C statements like ifelse while for or even another switch statement"
+    ],
+    "90": [
+        "Print Enter a number whose factorial is to be calculated",
+        "Initilize fact to and counter i to For inum factfacti i End of For Print fact as factorial of the number num",
+        "WAP to find the factorial of a number using recursive method long int factorial ( int n ) if ( n ) return ( ) else return ( nfactorial ( n ) ) main ( ) int num printf ( Enter a number ) scanf ( d num ) printf ( The factorial is ld factorial ( num ) ) Output Enter a number The factorial is The Towers of Hanoi The Towers of Hanoi is a well known childrens game played with three poles and a number of different size disk",
+        "The Tower of Hanoi_solved using recursion include void transfer ( int n char from char to char temp ) function prototype main ( ) left Center Right int n printf ( Welcome to the Tower of Hanoi nn ) printf ( How many disk ) scanf ( d n ) printf ( n ) transfer ( n l R C ) void transfer ( int n char from char to char temp ) transfer n disks from one pole to another n number of disks from origin to destination temp temporary storage if ( n ) move n disk from origin to temporary transfer ( n from temp to ) move nth disk from origin to destination printf ( Move disk dfromctocn n from to ) move n disks from temporary to destination transfer ( n temp to from ) return Program Fibonacci number by recursion include include int fib ( int x ) if ( x x ) return else return ( fib ( x ) fib ( x ) ) main ( ) int i n no clrscr ( ) printf ( how many no in series ) for ( i in i ) no fib ( i ) printf ( d no ) getch ( ) WAP to add the natural numbers using recursive method long int add ( int n ) If ( n ) return else return ( n add ( n ) ) main ( ) int num clrscr ( ) printf ( Enter How many numbers ) scanf ( d num ) printf ( The sum of natural number is ld add ( num ) ) getch ( ) Output Enter How many numbers The sum of natural numbers is More about main ( ) We know that every C program should have one main ( ) function and that it marks the beginning of the program",
+        "Write a program to calculate factorial of n number by using recursive function where n is the number inputted by user",
+        "Write a program in C to allow a user to enter an integer number interactively and display its factorial value"
+    ],
+    "91": [
+        "This statement is used to test a condition and take one of two possible actions If the condition is true then a single statement or a block of statements is executed ( one part of the program ) other wise another single statement or a block of statements is executed ( other part of the program )",
+        "syntax if ( condition ) if ( condition ) statement statement statement n There can be a single statement or a block of statements after the if part",
+        "Flowchart Fig Flowchart of if control statement Here if the condition is true ( nonzero ) then statement is executed and if it is false ( zero ) then the next statement which is immediately after the if control statement is executed",
+        "The syntax is if ( condition ) if ( condition ) statement else statement statement else statement Flowchart Fig Flowchart of ifelse control statement Here if the condition is true then statement is executed and if it is false then statement is executed",
+        "After this the control transfers to the next statement which is immediately after the ifelse control statement",
+        "if ( condition ) if ( condition ) statementA statementA else elseif ( condition ) if ( condition ) statementB statementB elseif ( condition ) else statementC if ( condition ) else statementC statement D else statement D The flowchart for else if statement is False True Condition False True Condition Stat A False True Condition Stat B Stat D Stat C Next Statement Program to find out the grade of a student when the marks of subjects are given"
+    ],
+    "133": [
+        "else if statement Nested if else statement We can have another if else statement in the if block or the else block",
+        "This is called nested ifelse statement",
+        "This type of nesting is frequently used in programs and is also known as else if ladder",
+        "This is known as falling through cases"
+    ],
+    "53": [
+        "The method of assuming grade is as per grade A per grade B per grade C per grade D per main ( ) float m m m m total per char grade clrscr ( ) printf ( Enter marks of subjects ) scanf ( ffffm m m m ) total mmmm per total if ( per ) grade A elseif ( per ) grade B elseif ( per ) grade C elseif ( per ) grade D else grade F printf ( Percentage is fn Grade is cn per grade ) getch ( ) Equivalent code in simple if statement if ( per ) grade A if ( per ) grade B if ( per ) if ( per ) grade F In else_if ladder whenever a condition is found true other conditions are not checked while in if statement all the conditions will always be checked wasting a lot of time and moreover the conditions here are more lengthy",
+        "M Singh ) printf ( n Names name ) name ( char ) realloc ( ame ) strcpy ( namecaptain B M Singh ) pritf ( nNamesname ) getch ( ) output Name B M Singh Name Captain B M Singh Program to read marks obtained by ditstudent calculate sum average using pointer include include include main ( ) int n i float p sum avg clrscr ( ) printf ( n How Many Students aretheret ) scanf ( dn ) printf ( n Enter marks of each studentsn ) p ( float ) malloc ( nsizeof ( float ) ) for ( i in i ) scanf ( f ( pi ) ) avgsumn printf ( The average marks of ) for ( i in i ) printf ( f t ( p i ) ) printf ( f t is avg ) free ( P ) getch ( ) output How many students are there",
+        "Enter marks of each student The average marks of is write a pg to read an array of n integers using dynamic memory allocation and display the largest and smallest element int main ( ) int n i intnummaxmin clrscr ( ) printf ( n enter number of elements in our array ) scanf ( dn ) num ( int ) calloc ( nsizeof ( int ) ) printf ( nEnterd integersn ) for ( i i ( numi ) ) min ( numi ) printf ( n the maximum numberdmax ) printf ( n the minimum numberdmin ) getch ( ) output Enter numbers of element in our array Enter integers The maximum number The minimum number Some Important Questions What are the relationship between arrays and pointer",
+        "WAP using structure to read and display the data entered by the user include main ( ) struct student char name int roll float marks char remark struct student s clrsc ( ) printf ( enter name t ) gets ( sname ) printf ( In enter rollt ) scanf ( d sroll ) printf ( n enter marks t ) scanf ( f smarks ) printf ( enter remarks p for pass or f for fail t ) sremark getch ( ) printf ( nn The students information is n ) printf ( Student Name ItItIt Roll It Marks It Remarks ) printf ( n n ) printf ( sttdtftc sname sroll smarks sremark ) getch ( ) output enter name Ram Singh enter roll Enter remark p for pass or f for fail P The students information is Student Name Roll Marks Remarks Ram Singh P Array of Structure Like array of int float or char type there may be array of structure",
+        "Use this structure to read and display records of student main ( ) struct student charname int roll float marks char remark struct student st int i clrscr ( ) for ( i i i ) printf ( n Enter Information of student Nodn i ) printf ( Name t ) scanf ( s siname ) printf ( n Roll t ) scanf ( d siroll ) printf ( n Markst ) scanf ( f simarks ) printf ( remark ( pf ) t ) siremark getch ( ) printf ( nn The Detail Information is n ) printf ( Student Name t Roll t Marks t Remarks ) printf ( n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ n ) for ( i i i ) printf ( sttdtf tcnsiname siroll simarks siremark ) getch ( ) output Enter Information of student No Name Ram Roll Marks Remarks P Enter Information of Student No Name Shyam Roll Marks Remarks P Enter Information of Student No Name Bikash Roll Marks Remarks P Enter Information of Student No Name Jaya Roll Marks Remarks P Enter Information of Student No Name Nisha Marks Remarks F The Detail Information is Student Name Roll Marks Remarks Ram P Shyam P Bikash P Jaya P Nisha F Initializing array of structure Array of structure can be initialized in the same way as a single structure",
+        "Create a union named student that has roll and marks as member one at a time and display the result one at a time void main ( ) union student int roll float marks union student st stroll printf ( nRolld stroll ) stmarks printf ( nMarksf stmarks ) Roll Marks If two members are used simultaneously the output is unexpected as following",
+        "void main ( ) union student introll float marks union student st stroll stmarks printf ( nRolld stroll ) printf ( nMarksf stmarks ) Output Roll Marks Where roll is zero as memory is replaced by another variable stmarks",
+        "EOF ) fputc ( ch fdest ) printf ( Sucessfully copied ) fclose ( fsource ) fclose ( fdest ) getch ( ) Program to understand fprintf ( ) include Struct student char name float marks std main ( ) FILE fp int i n fp fopen ( studentdat w ) printf ( enter number of records ) scanf ( d n ) for ( i i char name float marks std main ( ) FILE fp fp fope ( studentdat",
+        "Write an array of structure to a life then read its content to display to the screen Void main ( ) struct student Char name int roll float marks struct student s st int i float tempMarks FILE fptr fptr fopen ( dstudenttxt"
+    ],
+    "82": [
+        "For making this choice we use the switch statement",
+        "The general syntax is switch ( expression ) case constant statements break case constantN statements break default statements Here switch case and default are keywords",
+        "The expression following the switch keyword can be any C expression that yields an integer value or a character value",
+        "Writing a switch statement inside another is called nesting of switches",
+        "Firstly the switch expression is evaluated then value of this expression is compared one by one with every case constant",
+        "If none of the case constant matches with the value of the expression then the block of statements under default is Flowchart switch ( expression ) case constant ( expression constant ) Body of case constant case constant ( expression constant ) Body of case constant case N default default Out of switch fig Flowchart of switch statement Program to understand the switch control statment include main ( ) int choice clrscr ( ) printf ( Enter your choice ) scanf ( d choice ) switch ( choice ) case case printf ( secondn ) case printf ( thirdn ) default printf ( wrong choicen ) getch ( ) Output Enter your choice Second Third Wrong Choice Here value of choice matches with second case so all the statements after case are executed sequentially",
+        "Write a menu driven program using switch statement having the following options"
+    ],
+    "138": [
+        "The goto statement transfers the control to the labeled statement somewhere in the current function",
+        "The general syntax of goto statement goto label label statement Here label is any valid C identifier and it is followed by a colon",
+        "Whenever the statement goto label is encountered the control is transferred to the statement that is immediately after the label",
+        "Generally the use of goto statement is avoided as it makes program illegible and unreliable"
+    ],
+    "136": [
+        "Create databasen ) printf (",
+        "Insert new recordn ) printf (",
+        "Modify a recordn ) printf (",
+        "Delete a recordn ) printf ("
+    ],
+    "71": [
+        "For example inlcude main ( ) int c double d crlscr ( ) printf ( Enter temperature in Celsius ) scanf ( d c ) d convert ( c ) Function call printf ( The Fahrenheit temperature of d C lf Fc d ) getch ( ) double convert ( int C ) function definition double f f c return f What is about main ( ) function",
+        "main ( ) register int a Recursive Function Recursion in programming is a technique for defining a problem in terms of one or more smaller versions of the same problem",
+        "A recursive function is one that calls itself directly or indirectly to solve a smaller version of its task until a final call which does not require a selfcall",
+        "Thus the function is called recursive function if it calls to itself and recursion is a process by which a function call itself repeatedly until some specified condition will be satisfied",
+        "To solve a problem using recursive method two conditions must be satisfied",
+        "we must have an if statement somewhere to force the function to return without the recursive call being executed otherwise function will never return",
+        "What is a recursive function"
+    ],
+    "119": [
+        "The general syntax of function prototype is return_type function_name ( type type typen ) where return_type specifies the data type of the value returned by the function",
+        "A function can return value of any data type",
+        "The general syntax is return_type function_name ( parameter parameter parametern ) statements where return_type is the data type specifier of data returned by the function",
+        "The syntax of teh call if function return_type is void is function_name ( parameter name ) If function return int float or any other type value then we have to assign the call to same type value like variable function_name ( parameter ) For example m mul ( x y ) The type of m is same as the return type of mul function",
+        "This type of function is defined as void function_name ( ) body of function The keyword void means the function does not return any value"
+    ],
+    "98": [
+        "If there is no return value the keyword void is used",
+        "There are two ways in which it can be used return return ( expression ) where return is a keyword",
+        "In this case only return keyword is written",
+        "The value returned by the return statement may be any constant variable expression or even any other function call which returns a value",
+        "Similarly when called function does not return a value the calling function does not receive any data from it",
+        "There is no argument within parenthesis which implies function has no argument and it doesnt receive any data from the called function"
+    ],
+    "83": [
+        "For example int add ( int int ) int add ( int a int b ) void display ( int a ) void display ( int ) Function definition A function definition is a group of statements that is executed when it is called from some point of the program",
+        "statements is the functions body",
+        "The first line of the function definition is known as function header",
+        "This statement can appear anywhere inside the body of the function",
+        "Formal Actual When a function is called some parameters are written within parenthesis",
+        "What is a function",
+        "When we call the function no need to subscript or square brackets"
+    ],
+    "50": [
+        "int addition ( int a int b ) function prototype main ( ) int addition ( ) function call printf ( The result isdz ) int addition ( int a int b ) function header int r r ab return r Output The result is return statement The return statement is used in a function to return a value to the calling function",
+        "Program to understand the use of return statement include void funct ( int float ) main ( ) int age float ht clrscr ( ) printf ( Enter age and height ) scanf ( df age ht ) funct ( age ht ) getch ( ) void funct ( int age float ht ) if ( age ) printf ( Age should be less than n ) return if ( ht ) printf ( Height should be more than n return print ( selected n ) The second form of return statement is used to terminate a function and return a value to the calling function",
+        "For example return return ( xyz ) return ( sum ( ab ) ) Calling a function ( or A calling function ) A function can be called by specifying its name followed by a list of arguments enclosed in parenthesis and separated by commas in the main ( ) function",
+        "Functions with no arguments and no return value",
+        "Functions with no arguments and a return value functions with arguments and no return value Functions with no arguments and no return value When a function has no arguments it does not receive any data from the calling function",
+        "Program to illustrate the function with no arguments and no return values void add ( ) int a b sum printf ( n Enter two numbers t ) scanf ( dd a b ) sum a b printf ( n The sum is d sum ) void main ( ) clrscr ( ) add ( ) getch ( ) Output Enter two numbers The sum is Functions with no arguments and a return value These type of functions do not receive any arguments but they can return a value",
+        "int func ( void ) main ( ) int r int func ( void ) return ( expressions ) Program to illustrate function with no argument and a return value inlcude int add ( void ) main ) printf ( The sum is dn add ( ) ) int add ( void ) int n n sum printf ( Enter two numbers t ) scanf ( dd n n ) sum nn return ( sum ) Output Enter two numbers The sum is Functions with arguments and no return values These types of functions have arguments hence the calling function can send data to the called function but the called function does not return any value",
+        "These functions can be written as void func ( int int ) main ( ) func ( a b ) void func ( int c int d ) statements Program to illustrate the functions with arguments but no return values void add ( int int ) main ( ) int a b printf ( Enter two numbers t ) scanf ( dd a b ) add ( a b ) void add ( int c int d ) int sum sum cd printf ( n The sum is d sum ) Output Enter two numbers The sum is Functions with arguments and return values These types of functions have arguments so the calling function can send data to the called function it can also return any values to the calling function using return statement",
+        "This function can be written as int func ( int int ) main ( ) int r r func ( ab ) int func ( int a int b ) return ( expression ) Program to illustrate the function with argument and return values int add ( int int ) main ( ) int a b sum clrscr ( ) printf ( Enter two numbers t ) scanf ( dd a b ) sum add ( a b ) printf ( ln the sum is td sum ) int add ( int a int b ) int sum sum ab return sum Output Enter two numbers The sum is Call by value Call by reference ( Or Pass by value Pass by reference ) Passing arguments to functions An argument is a data passed from a program to the function"
+    ],
+    "61": [
+        "Thus pointer variables are defined as int a float b char c where a b c are pointer variable which stores address of integer float and char variable",
+        "Program to print address of variable using include main ( ) int sn float price printf ( value of snd Address of snun sn sn ) printf ( value of pricef Address of priceun price price ) output value of sn Address of sn value of price Address of price Pointer Fundament Pointer Declaration Introduction A pointer is a variable that contains a memory address of data or another variable",
+        "The asterisk preceding this name informs the compiler that the variable is declared as a int iptrsn float fptrprice iptrsn assigning of pointer fptrprice Now iptr contains the address of variable sn ie",
+        "it points to variable sn similarly fptr points to variable sn similarly fptr points variable price",
+        "If pointers are declare after the variable like int snpsn float priceqprice It is also possible to assign the value of one pointer variable to the other provided their base type is some",
+        "PP Now both pointer variable P and P contains the address of variable sn and points the same variable iptr sn fptr P sn P We can also assign constant zero to a pointer of any type",
+        "Let us see some other examples P is equivalent to a ( P ) is equivalent to a xP is equivalent to xb printf ( dfPP ) is equivalent to printf ( dfab ) scanf ( dfPP ) is equivalent to scanf ( dfab ) include main ( ) int a float b int Pa printf ( value of P address of a unP ) printf ( value of P address of b un P ) printf ( Address of P unP ) printf ( Address of P un P ) printf ( value of a dddnaP ( a ) ) printf ( value of b fffnbP ( b ) OUTPUT Value of P Address of a Value of P Address of b Address of P Address of P Value of a Value of b Passing pointers to functions A pointer can be passed to a function as an argument",
+        "What does p p and p represents if p is declared as integer pointer"
+    ],
+    "63": [
+        "int x float y char c a x the address of x is assigned to pointer variable a b y the address of y is stored to pointer variable b c c the address of c is stored to pointer variable c include void swap ( int int ) function prototype main ( ) int x y x clrscr ( ) swap ( x y ) function call by address printf ( xdn x ) printf ( ydn y ) getch ( ) void swap ( int a int b ) int t t a a b b t Output x y PU Concept of Local Global Static variables Local variables ( automatic or internal variable ) The variables that are defined within the body of a function or a block are local to that function or block only and are called local variables",
+        "Address operator ( ) C provides an address operator which returns the address of a variable when placed before it",
+        "The following program prints the address of variabvles using address operator",
+        "Let us take an example int a float b intP a floatp b In above program if we place before P when we can access the variable whose address is stored in P",
+        "For example int aP Pa After statement pa p point the array ie",
+        "the p contains the address of a ( first address of array ) P After this statement P points to a element",
+        "When i then ( pi ) is ( p ) means p therefore this prints the value which store at location P Similarly ( p ) means the value of second element because p is pointer to the second element of array",
+        "p contains the address of element ) or p is name of array"
+    ],
+    "94": [
+        "The keyword auto may be used storage class specification while declaration of variable",
+        "A variable declared inside a function without storage class specification auto is by default an automatic variable",
+        "An external variable must begin with the storage class specifier extern",
+        "A variable declared outside a function without storage class specification extern is by default an external variable but defined after some function",
+        "A program to illustrate the global variables int a void func ( ) a printf ( tda ) void main ( ) clrscr ( ) printf ( tda ) func ( ) printf ( tda ) Output Illustratration of extern variable main ( ) extern float marks func ( ) extern float marks float marks global space but defined after function The extern declaration does not allocate storage space variables",
+        "The extern declaration of marks inside the function informs the compiler that marks is a float type extern variable defined somewhere else in the program"
+    ],
+    "6": [
+        "Default initial value of such type of variable is an unpredictable value which is often called garbage value",
+        "Storage class refers to the performance of a variable and its scope within the program",
+        "Initial Value This is the initial value assigned by the language to a variable if no value is assigned to variable explicitly by the programmer",
+        "The default initial value for these variable is zero",
+        "Static variables Static variables are declared by writing keyword static in front of the declaration",
+        "static type var_name A static variable is initialized once and the value of a static variable is retained between function call",
+        "If a static variable is not initialized then it is automatically initialized to O",
+        "Program with auto variable Program with static variable void increment ( ) void increment ( ) int i static int i printf ( dn i ) printf ( dn i ) i i main ( ) main ( ) clrscr ( ) increment ( ) increment ( ) increment ( ) increment ( ) increment ( ) increment ( ) increment ( ) increment ( ) getch ( ) getch ( ) Output Register variable Register variables are special case of automatic variables",
+        "If a variable is declared as register variable then it is stored in the CPU register",
+        "The scope of register variables is local to the block in which they are declared",
+        "Rules for initializations for register variables are the same as for automatic variables",
+        "What is a static variable",
+        "Write a programin C that uses a static variable",
+        "Memory Block We have studied that it is necessary to declare a variable before using it since compiler has to reserve space for it",
+        "The data type of the variable also has to be mentioned so that the compiler knows how much space need to be reserved",
+        "For example int age The compiler reserves consecutive bytes from memory for this variable and associates the name age with it",
+        "Like all other variables it also has a name to be declared and occupies some space in memory"
+    ],
+    "96": [
+        "The scope of it is local to the block in which the variable is defined",
+        "Again its life is till the control remains within the block in which the variable is defined",
+        "Scope Scope of a variable can be defined as the region over which the variable is visible or valid",
+        "The scope is global ie",
+        "Its scope is local to the block in which the variable is defined",
+        "Again the life time is global ie"
+    ],
+    "9": [
+        "Each disk has a hole in the centre allowing it be stacked around any of the poles",
+        "Initially the disks are stacked on the leftmost pole in the order of decreasing size ie",
+        "the largest on the bottom and the smallest on the top",
+        "The object of the game is to transfer the disks from the leftmost pole to the rightmost pole without ever placing a larger disk on the top of a smaller disk",
+        "Only one disk may be moved at a time and each disk must always be placed around one of the poles",
+        "The general strategy is to consider one of the poles to be the origin and another to be the destination",
+        "The third pole will be used for immediate storage",
+        "Thus allowing the disks to be moved without placing a larger disk over a smaller one",
+        "Assume there are n disks numbered from smallest to largest",
+        "If the disks are initially stacked on the left pole the problem of moving all n disks to the right pole can be stated in the following recursive manner",
+        "Move the top n disks from the left pole to the centre pole",
+        "Move the nth disk ( the largest disk ) to the right pole",
+        "Move the n disks on the centre pole to the right pole",
+        "In order to program this game we first label the poles so that the left pole is represented as L the centre pole as C and the right pole as R We then construct a recursive function called transfer that will transfer n disks from one pole to another",
+        "Let us refer to the individual poles with the char type variable from to and temp for the origin destination and the temporary storage respectively",
+        "Thus if we assign the character L to from R to and C to temp we will in effect be specifying the movement of n disks from the leftmost pole to righmost pole using the centre pole for immediate storage"
+    ],
+    "62": [
+        "fp fopen ( argv w ) opens a file with name TEXT",
+        "The function fopen ( ) is used to open a file",
+        "On success fopen ( ) returns a pointer of type FILE and on error it returns NULL",
+        "For example FILE fp fp fp fopen ( myfiletxt w ) fp fopen ( yourfiledat r ) The file opening mode specifies the way in which a file should be opened ( ie",
+        "To open a file in binary mode we can append b to the mode and to open the file in text mode t can be appended to the mode",
+        "But since text mode is the default mode t is generally omitted while opening files in text mode",
+        "For example wb Binary file opened in write mode ab or ( ab ) Binary file opened in append mode rt or ( rt ) Text file opened in update mode w or ( wt ) Text file opened in write mode The file that was opened using fopen ( ) function must be closed when no more operations are to be performed on it",
+        "Explain in brief the various file opening modes"
+    ],
+    "32": [
+        "The for loop that follows immediately write the remaining arguments the file TEXT",
+        "Program also prints two output one from the file TEXT and the other from the system memory",
+        "include void main ( ) FILE fp fp fopen ( Ctesttxt w ) if ( fp NULL ) else printf ( File has been successfully created ) fputs ( Welcome to Eastern College of Engineering fp ) fclose ( fp ) output goto C drive and see the text file testtxt in notepad where the content is Welcome to Program to open the file texttxt created above read its content display to the screen include Void main ( ) FILE fp char s fp fopen ( ctesttxt r ) if ( fp NULL ) printf ( In file can not be opened ) exit ( ) fgets ( s fp ) printf ( in the text from file is ts s ) fclose ( fp ) getch ( ) OUTPUT The text from file is Welcome to Eastern College of Engineering",
+        "Program that opens a file and copies all its content to another file",
+        "Take source destination file from user include Void main ( ) FILE fsource fdest char ch source dest printf ( In Enter source file name t ) gets ( source ) printf ( Enter destination file name t ) gets ( dest ) fsource fopen ( source r ) if ( fsource NULL ) printf ( n source file can not be opened ) exit ( ) fdest fopen ( dest w ) if ( fdest NULL ) exit ( ) while ( ( ch fgetc ( source )",
+        "The syntax is long ftell ( FILE fp ) Some Programs Program to write some text welcome to my college to a data file in binary mode",
+        "Read its content and display it include Void main ( ) FILE fptr char c fptr fopen ( testtxt wb ) if ( fptr NULL ) printf ( n File can not be created ) fputs ( welcome to my college fptr ) printf ( The content from file n ) while ( cc fget c ffptr ) )",
+        "EOF ) printf ( c C ) fclose ( fptr ) output The Content from file Welcome to my college",
+        "Read and display the same from the file",
+        "Write a program that read a line of text and store file then print the content of file",
+        "Write a program to open a file in write mode take input form the keyboard and write it to the file"
+    ],
+    "115": [
+        "int a is a declaration of one dimensional array of type int",
+        "Its elements can be illustrated as st element nd rd th th element a a a a a The elements of an integer array a are stored continuous memory locations",
+        "int a b b a not acceptable if ( ab ) _ _ _ _ not acceptable we can assign integer values to these individual element directly a a a a a A loop can be used to input and output of the elements of array",
+        "a a a a a a int a In above example the values are less than the elements of array",
+        "int a is perfectly acceptable"
+    ],
+    "141": [
+        "declaration of an array data_type array_namesize or if we want to add storage classes then that look like storage_class data_type array_namesize where storage_class refers to the storage class of the array",
+        "data_type is the data type of array",
+        "Initialization of array The array is initialized like follow if we need time of declaration data_type array_namesize value value valuen For eg",
+        "The general format for declaring multidimensional array is data_type array_name size size sizen We can add storage class in above declaration if necessary like follow storage_class data_type array_namesize size sizen where storage_class part is optional"
+    ],
+    "97": [
+        "array_name is name of the array",
+        "It is user defined name for array",
+        "The name of array may be any valid identifier",
+        "The accessing function for array is array_nameindex or subscript For eg",
+        "Accessing elements of multidimensional array We can access the multidimensional array with the help of following accessing function array_name index index",
+        "An array name can be named as an argument for the prototype declaration and in function header"
+    ],
+    "139": [
+        "indexn For example int a We can write the following statement a x a printf ( d a ) printf ( d a ) If we want to read all the elements of above array we can make a loop like for ( i i include void main ( ) clrscr ( ) for ( i i include main ( ) int a b s i j clrscr ( ) printf ( Enter first matrix n ) for ( i i include main ( ) int a b s int m n l p i j k clrscr ( ) printf ( Enter row of first matrix ( ) t ) scanf ( d m ) printf ( Enter column of first matrix ( ) t ) scanf ( d n ) printf ( Enter row of second matrix ( ) t ) printf ( Enter column of second matrix ( ) t ) scanf ( d p ) if ( nl ) printf ( Multiplication is not possible ) else printf ( Enter the first matrix n ) for ( i im i ) for ( j jn j ) printf ( Enter ad d t i j ) scanf ( d a i j printf ( Enter the second matrix n ) for ( i il i ) for ( j jp j ) printf ( Enter bd d t i j ) scanf ( d bi j ) for ( i im i ) for ( j jp j ) si j for ( i im i ) for ( j jp j ) for ( k kn k ) si j si j ai k bk j printf ( The matrix multiplication is n ) for ( i im i ) for ( j jp j ) printf ( dt si j printf ( n ) getch ( ) end of main ( ) Output Enter row of the first matrix ( ) Enter column of the first matix ( ) Enter row of the second matrix ( ) Enter column of the second matrix ( ) Enter the first matrix Enter a Enter a Enter the second matrix Enter b Enter b The matrix multiplication is Solve the Matrix b ( ) a s d c b a B h g f e A dh cg dg ce bh af bg ae ) AB Passing arrays to functions Like any other variables we can also pass entire array to a function",
+        "Program to illustrate passing array to function include void display ( int ) function prototype main ( ) int num i clrscr ( ) printf ( n The content of array is n ) for ( i i include int sum ( int a ) void output ( int a ) main ( ) int a s i clrscr ( ) printf ( Enter elements n ) for ( i i include void input ( int t ) void output ( int t ) int t ) main ( ) int a b clrscr ( ) printf ( Enter first array n ) printf ( Enter second array n ) output ( ab ) getch ( ) void input ( int t ) int ij for ( i i i ) for ( j j j ) scanf ( d t i j ) void output ( int t int t ) int ij int s for ( i i i ) for ( j j j ) si j ti j ti j for ( i i i ) for ( ) j j ) printf ( dt si j ) printf ( n ) Output Enter first array Enter second array Subtraction is Arrays of Strings String Array of character type which is terminated by null characters is known as string",
+        "Array name is pointer to itself",
+        "We know that array name is also pointer to so the above program can be written as include include main ( ) int a int i clrscr ( ) for ( i i i ) printf ( dn ( ai ) getch ( ) output Pointer and Multidimensional Array We know that the name of array is point to first element of array ie"
+    ],
+    "142": [
+        "In C header file stringh provides special function for manipulating strings",
+        "In order to use these function we must include stringh file",
+        "Unformatted IO functions a ) Character IO functions fget ( ) It is used to read a character from a file",
+        "Formatted IO functions fprintf ( ) This function is used to write some integer float char or string to a file"
+    ],
+    "140": [
+        "include void main ( ) int a int i j clrsc ( ) for ( c i i ) for ( jo j j ) Printf ( dt ( ( ai ) j ) ) printf ( n ) getch ( ) output Dynamic Memory Allocation ( DMA ) The process of allocating and freeing memory at run time is ka Dynamic Memory Allocation",
+        "In such situation DMA will be useful",
+        "This is ka DMA",
+        "DMA refers allocating and freeing memory at run time"
+    ],
+    "31": [
+        "This reserves the memory required by the program and returns this resource to the system once the use of reserved space utilized",
+        "In some cases it is not possible to know the size of the memory required well ahead and to keep a lot of memory reserved is not also good practice",
+        "There are library functions malloc ( ) calloc ( ) free ( ) and realloc ( ) for memory management",
+        ") free ( ) The builtin function frees previously allocated space by calloc malloc or realloc function",
+        "This can be done using free ( ) function",
+        "Ths this function is used to release the space when it is not required",
+        ") realloc ( ) This function is used to modify the size of previously allocated space",
+        "Sometimes the previously allocated memory is not sufficient we nned additional space and sometime the allocated memory is much larger than necessary",
+        "In both situations we can change the memory size already allocated with the help of function realloc ( )",
+        "Program to illustrate the use of realloc ( ) include include include void main ( ) charname clrscr ( ) name ( char ) malloc ( ) strcpy ( nameB",
+        "The space is created like II"
+    ],
+    "29": [
+        "Theses functions are defined within header file stdlibh and alloch ) malloc ( ) It allocates requested size of bytes and returns a pointer to the first byte of the allocated space",
+        "Its syntax is as ptr ( data_typr malloc ( size_of_block ) where ptr is a pointer of type data_type",
+        "The malloc ( ) returns a pointer to an area of memory with size size_of_block",
+        ") calloc ( ) The function calloc ( ) provides access to the C memory heap which is available for dynamic allocation of variable_size block of memory",
+        "Unlike malloc ( ) the function calloc ( ) accepts two arguments no_of_blocks and size_of_block",
+        "This parameter no_of_blocks specifies the number of items to allocate and size_of_block specifies the size of each item",
+        "The function calloc ( ) allocates multiple blocks of storage each of the same size and then sets all bytes to zero",
+        "One important difference between malloc ( ) and calloc ( ) is that calloc ( ) initializes all bytes in the allocated block to zero",
+        "Its syntax is ptr ( data_typecalloc ( no_of_blocksize_of_each_block ) For example x ( int ) calloc ( sizeof ( int ) ) or x ( int ) calloc ( ) The above statement allocates contiguous space for blocks each of size bytes ie",
+        "Its syntax is Free ( ptr ) Where ptr is a pointer to a memory block which has already been created by malloc ( ) calloc ( ) or realloc ( ) function",
+        "Its syntax is as If the original allocation is done by the statement ptrmalloc ( size ) then reallocationof space may be done by the statement ptrrealloc ( ptrnewsize ) This function allocates a new memory space of new size to the pointer variable ptr and returns a pointer to the first byte of new memory block and on failure the function return NULL"
+    ],
+    "57": [
+        "Defining a structure arrays of structures structures within structures The general syntax for declaration of a structure is storage_class struct name data_type member data_type member data_typen membern where the storage_class is optional",
+        "For example ) struct student char name int roll_no char branch int semester ) static struct data int day char month_name int year Creating structure variable In above section we have studied about how we declare structure but have not created the structure variable",
+        "Method of creating structure variable I creating structure variable at the time of declaration Example struct student char name int roll_no char branch int semester var var var In this example three structure variables name var var var are created",
+        "struct student structure declaration char name int roll_no char branch int semester var name roll_no branch semester var name roll_no branch semester name var roll_no branch semester struct student var var var Accessing member of structure The accessing concept of member is structure_variable_name",
+        "mark is equivalent to ( varmarks ) Implies that the dot operator acts first and thenunary operatorFor example struct bio char name char address long phno struct bio b b for accessing bphno Initialization of structure A structure is initialized like other data type in C The values to be initialized must appear in order sa in the definition of structure within braces and separated by commas",
+        "Its syntax is struct structure_name structure_variable value value value _ _ _ _ valuen ( ) struct particular int rn int age char sex We can initialize the structure at the time of variable creation like struct_particular per m By this is assigned to m of per is assigned to age of per and m is assigned to sex of per structure",
+        "( ) struct bio int age int rn char sex int phno If we write the following statement strwt bio b m In above example C compiler assigns following value to each member age sex m rn phno So C compiler will automatically initialized zero to those members who are not initialized",
+        "For example Create a structure named date that has day month and year as its members"
+    ],
+    "59": [
+        "Note that the space in the memory for a structure is created only when the structure variable are defined",
+        "C doesnot allow the initialization of individual structure member within its definition",
+        "To store address of a structure type variable we can define a structure type pointer variable as normal way",
+        "This declaration for a pointer to structure does not allocate any memory for a structure but allocates only for a pointer",
+        "To use structures members through pointer p memory must be allocated for a structure by using function malloc ( ) or by adding declaration and assignment as given below p b Here the base address of b can assign to p pointer",
+        "An individual structure member can be accessed in terms of its corresponding pointer variable by writing ptr_variable member where is called arrow operator and there must be pointer to the structure on the left side of this operator",
+        "C compiler first calculates the size of all members and then reserves the space which is highest among them",
+        "How structure members are accessed using pointer"
+    ],
+    "74": [
+        "Use this structure to read and display employees name id dob and salary include void main ( ) struct date int day int month int year struct employee char name int id struct dat dob float salary emp printf ( Name of Employee t ) scanf ( s empname ) printf ( n ID of employee t ) scanf ( d empid ) printf ( n Day of Birthday t ) scanf ( d empdobday ) printf ( n month of Birthday t ) scanf ( d empdobmonth ) printf ( n Year of Birthday t ) scanf ( d empdobyear ) printf ( salary of Employee t ) scanf ( d empsalary ) printf ( nn The Detail Information of Employee ) printf ( n Name t id t day t month t year t salary ) printf ( n n ) printf ( stdtdtdtdtfempnameempidempdobday empdobmonth empdobyear empdobsalary ) output Name of Employee Teena Id of Employee Day of Birthday Month of Birthday Year of Birthday Salary of Employee The Detail Information of employee Name ID Day Month Year Salary Teena Processing a Structure ( PU ) WAP to read records of employee ( Enter relevant fields Name address salary Id ) void main ( ) struct employee char nam char Address float salary int ID int i j float temp struct emp clrsc ( ) printf ( enteremployee Information ) for ( i i i ) for ( ji j j ) if ( empisalaryempjsalary ) temp empisalary empisalary empjsalary empjsalary temp printf ( Information of employees having highest salary In ) printf ( nNametttAddressttSalarytDtn ) printf ( n n ) for ( i i i ) printf ( sttsttftd empiName empiAddress empiSalary empiID ) getch ( ) PU Create a user defined array structure student record having members physics chemistry and mathematics",
+        "Use this structure to read the name age and salary of employee and write entered information to a file employeedat in D drive include void main ( ) struct employee char empName int age float salary struct employee emp FILE fptr ftpr fopen ( demployeedat wb ) if ( fptr NULL ) printf ( File can not be entered ) exit ( ) printf ( Employee Name It ) scanf ( s emp",
+        "empName ) printf ( employee age It ) scanf ( d empage ) printf ( salary of the employee It ) scarf ( f empsalary ) printf ( In writing this information to a file _ _ _ In ) fwrite ( emp sizeof ( emp ) fptr ) getch ( ) Create a structure named student that has name roll and marks as members",
+        "wb ) if ( fptr NULL ) printf ( File cant be created ) exit ( ) for ( i i itt ) printf ( n Enter Information of student No d n i ) printf ( Name t ) scanf ( s siname ) printf ( n Rollt ) scanf ( d siroll ) printf ( n Marks t ) scanf ( f tempMarks ) simarks tempMarks printf ( n working Information to file _ _ _ _ _ n ) fwrite ( s size of ( s ) fptr ) rewind ( fptr ) printf ( n reading same content from file _ _ _ _ _ n ) fread ( st size of ( st ) fptr ) printf ( n student Name t Roll t Marks ) printf ( n _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ n ) for ( i i i ) printf ( sttdtf n stiname stiroll stimarks ) fclose ( fptr ) getch ( ) In Program read employee information again and again until user wants to add more employees",
+        "Finally write a program to search information of a particular employee from the file",
+        "include include struct employee char name int age float salary structemployee emp FILE fptr char yes_no name int dataFound clrscr ( ) fptr fopen ( Cemployeetxt wb ) if ( fptr NULL ) printf ( File can not be created ) exit ( ) Do printf ( employee Name t ) scanf ( s empname ) printf ( employee age t ) scanf ( d empage ) printf ( salary of the employee t ) scanf ( f empsalary ) fwrite ( emp size of ( emp ) fptr printf ( Do you want to add another employee",
+        "Press Y or Y it ) fflush ( stdin ) yes_no getchar ( ) while ( yes_no y yes_no y ) printf ( Enter the name of employee which is to be searched ) fflush ( stdin ) gets ( name ) rewind ( fptr ) while ( fread ( emp size of ( emp ) fptr ) ) if ( strcmp ( empname name ) ) dataFound printf ( Name t Age t t Salarly n ) printf ( n _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __ _ _ _ _ _ _ _ n ) print ( stdtfempname empage empsalary ) If ( dataFound ) print ( n Matching data not found ) getch ( ) Difference between text and binary mode Some Important Questions"
+    ],
+    "116": [
+        "Write a program having a structure of student type",
+        "Make use of array of structure to input information of students",
+        "Write a program to read the name roll no and name of five students using array of structure object",
+        "Create a user defined array structure student record having members physics chemistry and mathematics",
+        "Use this structure to read and display records of students"
+    ],
+    "93": [
+        "These problems invite the concept of data file in which data can be stored on the disks and read whenever necessary without destroying data",
+        "The data file allows us to store information permanently and to access and alter that information whenever necessary",
+        "Mainly there are two types of data files",
+        "The standard data files are again subdivided into text files and binary files",
+        "The text files consist of consecutive characters and these characters can be interpreted as individual data item",
+        "The binary files organize data into blocks containing contiguous bytes of information"
+    ],
+    "52": [
+        "Programming language C has various library functions for creating and processing data files",
+        "High level ( standard or stream oriented ) files",
+        "Low level ( system oriented ) files",
+        "In high level data files the available library functions do their own buffer management where as the programmer should do it explicitely in case of lower level files",
+        "For each binary and text files there are a number of formatted and unformatted library functions in C fig classification of files Data files High Low Text Binary Opening and closing a data file Before a program can write to a file or read from a file the program must open it",
+        "While working with high level data file we need buffer area where information is stored temporarily in the course of transferring data between computer memory and data file",
+        "A structure named FILE is defined in the file stdioh that contains all information about the file like name status buffer size current position and of file status etc",
+        "( PU ) What is a files ad explain its importance in C programming",
+        "What is a file"
+    ],
+    "17": [
+        "read write append etc )",
+        "w ( write ) If the file dosent exist then this mode creates a new file for writing and if the file already exists then the previous data is erased and the new data entered is written to the file",
+        "a ( append ) If the file doesnt exist then this mode creates a new file and if the file already exists then the new data entered is appended at the new data entered is appended at the end of existing data",
+        "In this mode the data existing in the file is not erased as in w mode",
+        "r ( read ) This mode is used for opening an existing file for reading purpose only",
+        "The file to be opened must exist and the previous data of file is not erased",
+        "w ( write read ) This mode is same as w mode but in this mode we can also read and modify the data",
+        "If the file doesnt exist then a new file is created and if the file exists then previous data is erased",
+        "r ( read write ) This mode is same as r mode but in this mode we can also write and modify existing data",
+        "Since we can add new data and modify existing data so this mode is also called update mode",
+        "at ( append read ) This mode is same as the a mode but in this mode we can also read the data stored in the file",
+        "If the file doesnt exist a new file is created and if the file already exists then new data is appended at the end of existing data in this mode"
+    ],
+    "33": [
+        "Its syntax is char_variable fget ( file_ptr_variable ) fputc ( ) It is used to write a character to a file",
+        "Its syntax is fputc ( char_variable file_ptr vriable ) b ) String IO functions fgets ( ) It is used to read string from file",
+        "Its syntax is fgets ( string int_value file_ptr_variable ) fputs ( ) It is used to write a string to a file",
+        "Its syntax is fputs ( string file_ptr_variable )",
+        "Its syntax is fprintf ( file_ptr_variablecontrol string list variables ) fscanf ( ) This function is used to read some integer float char or string froma file",
+        "Its syntax is fscanf ( file_ptr_variablecontrol string list_variables ) Creating data files Some sample programs create a file named testtxt and write some text Welcome to Eastern College of Engineering to the file",
+        "File Pointer Device Stdin Standard input device ( keyboard ) Stdout Standard OUTPUT devices ( screen ) Stderr Standard error OUTPUT device ( screen ) Some other unformatted function Intger IO getw ( ) putw ( ) for binary mode Record IO fread ( ) fwrite Putw ( ) used to write integer value th file",
+        "Their syntaxes are int putw ( int value FILE fpir ) int getw ( FILE fptr ) fwrite ( ) used for writing an etire block to a given file",
+        "Their syntax are fwrite ( ptr size_of_array_or_structure number_of_array_or_structure fptr ) fread ( ptr size_of _array_or_structure number_of_structure_or_array fptr ) Random Acess to File We can acess the data stored in the file in two ways sequently or random",
+        "The syntax is int fseek ( FILE fp long displacement int origin ) where fp is file pointer displacement is long integer which can be positive or negative and it denotes the number of bytes which are skipped backward ( if negative ) or forward ( if positive ) from the position specified in the third argument",
+        "It can take one of these three values Constant Value Poition SEEK_SET Beginning of file SEEK_CURRENT Current position SEEK_END End of File rewind ( ) This function is used to move the file position positive to the beginning of the file syntax rewind ( File fp ) using rewind ( fp ) is equivalent to fseek ( fp OL O ) ftell ( ) This function returns the current position of the file position pointer"
+    ],
+    "103": [
+        "For example if we want to acess the fortyfourth record then firsat forty three records should be read sequentially to reach the fortyforth record",
+        "In random acess data can be accessed and processed randomly ie",
+        "in this case the fortyforth record can be accessed directly",
+        "There is no need to read each record sequentially if we want to acess a particularly record",
+        "Random acess takes takes less time than the sequential acess"
+    ],
+    "143": [
+        "The text mode functions are concerned with placing text in certain area of screen",
+        "Some text mode graphics function clrscr ( ) This function erases the text window",
+        "In text mode we can address only location ( ) but in graphicsmode we can address individual pixel or dots on the screen",
+        "If we want to use graphics mode functions then we have to add graphics h header file but for text mode function no need of graphics h header file"
+    ],
+    "22": [
+        "They work with any graphics monitor and adapter",
+        "The graphics mode function require a graphics monitor and adapter card such as CGA EGA or VGA",
+        "This makes computer screen in specified graphics mode",
+        "This function initializes the graphics system by loading a graphics driver from disk then putting the system into graphics mode",
+        "This variable specifies the graphics driver are applicable only in graphics mode and they communicate directly with monitor",
+        "Depending on what adapter is used one of these driver gets selected",
+        "The some constants defined in graphics h file for this argument are DETECT ( ) CGA ( ) EGA ( ) VGA ( ) etc",
+        "Closing Graphics Mode Once a program has finished its job using the graphics facilities then it should restore the system to the mode that was previously in use ( ie",
+        "the graphics mode should be closed )",
+        "If graphics mode is not closed explicitly by the programmer undesirable effects may be felt",
+        "If we want to use the graphics mode functions then our first job is to set our computer mode to graphics mode"
+    ],
+    "106": [
+        "The general syntax Window ( left top right bottom ) gotoxy ( ) The gotoxy ( ) library function points the cursor position within a text window its syntax is gotoxy ( xy ) text color ( ) function It is used to give color of any text",
+        "The syntax of line ( ) function is line ( x y x y ) where x y x y are integer type and they represent the coordinate ( x y ) and ( x y )",
+        "The above command draws a line joining two points with coordinates ( x y ) and ( x y )",
+        "lineral ( ) the function lineral ( x y ) draws a line joining the current cursor position and a point at a distance of x in the horizontal and y in vertical direction",
+        "lineto ( ) The function lineto ( x y ) draws a line joining the current cursor position and a point with coordinates x and y"
+    ],
+    "65": [
+        "The syntax of text color ( ) is text color ( color constant ) textbackground ( ) function This function is used to set background color of each character",
+        "The syntax is textbackground ( color constant ) Some color constants Color No",
+        "Color name Black Blue Green Cyan Red Magenta Brown etc",
+        "Its syntax is Putpixel ( int x int y int color ) getpixel ( ) gets color of specified pixel",
+        "Its syntax is integer_variable getpixel ( int x int y ) setcolor ( ) It changes current drawing foreground color",
+        "Its syntax is setcolor ( int color ) setbkcolor ( ) It changes the background color",
+        "Its syntax is setbkcolor ( int color ) line ( ) The line ( ) function can draw a line",
+        "Int P Drawpoly ( P ) setlinestyle ( ) This function can select different style of line"
+    ],
+    "75": [
+        "Graphics Mode Graphic function Initialization In order to initialize graphics we initgraph ( ) function",
+        "Its general syntax is initgraph ( graphics_driver graphics_mode path to driver ) where graphics_driver is a variable of type int initialized to some constant that defined in graphicsh",
+        "The closegraph ( ) fuction is used to restore the screen to the mode it was in before we called initgraph ( ) and deallocates all memory allocated by the graphics system",
+        "The syntax of closegraph ( ) sunction is closegraph ( ) Graphics Mode In text mode we are restricted to display text or graphics character but in graphics mode we can display points lines and compleax shapes",
+        "Function initgraph ( ) sets our mode for graphics work",
+        "The syntax of initgraph ( ) function is initgraph ( driver mode path of bgi files ) where driver and mode both are integer type and path for bgi files means where our BGI files are in disk",
+        "If we want to set the mode of computer is graphics mode by initgraph ( ) function then we have to write the following set of statements intdriver mode driverDETECT initgraph ( driver mode Ctcbgi ) we are assuming that our bgi are in sub directory Ctcbgi therefore the path of bgi files is written in initgraph ( ) function like Ctcbgi The statement driverDETECT will check our hardware and select appropriate values for argument to function initgraph ( ) Some Graphics Mode Graphic Functions putpixel ( ) Plot a point with specified color"
+    ],
+    "95": [
+        "rectangle ( ) The function rectangle ( x y x y ) draw rectangle where point ( x y ) is left top corner point of rectangle and point ( x y ) is right bottom corner",
+        "( ) y x ( ) y x circle ( ) The function circle ( x y r ) draws a circle of radius r The coordinates of the centre of the circle is ( x y )",
+        "r ( ) y x arc ( ) Function arc ( x y a a r ) draws an arc on the screen starting from angle a to a",
+        "The radius of the circle of which the arc forms a part is r and x y are its centre coordinates",
+        "For example arc ( ) Above statement draws an arc like ellipse ( ) The function ellipse ( x y c c a a x y ) draws an ellipse of centre ( c c )",
+        "The a and a are start and end angle of the arc x and y are the xaxis and yaxis radii"
+    ],
+    "144": [
+        "a drawpoly ( ) Function drawpoly ( int n int p ) draws n vertices of polygon",
+        "To draw a closed polugon with n vertices we must pass n coordinates",
+        "fillpoly ( ) It draws and fills polygon",
+        "Its syntax is fillpoly ( int n int p ) To draw a closed polygon with vertices we must pass n coordinates to fillpoly ( )"
+    ],
+    "145": [
+        "Its syntax is setlinestyle ( int style patern thickness ) The type of style and thickness is int type and the type of pattern is unsigned int type",
+        "Where style are SOLID_LINE DOTTED_LINE CENTRE_LINE DASHED_LINE USERBIT_LINE or integer number respectively",
+        "The pattern is required only if user defined style ( USERBIT_LINE ) is used",
+        "The thickness parameter can have value NORM_WIDTH or THICK_WIDTH or integer value or respectively"
+    ],
+    "92": [
+        "Simple program using built in graphical function PU Program in c to draw a line a circle a rectangle and an ellipse include main ( ) int gd gm clrscr ( ) gd DETECT initgraph ( gd gm Ctcbgi ) setcolor ( ) line ( ) circle ( ) rectangle ( ) ellipse ( ) getch ( ) closegraph ( ) PU Program to draw concentric circle having radius m and units include main ( ) int gd DETECT gm clrscr ( ) initgraph ( gd gm Ctcbgi ) setcolor ( ) circle ( ) circle ( ) circle ( ) getch ( ) closegraphc ( ) Program to draw an arc include main ( ) int gd DETECT gm clrscr ( ) initgraph ( gd gm Ctcbgi ) arc ( ) getch ( ) closegraph ( ) Program to draw a polygon include main ( ) int gd DETECT gm int P ( ) clrscr ( ) initgraph ( gd gm Ctcbgi ) drawpoly ( P ) fillpoly ( P ) getch ( ) closegraph ( ) Some Important Questions Write a program to draw ( PU ) ( i ) Line ( ii ) Circle ( iii ) Rectangle ( iv ) Arc",
+        "Write a program using graphics to draw a rectangle and a circle",
+        "( PU BACK ) Write a program in C to draw a circle a rectangle and an ellipse",
+        "( PU ) Write a program in C that can display a circle and a rectangle",
+        "Choose centre and radius of the circle as well as coordinates of the rectangle on your own",
+        "( PU ) Write a program to draw concentric circles having radius and units"
     ]
 }
