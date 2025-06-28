@@ -59,7 +59,7 @@ def train_model(
     #Setting up callbacks
     early_stopping_callback = EarlyStopping(
         monitor='val_loss',       #monitor metric
-        patience=5,          #number of epochs with no improvement after which training will be stopped
+        patience=10,          #number of epochs with no improvement after which training will be stopped
         verbose=1,           #to log when training is stopped
         restore_best_weights=True    #to restore model weights from the epoch with the best value of the monitored metric
     )

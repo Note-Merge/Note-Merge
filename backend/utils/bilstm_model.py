@@ -1,5 +1,5 @@
 from tensorflow.keras.models import Model
-from tensorflow.keras.layers import Input,Embedding,LSTM, Dense, Bidirectional,Concatenate,Dropout,LayerNormalization,Attention,TimeDistributed
+from tensorflow.keras.layers import Input,Embedding,LSTM, Dense, Bidirectional,Concatenate,Dropout,LayerNormalization,MultiHeadAttention,TimeDistributed
 from tensorflow.keras.optimizers import Adam
 
 
@@ -11,10 +11,12 @@ def build_model (
     lstm_units=256,             #lstm memory capacity
     max_input_len=350,          
     max_output_len=400,
-    dropout_rate=0.3,           #regularization strength for randomly droping connections during training
+    dropout_rate=0.4,
+    #regularization strength for randomly droping connections during training
     ):      
     
-    
+    num_heads=8            # Number of attention heads
+    key_dim=32
     #Encoder:
     encoder_inputs= Input(shape=(max_input_len,),name="encoder_input")
     
@@ -94,24 +96,29 @@ def build_model (
     )
     
     #project encoder outputs to match decoder's output dimension. 1024 to 512
-    encoder_outputs_projected = TimeDistributed(
-        Dense(
-            lstm_units,
-            name="encoder_output_projection"
-        )
-    )(encoder_outputs)
+    # encoder_outputs_projected = TimeDistributed(
+    #     Dense(
+    #         lstm_units,
+    #         name="encoder_output_projection"
+    #     )
+    # )(encoder_outputs)
     
     #Attention Mechanism- Connecing decoder to encoder outputs
-    attention_layer= Attention(
-        use_scale=True,  # Use scaled dot-product attention
+    attention_layer = MultiHeadAttention(
+        num_heads=num_heads,
+        key_dim=key_dim,
         name="attention_mechanism"
     )
+
     
     #The attention layer uses the decoder's output sequence as the "query" and the
     # encoder's full output sequence as the "value" and "key".
     #computing attention context vector ( decoder focusinhg and encoder output)
-    context_vector,_ = attention_layer([decoder_outputs, encoder_outputs_projected],return_attention_scores=True)
-    
+    context_vector = attention_layer(
+        query=decoder_outputs,
+        value=encoder_outputs,
+        key=encoder_outputs
+    )
     #Concatenating context vector with decoder outputs
     decoder_combined = Concatenate()([
         decoder_outputs,
@@ -146,7 +153,7 @@ def build_model (
     
     #optimizer and loss function
     optimizer = Adam(
-        learning_rate=0.001,  #adjust the learning rate as needed
+        learning_rate=0.0005,  #adjust the learning rate as needed
         beta_1=0.9,
         beta_2=0.999,
         epsilon=1e-8,
